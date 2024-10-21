@@ -1,6 +1,5 @@
 import re
 import pandas as pd
-import numpy as np
 from scipy.stats import entropy
 import plotly.express as px
 import plotly.io as pio
@@ -9,12 +8,8 @@ import json
 import platform
 
 from sklearn.cluster import KMeans
-import plotly.graph_objects as go
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from sklearn.metrics import silhouette_score
-
-from jinja2 import Template  # 必要に応じてインストール: pip install jinja2
 
 
 def set_japanese_font():
@@ -46,6 +41,7 @@ def load_data(file_path):
 def load_party_colors(party_colors_file):
     """政党カラーのデータを読み込む"""
     party_colors_df = pd.read_csv(party_colors_file)
+    party_colors_df["政党ID"] = party_colors_df["政党ID"].astype(str)
     return party_colors_df
 
 
@@ -294,77 +290,76 @@ def cluster_candidates(df, party_colors_df, questions_json):
     kmeans = KMeans(n_clusters=num_clusters, random_state=42)
     df_political["Cluster"] = kmeans.fit_predict(scaled_data)
 
-    # 各クラスタの代表政党を特定
-    cluster_party_mapping = {}
-    party_label_count = {}  # 各政党のラベルカウントを保持
+    # 政党IDと政党名のマッピングを作成
+    party_id_to_name = dict(zip(df["党派ID"].astype(str), df["党派名"]))
 
+    # 政党ごとのクラスターをグループ化
+    party_clusters = {}
     for cluster in range(num_clusters):
         cluster_data = df_political[df_political["Cluster"] == cluster]
-        if cluster_data.empty:
-            cluster_party_mapping[cluster] = "不明"
-            continue
-        # 最頻出の政党をクラスタの代表政党とする
-        dominant_party = cluster_data["党派名"].mode()
-        if dominant_party.empty:
-            cluster_party_mapping[cluster] = "不明"
-        else:
-            party = dominant_party.iloc[0]
-            # 同じ政党がすでにラベルに存在する場合、連番を付与
-            if party in party_label_count:
-                party_label_count[party] += 1
-                cluster_label = f"{party}_{party_label_count[party]}"
-            else:
-                party_label_count[party] = 1
-                cluster_label = f"{party}_1"
-            cluster_party_mapping[cluster] = cluster_label
+        party_id = cluster_data["党派ID"].mode().iloc[0]  # 最頻値の政党IDを取得
+        party_name = party_id_to_name[str(party_id)]
+        if party_name not in party_clusters:
+            party_clusters[party_name] = []
+        party_clusters[party_name].append(cluster)
 
-    # クラスタラベルとして代表政党を設定
-    df_political["Cluster_Label"] = df_political["Cluster"].map(cluster_party_mapping)
+    # 政党名でソートしたクラスターリストを作成
+    sorted_clusters = [
+        cluster
+        for party in sorted(party_clusters.keys())
+        for cluster in party_clusters[party]
+    ]
 
-    # クラスタリング結果の可視化
     fig = go.Figure()
 
-    # クラスタごとにプロット
-    for cluster in range(num_clusters):
+    # クラスターごとにプロット（政党名順）
+    for cluster in sorted_clusters:
         cluster_data = df_political[df_political["Cluster"] == cluster]
-        # クラスタラベル（政党名 + 連番）
-        cluster_label = cluster_party_mapping.get(cluster, "不明")
+        party_id = cluster_data["党派ID"].mode().iloc[0]
+        party_name = party_id_to_name[str(party_id)]
 
-        # 候補者名の列を確認
-        if "候補者名" in df.columns:
-            candidate_text = cluster_data["候補者名"]
-        elif "氏名" in df.columns:
-            candidate_text = cluster_data["氏名"]
-        elif "候補者" in df.columns:
-            candidate_text = cluster_data["候補者"]
-        else:
-            candidate_text = None  # 候補者名がない場合
-
-        # クラスタの代表政党のカラーを取得
         try:
-            party_color = party_colors_df.set_index("政党名（略）").loc[
-                cluster_label.split("_")[0], "政党カラー"
+            party_color = party_colors_df.set_index("政党ID").loc[
+                str(party_id), "政党カラー"
             ]
         except KeyError:
             party_color = "#000000"  # デフォルトカラー（黒）を設定
+
+        hover_text = [
+            f"氏名: {row['姓']} {row['名']}<br>"
+            f"党派: {party_id_to_name[str(row['党派ID'])]}<br>"
+            f"年齢: {row['年齢']}<br>"
+            f"選挙区: {row['選挙区名']}"
+            for _, row in cluster_data.iterrows()
+        ]
 
         fig.add_trace(
             go.Scatter(
                 x=cluster_data["PCA1"],
                 y=cluster_data["PCA2"],
                 mode="markers",
-                name=f"クラスタ {cluster + 1} ({cluster_label})",
+                name=f"{party_name} (クラスタ {cluster + 1})",
                 marker=dict(
                     size=10,
                     color=party_color,
                     opacity=0.7,
                 ),
-                text=candidate_text,  # 候補者名が存在する場合のみ
+                text=hover_text,
+                hoverinfo="text",
+                customdata=cluster_data["党派名"],
             )
         )
 
     # 「無所属」を別途プロット
     if not df_independent.empty:
+        hover_text_independent = [
+            f"氏名: {row['姓']} {row['名']}<br>"
+            f"党派: 無所属<br>"
+            f"年齢: {row['年齢']}<br>"
+            f"選挙区: {row['選挙区名']}"
+            for _, row in df_independent.iterrows()
+        ]
+
         fig.add_trace(
             go.Scatter(
                 x=df_independent["PCA1"],
@@ -379,20 +374,47 @@ def cluster_candidates(df, party_colors_df, questions_json):
                     opacity=0.7,
                     symbol="circle-open",  # 視覚的に区別しやすいシンボル
                 ),
-                text=(
-                    df_independent["候補者名"]
-                    if "候補者名" in df_independent.columns
-                    else None
-                ),
+                text=hover_text_independent,
+                hoverinfo="text",
+                customdata=["無所属"] * len(df_independent),
             )
         )
+
+    # 政党ごとのトグルボタンを作成
+    updatemenus = [
+        {
+            "buttons": [
+                {
+                    "label": "すべて表示",
+                    "method": "update",
+                    "args": [{"visible": [True] * len(fig.data)}],
+                },
+                *[
+                    {
+                        "label": party,
+                        "method": "update",
+                        "args": [
+                            {
+                                "visible": [
+                                    trace.name.startswith(party) for trace in fig.data
+                                ]
+                            }
+                        ],
+                    }
+                    for party in sorted(party_clusters.keys())
+                ],
+            ],
+            "direction": "down",
+            "showactive": True,
+        }
+    ]
 
     fig.update_layout(
         title="候補者のクラスタリング結果（PCAを使用）",
         xaxis_title="主成分1",
         yaxis_title="主成分2",
         template="plotly_white",
-        legend_title="クラスタ",
+        updatemenus=updatemenus,
     )
 
     # HTMLファイルとして保存
@@ -767,11 +789,9 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
                 <div class="container">
                     <h1 class="text-center">無所属の詳細</h1>
                     <p>こちらのページでは、無所属の候補者に対するアンケート集計結果をご覧いただけます。</p>
-                    
                     <div class="chart">
                         {fig_div}
                     </div>
-                    
                     <a href="index.html" class="btn btn-primary">戻る</a>
                 </div>
             </body>
@@ -784,55 +804,7 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
     print(f"無所属の詳細ページを '{filename}' として生成しました。")
 
 
-def determine_optimal_clusters_kmeans(scaled_data, max_clusters=10):
-    """エルボー法とシルエットスコアを用いて最適なクラスタ数を決定する"""
-    inertia = []
-    silhouette_scores = []
-    cluster_range = range(2, max_clusters + 1)
-
-    for k in cluster_range:
-        kmeans = KMeans(n_clusters=k, random_state=42)
-        kmeans.fit(scaled_data)
-        inertia.append(kmeans.inertia_)
-        score = silhouette_score(scaled_data, kmeans.labels_)
-        silhouette_scores.append(score)
-        print(
-            f"クラスタ数: {k}, イナーシャ: {kmeans.inertia_}, シルエットスコア: {score}"
-        )
-
-    # エルボー法のプロット
-    import matplotlib.pyplot as plt
-
-    plt.figure(figsize=(12, 5))
-
-    plt.subplot(1, 2, 1)
-    plt.plot(cluster_range, inertia, "bo-")
-    plt.xlabel("クラスタ数")
-    plt.ylabel("イナーシャ")
-    plt.title("エルボー法によるクラスタ数の決定")
-
-    # シルエットスコアのプロット
-    plt.subplot(1, 2, 2)
-    plt.plot(cluster_range, silhouette_scores, "bo-")
-    plt.xlabel("クラスタ数")
-    plt.ylabel("シルエットスコア")
-    plt.title("シルエットスコアによるクラスタ数の評価")
-
-    plt.tight_layout()
-    plt.savefig(os.path.join("html", "cluster_optimization.png"))
-    plt.close()
-    print("クラスタ数の最適化プロットを 'cluster_optimization.png' に保存しました。")
-
-    # シルエットスコアが最大のクラスタ数を返す
-    optimal_k = cluster_range[np.argmax(silhouette_scores)]
-    print(f"シルエットスコアが最も高いクラスタ数: {optimal_k}")
-    return optimal_k
-
-
 def main():
-    # フォント設定（必要に応じて有効化）
-    # set_japanese_font()
-
     df = load_data("output.csv")
 
     # 政党カラーのデータを読み込む
