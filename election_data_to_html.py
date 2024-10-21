@@ -726,7 +726,9 @@ def analyze_party_response_ratios(df, questions_json, inverse_answer_mapping):
     return df_results
 
 
-def generate_index_html(df_results, df_entropy, questions_json, average_entropy):
+def generate_index_html(
+    df_results, df_entropy, questions_json, average_entropy, num_clusters
+):
     """index.html を生成し、各集計結果へのリンクと説明を含める"""
     os.makedirs("html", exist_ok=True)
     index_html_path = os.path.join("html", "index.html")
@@ -775,10 +777,30 @@ def generate_index_html(df_results, df_entropy, questions_json, average_entropy)
                 </div>
                 <div class="card-body">
                     <p>候補者の政策スタンスを基にクラスタリングを行い、類似したスタンスを持つ候補者同士をグループ化しました。これにより、政党を超えた政策的な共通点を持つ候補者を視覚的に理解できます。</p>
-                    <p><a href="interactive_candidate_clustering.html" class="btn btn-primary">クラスタリング結果を見る</a></p>
+                    <p><a href="interactive_candidate_clustering_kmeans.html" class="btn btn-primary">クラスタリング結果を見る</a></p>
+                    <p><a href="cluster_party_distribution.html" class="btn btn-primary">クラスター内の政党分布を見る</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>クラスター詳細</h2>
+                </div>
+                <div class="card-body">
+                    <p>各クラスターの詳細情報を確認できます：</p>
+                    <ul>
+    """
+
+    # クラスター詳細へのリンクを追加
+    for i in range(num_clusters):
+        html_content += f'        <li><a href="cluster_{i + 1}_details_full.html">クラスター {i + 1} の詳細</a></li>\n'
+
+    html_content += """
+                    </ul>
                 </div>
             </div>
     """
+
     # 平均エントロピーの表示部分
     html_content += """
             <div class="card">
@@ -1144,27 +1166,6 @@ def update_index_html_with_clusters(num_clusters):
 
 
 def main():
-    # ... (既存のコード)
-
-    # クラスタリング(kmeans)手法の実行と結果の取得
-    num_clusters = 10
-    df_clustered = cluster_candidates_kmeans(
-        df, party_colors_df, questions_json, num_clusters=num_clusters
-    )
-
-    # クラスター内の政党分布を可視化
-    visualize_cluster_party_distribution(df_clustered, party_colors_df)
-
-    # クラスターごとの詳細ページを生成
-    generate_cluster_details_page(df_clustered, party_colors_df, num_clusters)
-
-    # index.htmlにクラスター詳細へのリンクを追加
-    update_index_html_with_clusters(num_clusters)
-
-    # ... (既存のコード)
-
-
-def main():
     df = load_data("output.csv")
 
     # 政党カラーのデータを読み込む
@@ -1209,7 +1210,7 @@ def main():
     cluster_candidates(df, party_colors_df, questions_json)
 
     # クラスタリング(kmeans)手法の実行と結果の取得
-    num_clusters = 10
+    num_clusters = 4
     df_clustered = cluster_candidates_kmeans(
         df, party_colors_df, questions_json, num_clusters=num_clusters
     )
@@ -1220,14 +1221,10 @@ def main():
     # クラスターごとの詳細ページを生成
     generate_cluster_details_page(df_clustered, party_colors_df, num_clusters)
 
-    # index.htmlにクラスター詳細へのリンクを追加
-    update_index_html_with_clusters(num_clusters)
-
-    # 「無所属」の詳細ページを生成（必要に応じて）
-    generate_independent_details_page(df, party_colors_df, inverse_answer_mapping)
-
     # index.html を生成（新しい関数に渡す引数を修正）
-    generate_index_html(df_results, df_entropy, questions_json, average_entropy)
+    generate_index_html(
+        df_results, df_entropy, questions_json, average_entropy, num_clusters
+    )
 
     print(
         "すべての処理が完了しました。'html' フォルダ内の index.html をブラウザで開いてご覧ください。"
