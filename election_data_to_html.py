@@ -777,7 +777,7 @@ def generate_index_html(
                 </div>
                 <div class="card-body">
                     <p>候補者の政策スタンスを基にクラスタリングを行い、類似したスタンスを持つ候補者同士をグループ化しました。これにより、政党を超えた政策的な共通点を持つ候補者を視覚的に理解できます。</p>
-                    <p><a href="interactive_candidate_clustering_kmeans.html" class="btn btn-primary">クラスタリング結果を見る</a></p>
+                    <p><a href="interactive_candidate_clustering.html" class="btn btn-primary">クラスタリング結果を見る</a></p>
                     <p><a href="cluster_party_distribution.html" class="btn btn-primary">クラスター内の政党分布を見る</a></p>
                 </div>
             </div>
