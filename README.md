@@ -20,3 +20,8 @@ source venv/bin/activate
 ```bash
 (venv) python election_data_processor.py
 ```
+
+## データの集計
+```bash
+(venv) python election_data_to_html.py
+```
