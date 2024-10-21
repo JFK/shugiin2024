@@ -3,11 +3,11 @@
     <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>NHKの衆議院選挙2024各候補者アンケート集計結果</title>
-        <meta name="description" content="NHKの衆議院選挙2024各候補者アンケートの集計結果を分析・可視化したページです。">
+        <title>NHKの衆議院選挙2024各候補者アンケート集計</title>
+        <meta name="description" content="NHKの衆議院選挙2024各候補者アンケートの集計を分析・可視化したページです。">
         <meta name="keywords" content="NHK, 衆議院選挙, 2024, アンケート, 集計, 各候補者, 政党, クラスタリング">
-        <meta property="og:title" content="NHKの衆議院選挙2024各候補者アンケート集計結果">
-        <meta property="og:description" content="NHKの衆議院選挙2024各候補者アンケートの集計結果を分析・可視化したページです。">
+        <meta property="og:title" content="NHKの衆議院選挙2024各候補者アンケート集計">
+        <meta property="og:description" content="NHKの衆議院選挙2024各候補者アンケートの集計を分析・可視化したページです。">
         <meta property="og:type" content="website">
         <meta property="og:url" content="/home/jfk/works/shugiin2024/html/index.html">
         <meta property="og:image" content="">
@@ -33,10 +33,10 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計結果</h1>
+            <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計</h1>
             <p>こちらのページでは、候補者の回答データを基にした様々な分析結果をご覧いただけます。</p>
             <p>ソースコードは、<a href="https://github.com/JFK/shugiin2024">GitHub</a> で公開されています。</p>
-
+            <p>NHKの衆議院選挙2024アンケートに関する情報は、<a href="https://www.nhk.or.jp/senkyo/database/shugiin/">NHK選挙WEB</a>で公開されています。</p>
             <div class="card">
                 <div class="card-header">
                     <h2>クラスタリング分析</h2>
@@ -54,7 +54,6 @@
                 </div>
                 <div class="card-body">
                     <p>各クラスターの詳細情報を確認できます：</p>
-                    <p>分類数を多くするともう少し違った見方ができるかもしれませんが、今回は4分類にしています。</p>
                     <ul>
             <li><a href="cluster_1_details_full.html">クラスター 1 の詳細</a></li>
         <li><a href="cluster_2_details_full.html">クラスター 2 の詳細</a></li>
@@ -64,7 +63,7 @@
                     </ul>
                 </div>
             </div>
-
+    
             <div class="card">
                 <div class="card-header">
                     <h2>政党別エントロピーの平均</h2>
@@ -78,72 +77,72 @@
                             </tr>
                         </thead>
                         <tbody>
-
+    
             <tr>
                 <td>みんな</td>
                 <td>1.3955</td>
             </tr>
-
+        
             <tr>
                 <td>れいわ</td>
                 <td>0.1029</td>
             </tr>
-
+        
             <tr>
                 <td>保守</td>
                 <td>0.5045</td>
             </tr>
-
+        
             <tr>
                 <td>公明</td>
                 <td>0.8497</td>
             </tr>
-
+        
             <tr>
                 <td>共産</td>
                 <td>0.4028</td>
             </tr>
-
+        
             <tr>
                 <td>参政</td>
                 <td>1.0608</td>
             </tr>
-
+        
             <tr>
                 <td>国民</td>
                 <td>1.3380</td>
             </tr>
-
+        
             <tr>
                 <td>無</td>
                 <td>1.7988</td>
             </tr>
-
+        
             <tr>
                 <td>社民</td>
                 <td>0.3912</td>
             </tr>
-
+        
             <tr>
                 <td>立民</td>
                 <td>0.9031</td>
             </tr>
-
+        
             <tr>
                 <td>維新</td>
                 <td>1.0514</td>
             </tr>
-
+        
             <tr>
                 <td>自民</td>
                 <td>1.3300</td>
             </tr>
-
+        
             <tr>
                 <td>諸派</td>
                 <td>1.2220</td>
             </tr>
-
+        
                         </tbody>
                     </table>
                 </div>
@@ -189,3 +188,4 @@
         </div>
     </body>
     </html>
+    

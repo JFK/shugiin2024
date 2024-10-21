@@ -194,10 +194,10 @@ def visualize_question_details(df_results, df_entropy, party_colors_df, question
         <html lang="ja">
         <head>
             <meta charset="UTF-8">
-            <title>NHKの衆議院選挙2024各候補者アンケート集計結果 - {title}</title>
+            <title>NHKの衆議院選挙2024各候補者アンケート集計 - {title}</title>
             <meta name="description" content="{question_text}">
             <meta name="keywords" content="NHK, 衆議院選挙, 2024, アンケート, 集計, 各候補者, 政党, クラスタリング">
-            <meta property="og:title" content="NHKの衆議院選挙2024各候補者アンケート集計結果 - {title}">
+            <meta property="og:title" content="NHKの衆議院選挙2024各候補者アンケート集計 - {title}">
             <meta property="og:description" content="{question_text}">
             <meta property="og:type" content="website">
             <meta property="og:url" content="{os.path.abspath(os.path.join('html', f'question_details_{q_id}.html'))}">
@@ -219,7 +219,7 @@ def visualize_question_details(df_results, df_entropy, party_colors_df, question
         </head>
         <body>
             <div class="container">
-                <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計結果</h1>
+                <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計</h1>
                 <h2>{title}</h2>
                 <p>{question_text}</p>
                 
@@ -729,7 +729,7 @@ def analyze_party_response_ratios(df, questions_json, inverse_answer_mapping):
 def generate_index_html(
     df_results, df_entropy, questions_json, average_entropy, num_clusters
 ):
-    """index.html を生成し、各集計結果へのリンクと説明を含める"""
+    """index.html を生成し、各集計へのリンクと説明を含める"""
     os.makedirs("html", exist_ok=True)
     index_html_path = os.path.join("html", "index.html")
 
@@ -738,11 +738,11 @@ def generate_index_html(
     <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>NHKの衆議院選挙2024各候補者アンケート集計結果</title>
-        <meta name="description" content="NHKの衆議院選挙2024各候補者アンケートの集計結果を分析・可視化したページです。">
+        <title>NHKの衆議院選挙2024各候補者アンケート集計</title>
+        <meta name="description" content="NHKの衆議院選挙2024各候補者アンケートの集計を分析・可視化したページです。">
         <meta name="keywords" content="NHK, 衆議院選挙, 2024, アンケート, 集計, 各候補者, 政党, クラスタリング">
-        <meta property="og:title" content="NHKの衆議院選挙2024各候補者アンケート集計結果">
-        <meta property="og:description" content="NHKの衆議院選挙2024各候補者アンケートの集計結果を分析・可視化したページです。">
+        <meta property="og:title" content="NHKの衆議院選挙2024各候補者アンケート集計">
+        <meta property="og:description" content="NHKの衆議院選挙2024各候補者アンケートの集計を分析・可視化したページです。">
         <meta property="og:type" content="website">
         <meta property="og:url" content="{os.path.abspath(os.path.join('html', 'index.html'))}">
         <meta property="og:image" content="">
@@ -768,9 +768,10 @@ def generate_index_html(
     </head>
     <body>
         <div class="container">
-            <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計結果</h1>
+            <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計</h1>
             <p>こちらのページでは、候補者の回答データを基にした様々な分析結果をご覧いただけます。</p>
             <p>ソースコードは、<a href="https://github.com/JFK/shugiin2024">GitHub</a> で公開されています。</p>
+            <p>NHKの衆議院選挙2024アンケートに関する情報は、<a href="https://www.nhk.or.jp/senkyo/database/shugiin/">NHK選挙WEB</a>で公開されています。</p>
             <div class="card">
                 <div class="card-header">
                     <h2>クラスタリング分析</h2>
@@ -893,7 +894,7 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
         <html lang="ja">
         <head>
             <meta charset="UTF-8">
-            <title>無所属の詳細 - NHKの衆議院選挙2024アンケート集計結果</title>
+            <title>無所属の詳細 - NHKの衆議院選挙2024アンケート集計</title>
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         </head>
@@ -946,7 +947,7 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
             <html lang="ja">
             <head>
                 <meta charset="UTF-8">
-                <title>無所属の詳細 - NHKの衆議院選挙2024アンケート集計結果</title>
+                <title>無所属の詳細 - NHKの衆議院選挙2024アンケート集計</title>
                 <!-- Bootstrap CSS -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
             </head>
@@ -988,7 +989,7 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
             <html lang="ja">
             <head>
                 <meta charset="UTF-8">
-                <title>無所属の詳細 - NHKの衆議院選挙2024アンケート集計結果</title>
+                <title>無所属の詳細 - NHKの衆議院選挙2024アンケート集計</title>
                 <!-- Bootstrap CSS -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
                 <style>
@@ -1007,7 +1008,7 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
             <body>
                 <div class="container">
                     <h1 class="text-center">無所属の詳細</h1>
-                    <p>こちらのページでは、無所属の候補者に対するアンケート集計結果をご覧いただけます。</p>
+                    <p>こちらのページでは、無所属の候補者に対するアンケート集計をご覧いただけます。</p>
                     <div class="chart">
                         {fig_div}
                     </div>
