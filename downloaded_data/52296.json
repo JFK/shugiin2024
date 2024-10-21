@@ -1,0 +1,1094 @@
+[
+  {
+    "candidateID": 10576,
+    "lastname": "綿貫",
+    "firstname": "英彦",
+    "lastname_kana": "わたぬき",
+    "firstname_kana": "ひでひこ",
+    "sex": 1,
+    "touha": 4,
+    "touha_name": "共産",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元福岡市議会議員",
+    "katagaki2": "病院職員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 58,
+    "senkyokuID": 52296,
+    "senkyoku_name": "福岡１区",
+    "todoufukenID": [
+      40
+    ],
+    "todokede": 2,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/10 12:25:52",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "社会保障政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "教育の実質無償化"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "所得が多い人や大企業が負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化する必要はない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "ゼロにすべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 2332,
+    "lastname": "井上",
+    "firstname": "貴博",
+    "lastname_kana": "いのうえ",
+    "firstname_kana": "たかひろ",
+    "sex": 1,
+    "touha": 1,
+    "touha_name": "自民",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 4,
+    "rikkouhoji_tousennsu_shu": 4,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元財務副大臣",
+    "katagaki2": "元福岡県議会議員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 62,
+    "senkyokuID": 52296,
+    "senkyoku_name": "福岡１区",
+    "todoufukenID": [
+      40
+    ],
+    "todokede": 1,
+    "suisen": "公明",
+    "shiji": "",
+    "answerDatetime": "2024/10/11 10:08:41",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "経済政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "ある程度ある"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止時期を延期すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "子育て世帯に対する経済支援の強化"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "回答しない"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 3548,
+    "lastname": "山本",
+    "firstname": "剛正",
+    "lastname_kana": "やまもと",
+    "firstname_kana": "ごうせい",
+    "sex": 1,
+    "touha": 187,
+    "touha_name": "維新",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 2,
+    "rikkouhoji_tousennsu_shu": 2,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元衆議院議員秘書",
+    "katagaki2": "元伊藤忠燃料社員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 52,
+    "senkyokuID": 52296,
+    "senkyoku_name": "福岡１区",
+    "todoufukenID": [
+      40
+    ],
+    "todokede": 5,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/11 13:02:00",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "経済政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "ある程度ある"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "方針通り廃止すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "教育の実質無償化"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "見直すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "反対"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 53039,
+    "lastname": "村田",
+    "firstname": "峻一",
+    "lastname_kana": "むらた",
+    "firstname_kana": "しゅんいち",
+    "sex": 1,
+    "touha": 5,
+    "touha_name": "社民",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "トランスジェンダージャパン理事",
+    "katagaki2": "社民党福岡県連合副代表",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 32,
+    "senkyokuID": 52296,
+    "senkyoku_name": "福岡１区",
+    "todoufukenID": [
+      40
+    ],
+    "todokede": 3,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/05 14:28:50",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "子ども・教育政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "あまりない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "黒字化目標を堅持し、財政健全化を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "所得が多い人や大企業が負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化する必要はない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "ゼロにすべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "回答しない"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 55249,
+    "lastname": "丸尾",
+    "firstname": "圭祐",
+    "lastname_kana": "まるお",
+    "firstname_kana": "けいすけ",
+    "sex": 1,
+    "touha": 195,
+    "touha_name": "立民",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元衆議院議員秘書",
+    "katagaki2": "元参議院議員秘書",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 42,
+    "senkyokuID": 52296,
+    "senkyoku_name": "福岡１区",
+    "todoufukenID": [
+      40
+    ],
+    "todokede": 6,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/11 18:22:38",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "エネルギー・環境政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "家計への支援"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止時期を延期すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化は必要だが費用は抑制すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 55802,
+    "lastname": "緒方",
+    "firstname": "貴恵",
+    "lastname_kana": "おがた",
+    "firstname_kana": "きえ",
+    "sex": 2,
+    "touha": 227,
+    "touha_name": "参政",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "漫画家",
+    "katagaki2": "元百貨店契約社員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 40,
+    "senkyokuID": 52296,
+    "senkyoku_name": "福岡１区",
+    "todoufukenID": [
+      40
+    ],
+    "todokede": 4,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/11 21:47:34",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "経済政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化は必要だが費用は抑制すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "見直すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "減らすべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "反対"
+        ]
+      }
+    ]
+  }
+]

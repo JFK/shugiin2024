@@ -1,0 +1,802 @@
+[
+  {
+    "candidateID": 2442,
+    "lastname": "田所",
+    "firstname": "嘉徳",
+    "lastname_kana": "たどころ",
+    "firstname_kana": "よしのり",
+    "sex": 1,
+    "touha": 1,
+    "touha_name": "自民",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 4,
+    "rikkouhoji_tousennsu_shu": 4,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元法務副大臣",
+    "katagaki2": "元茨城県議会議員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 70,
+    "senkyokuID": 52077,
+    "senkyoku_name": "茨城１区",
+    "todoufukenID": [
+      8
+    ],
+    "todokede": 1,
+    "suisen": "公明",
+    "shiji": "",
+    "answerDatetime": "2024/10/07 11:58:43",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "子ども・教育政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "ある程度ある"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "方針通り廃止すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "8_0",
+        "answers": [
+          "どちらともいえない"
+        ]
+      },
+      {
+        "id": "8_1",
+        "answers": [
+          "周辺自治体の合意と実効性のある避難計画の策定が必要"
+        ]
+      },
+      {
+        "id": "8_2",
+        "answers": [
+          "県の主要産業である農林水産業の振興、地域毎の文化特色を活かした魅力あるまちづくりと観光促進、インバウンド。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 37204,
+    "lastname": "武藤",
+    "firstname": "優子",
+    "lastname_kana": "むとう",
+    "firstname_kana": "ゆうこ",
+    "sex": 2,
+    "touha": 187,
+    "touha_name": "維新",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元衆議院議員秘書",
+    "katagaki2": "農業",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 60,
+    "senkyokuID": 52077,
+    "senkyoku_name": "茨城１区",
+    "todoufukenID": [
+      8
+    ],
+    "todokede": 2,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/10 17:34:00",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "外交・安全保障政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "あまりない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止時期を延期すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化は必要だが費用は抑制すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "8_0",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "8_1",
+        "answers": [
+          "国民の安全な暮らしが第一であることが理由である。高齢者の皆さんが、スムーズに避難できるような現実的な避難計画を立てることが先である。"
+        ]
+      },
+      {
+        "id": "8_2",
+        "answers": [
+          "歴史と自然に注力しLRT導入や巡回マイクロバスなど交通網を充実させて住民も観光客も満足できる街にする。茨城空港を欧米の長期滞在型富裕層に向けることで、茨城の魅力も観光収入も倍増し、住民満足度も上がる。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 55157,
+    "lastname": "高橋",
+    "firstname": "誠一郎",
+    "lastname_kana": "たかはし",
+    "firstname_kana": "せいいちろう",
+    "sex": 1,
+    "touha": 4,
+    "touha_name": "共産",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "共産党茨城県政策委員長",
+    "katagaki2": "元しんぶん赤旗記者",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 29,
+    "senkyokuID": 52077,
+    "senkyoku_name": "茨城１区",
+    "todoufukenID": [
+      8
+    ],
+    "todokede": 3,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "エネルギー・環境政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "所得が多い人や大企業が負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化する必要はない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "ゼロにすべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "8_0",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "8_1",
+        "answers": [
+          "30キロ圏内に91万人が住んでいます。重大事故が起きたら避難など不可能です。防潮堤に施工不良も内部告発で明らかになっています。再稼働をやめ廃炉を求めます。再エネにこそ本格的に取り組むべきです。"
+        ]
+      },
+      {
+        "id": "8_2",
+        "answers": [
+          "子育て支援、若者の雇用創出や正社員化への後押し、定住促進策への財政支援を拡充します。地域経済の主役、中小企業、農林水産業を支援し、再生可能エネルギーの地産地消など地域活性化策を全力で支援します。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 834,
+    "lastname": "福島",
+    "firstname": "伸享",
+    "lastname_kana": "ふくしま",
+    "firstname_kana": "のぶゆき",
+    "sex": 1,
+    "touha": -1,
+    "touha_name": "無",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 3,
+    "rikkouhoji_tousennsu_shu": 3,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元内閣官房参事官補佐",
+    "katagaki2": "元筑波大学客員教授",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 54,
+    "senkyokuID": 52077,
+    "senkyoku_name": "茨城１区",
+    "todoufukenID": [
+      8
+    ],
+    "todokede": 4,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/07 11:47:12",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "政治とカネの問題など政治改革"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "あまりない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃する必要はない"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化は必要だが費用は抑制すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "8_0",
+        "answers": [
+          "どちらともいえない"
+        ]
+      },
+      {
+        "id": "8_1",
+        "answers": [
+          "まずは日本の原子力政策再構築を行い、その上で東海第二原子力発電所の必要性について議論すべき"
+        ]
+      },
+      {
+        "id": "8_2",
+        "answers": [
+          "県内各地に景観、歴史、食、工芸品など様々な地域資源があるが、埋もれている。県外や海外の視点を意識して、これらの魅力を磨き、発信することが必要。"
+        ]
+      }
+    ]
+  }
+]

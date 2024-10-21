@@ -1,0 +1,918 @@
+[
+  {
+    "candidateID": 17407,
+    "lastname": "小池",
+    "firstname": "正昭",
+    "lastname_kana": "こいけ",
+    "firstname_kana": "まさあき",
+    "sex": 1,
+    "touha": 1,
+    "touha_name": "自民",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元千葉県議会議員",
+    "katagaki2": "社会福祉法人理事長",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 58,
+    "senkyokuID": 52118,
+    "senkyoku_name": "千葉１０区",
+    "todoufukenID": [
+      12
+    ],
+    "todokede": 5,
+    "suisen": "公明",
+    "shiji": "",
+    "answerDatetime": "2024/10/07 00:33:00",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "地方の活性化"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "ある程度ある"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "方針通り廃止すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "子育て世帯に対する経済支援の強化"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "さらに強化すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "12_0",
+        "answers": [
+          "都市部と郡部の格差が拡大し、半島性の特徴もあって交通利便性に課題が生じ、道路をはじめ引き続きインフラ整備に注力しなければならない。人口減少で個々の自治体の経営にも格差が生じているため、広域的な視点を持った都市政策の推進を図っていきたい。"
+        ]
+      },
+      {
+        "id": "12_1",
+        "answers": [
+          "秘書が作成した収支報告書等の届出書類を確認している"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 43909,
+    "lastname": "椎名",
+    "firstname": "亮太",
+    "lastname_kana": "しいな",
+    "firstname_kana": "りょうた",
+    "sex": 1,
+    "touha": 227,
+    "touha_name": "参政",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元千葉県銚子市議会議員",
+    "katagaki2": "リサイクル関連会社代表取締役",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 40,
+    "senkyokuID": 52118,
+    "senkyoku_name": "千葉１０区",
+    "todoufukenID": [
+      12
+    ],
+    "todokede": 1,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/10 23:30:49",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "農林水産政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "あまりない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "子育て世帯に対する経済支援の強化"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "見直すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "減らすべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "12_0",
+        "answers": [
+          "千葉県は一次産業を基幹産業とし、国の食を担う重要都市であります。現在低迷している一次産業をあらゆる角度からバックアップして国内だけでの食料自給率を100%目指す。また外国資本から土地や企業、伝統や文化など日本の国益を守るため規制強化したい。"
+        ]
+      },
+      {
+        "id": "12_1",
+        "answers": [
+          "まずはカネについて透明性を維持することが必要です。また選挙など費用のかかるものに関して見直すべきと思う。民間企業の決算等の制度を見習うべきである。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 48794,
+    "lastname": "今留",
+    "firstname": "尚人",
+    "lastname_kana": "いまどめ",
+    "firstname_kana": "なおと",
+    "sex": 1,
+    "touha": -1,
+    "touha_name": "無",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "医師",
+    "katagaki2": "元病院職員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 59,
+    "senkyokuID": 52118,
+    "senkyoku_name": "千葉１０区",
+    "todoufukenID": [
+      12
+    ],
+    "todokede": 3,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "",
+    "qa": [
+      {
+        "id": "0",
+        "answers": []
+      },
+      {
+        "id": "1",
+        "answers": []
+      },
+      {
+        "id": "2",
+        "answers": []
+      },
+      {
+        "id": "3",
+        "answers": []
+      },
+      {
+        "id": "4",
+        "answers": []
+      },
+      {
+        "id": "5",
+        "answers": []
+      },
+      {
+        "id": "6",
+        "answers": []
+      },
+      {
+        "id": "7",
+        "answers": []
+      },
+      {
+        "id": "8",
+        "answers": []
+      },
+      {
+        "id": "9",
+        "answers": []
+      },
+      {
+        "id": "10",
+        "answers": []
+      },
+      {
+        "id": "11",
+        "answers": []
+      },
+      {
+        "id": "12",
+        "answers": []
+      },
+      {
+        "id": "13",
+        "answers": []
+      },
+      {
+        "id": "14",
+        "answers": []
+      },
+      {
+        "id": "15",
+        "answers": []
+      },
+      {
+        "id": "16",
+        "answers": []
+      },
+      {
+        "id": "17",
+        "answers": []
+      },
+      {
+        "id": "18",
+        "answers": []
+      },
+      {
+        "id": "19",
+        "answers": []
+      },
+      {
+        "id": "20",
+        "answers": []
+      },
+      {
+        "id": "21",
+        "answers": []
+      },
+      {
+        "id": "22",
+        "answers": []
+      },
+      {
+        "id": "23",
+        "answers": []
+      },
+      {
+        "id": "24",
+        "answers": []
+      },
+      {
+        "id": "12_0",
+        "answers": []
+      },
+      {
+        "id": "12_1",
+        "answers": []
+      }
+    ]
+  },
+  {
+    "candidateID": 55181,
+    "lastname": "仲",
+    "firstname": "幸子",
+    "lastname_kana": "なか",
+    "firstname_kana": "ゆきこ",
+    "sex": 2,
+    "touha": 4,
+    "touha_name": "共産",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "リラクゼーション業",
+    "katagaki2": "共産党千葉県委員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 69,
+    "senkyokuID": 52118,
+    "senkyoku_name": "千葉１０区",
+    "todoufukenID": [
+      12
+    ],
+    "todokede": 2,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/04 12:37:14",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "子ども・教育政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "所得が多い人や大企業が負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化する必要はない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "ゼロにすべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "すべての電源を再エネでまかなうべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "12_0",
+        "answers": [
+          "第二湾岸道路や第二アクアなど開発優先の政治姿勢を改め、中小企業や農水産業への支援強化、大学の授業料の無償化、給付型奨学金の充実、教師不足の解消など子育て子供の教育に力をそそぐ。銚子市連絡道の早期開通や銚子港はじめ漁港の整備。それらの実行のため税金の使い方を大企業優先、大軍拡予算を改める。"
+        ]
+      },
+      {
+        "id": "12_1",
+        "answers": [
+          "前提の問題として、「企業・団体献金」を絶対に受け取らない。必要な資金は、個人からの寄付で賄う。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 911,
+    "lastname": "谷田川",
+    "firstname": "元",
+    "lastname_kana": "やたがわ",
+    "firstname_kana": "はじめ",
+    "sex": 1,
+    "touha": 195,
+    "touha_name": "立民",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 3,
+    "rikkouhoji_tousennsu_shu": 3,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "立憲民主党千葉県連副代表",
+    "katagaki2": "元千葉県議会議員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 61,
+    "senkyokuID": 52118,
+    "senkyoku_name": "千葉１０区",
+    "todoufukenID": [
+      12
+    ],
+    "todokede": 4,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/12 17:01:29",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "あまりない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止時期を延期すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "所得が多い人や大企業が負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化は必要だが費用は抑制すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "12_0",
+        "answers": [
+          "成田空港の機能強化、物流施設等の空港周辺への立地を推進。東和泉地区や新川地区の騒音谷間地区問題等を解決に導く。千葉10区内の合計特殊出生率は、全国平均を下回り、とても深刻。給食費の無償化等各自治体の効果のある事例を国の責任で実施すべき。千葉北東部の第一次産業の所得向上のために大胆な政策を提案する。"
+        ]
+      },
+      {
+        "id": "12_1",
+        "answers": [
+          "政策活動費の廃止等、政治資金の透明化をはかるため政治資金規正法の再改正を行い金権腐敗政治に終止符を打ちます。"
+        ]
+      }
+    ]
+  }
+]

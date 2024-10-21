@@ -1,0 +1,1356 @@
+[
+  {
+    "candidateID": 52434,
+    "lastname": "堀場",
+    "firstname": "幸子",
+    "lastname_kana": "ほりば",
+    "firstname_kana": "さちこ",
+    "sex": 2,
+    "touha": 187,
+    "touha_name": "維新",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 1,
+    "rikkouhoji_tousennsu_shu": 1,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "日本維新の会京都府総支部代表",
+    "katagaki2": "日本維新の会国会対策副委員長",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 45,
+    "senkyokuID": 52222,
+    "senkyoku_name": "京都１区",
+    "todoufukenID": [
+      26
+    ],
+    "todokede": 4,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/11 12:01:38",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "子ども・教育政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "ある程度ある"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "方針通り廃止すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "26_0",
+        "answers": [
+          "国会議員団として「北陸新幹線大阪延伸ルートに関する提言書」を6月に提出済みです。一刻も早く開通できるよう議論を加速化していくべきだと考えています。"
+        ]
+      },
+      {
+        "id": "26_1",
+        "answers": [
+          "京都の多様な魅力を発信し、グリーンツーリズムをはじめとする多彩なエリアへの分散が必要です。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 52521,
+    "lastname": "勝目",
+    "firstname": "康",
+    "lastname_kana": "かつめ",
+    "firstname_kana": "やすし",
+    "sex": 1,
+    "touha": 1,
+    "touha_name": "自民",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 1,
+    "rikkouhoji_tousennsu_shu": 1,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元総務省室長",
+    "katagaki2": "元京都府総務部長",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 50,
+    "senkyokuID": 52222,
+    "senkyoku_name": "京都１区",
+    "todoufukenID": [
+      26
+    ],
+    "todokede": 1,
+    "suisen": "公明",
+    "shiji": "",
+    "answerDatetime": "2024/10/09 07:00:31",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "社会保障政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "ある程度ある"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "方針通り廃止すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃する必要はない"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "さらに強化すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "26_0",
+        "answers": [
+          "全国的新幹線網の見地からは小浜京都ルートが最善であるが、新幹線既設エリアに着地する初事例であり、東京一極集中是正のためにも地元負担を極小化すべき。地下水、残土含め、地元自治体の理解を得るよう求める。"
+        ]
+      },
+      {
+        "id": "26_1",
+        "answers": [
+          "生活環境への負荷に見合う収益が地元に落ちていない。国際観光旅客税を引き上げ、オーバーツーリズム対策に充当可とすべき。商店街など生活環境等も観光商品化されており、マネタイズの仕組みも研究･導入すべき。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 53105,
+    "lastname": "安達",
+    "firstname": "悠司",
+    "lastname_kana": "あだち",
+    "firstname_kana": "ゆうじ",
+    "sex": 1,
+    "touha": 227,
+    "touha_name": "参政",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "弁護士",
+    "katagaki2": "",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 42,
+    "senkyokuID": 52222,
+    "senkyoku_name": "京都１区",
+    "todoufukenID": [
+      26
+    ],
+    "todokede": 5,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/07 22:14:39",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "経済政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "あまりない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止時期を延期すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "さらに強化すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "26_0",
+        "answers": [
+          "京都の交通の便を高め、産業振興や経済の大きな刺激となり賛成です。ただし、地下水の問題など環境への影響を最小限に工夫する必要と、舞鶴・宮津など京都府北部へのアクセス向上も一体的に行うべきです。"
+        ]
+      },
+      {
+        "id": "26_1",
+        "answers": [
+          "外国人観光客増加で、生活に必要なバスなど公共交通が混雑・渋滞し、町中にホテルなどが乱立して住宅が減少し地価が上昇しています。物価以上に国民の給料を増やすことで、国民の生活空間が確保されると考えます。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 53621,
+    "lastname": "安持",
+    "firstname": "成美",
+    "lastname_kana": "やすもち",
+    "firstname_kana": "なるみ",
+    "sex": 2,
+    "touha": 212,
+    "touha_name": "れいわ",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元生命保険会社保険外交員",
+    "katagaki2": "元飲食店経営",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 36,
+    "senkyokuID": 52222,
+    "senkyoku_name": "京都１区",
+    "todoufukenID": [
+      26
+    ],
+    "todokede": 3,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/07 15:53:50",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "経済政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "子育て世帯に対する経済支援の強化"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化する必要はない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "ゼロにすべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "すべての電源を再エネでまかなうべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "26_0",
+        "answers": [
+          "小浜・京都ルートは問題が多すぎて白紙にすべき。延伸の是非を含めて地域住民の声を反映して政策決定をすべき。"
+        ]
+      },
+      {
+        "id": "26_1",
+        "answers": [
+          "京都では交通対策が大きな課題なので、各地の実例に学ぶ必要がある。また、ツアー内容の多様化、分散化なども考え集中をさける工夫も必要。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 55843,
+    "lastname": "平竹",
+    "firstname": "耕三",
+    "lastname_kana": "ひらたけ",
+    "firstname_kana": "こうぞう",
+    "sex": 1,
+    "touha": 195,
+    "touha_name": "立民",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "京都産業大学文化学部客員教授",
+    "katagaki2": "元京都市文化市民局長",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 65,
+    "senkyokuID": 52222,
+    "senkyoku_name": "京都１区",
+    "todoufukenID": [
+      26
+    ],
+    "todokede": 2,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/11 13:13:50",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "財政規律より積極的な財政出動を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止時期を延期すべき"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化は必要だが費用は抑制すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "主力電源とするべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "26_0",
+        "answers": [
+          "東京一極集中の是正、関西の活性化という面で重要であるが、国定公園や伏見の水脈保全をはじめとする環境影響評価の課題、発生残土の問題、並行在来線の問題等について、一層の情報公開と丁寧な説明が必要。"
+        ]
+      },
+      {
+        "id": "26_1",
+        "answers": [
+          "京都経済にとって観光は重要だが、あまりにも依存しすぎるとリスクを伴うことがコロナで明らかになった。国内外からの観光客の適切なバランス、インバウンドの数的規制、年間を通じた観光客の平準化等を行うべき。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 55891,
+    "lastname": "山下",
+    "firstname": "博子",
+    "lastname_kana": "やました",
+    "firstname_kana": "ひろこ",
+    "sex": 2,
+    "touha": -1,
+    "touha_name": "無",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "主婦",
+    "katagaki2": "",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 77,
+    "senkyokuID": 52222,
+    "senkyoku_name": "京都１区",
+    "todoufukenID": [
+      26
+    ],
+    "todokede": 7,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "子ども・教育政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "給付を抑制して、負担を増やさないようにすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "教育の実質無償化"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "26_0",
+        "answers": []
+      },
+      {
+        "id": "26_1",
+        "answers": []
+      }
+    ]
+  },
+  {
+    "candidateID": 8999,
+    "lastname": "井坂",
+    "firstname": "博文",
+    "lastname_kana": "いさか",
+    "firstname_kana": "ひろふみ",
+    "sex": 1,
+    "touha": 4,
+    "touha_name": "共産",
+    "genshoku_flg": 3,
+    "genshoku_flg_name": "新",
+    "rikkouhoji_tousennsu": 0,
+    "rikkouhoji_tousennsu_shu": 0,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元京都市議会議員",
+    "katagaki2": "共産党京都府委員",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 68,
+    "senkyokuID": 52222,
+    "senkyoku_name": "京都１区",
+    "todoufukenID": [
+      26
+    ],
+    "todokede": 6,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/10 23:49:33",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "政治とカネの問題など政治改革"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "賃上げ環境の整備"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "所得が多い人の負担を増やすべき"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "所得が多い人や大企業が負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "強化する必要はない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要はない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "ゼロにすべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "すべての電源を再エネでまかなうべき"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "26_0",
+        "answers": [
+          "北陸新幹線延伸計画は、地下水の枯渇や水質の悪化、地面の陥没、大量の土砂、地震時の避難、30年もの工期、5.3兆円の建設費など多くの問題がある。延伸計画は中止し、在来線などの充実が必要である。"
+        ]
+      },
+      {
+        "id": "26_1",
+        "answers": [
+          "宿泊施設の立地規制やパークアンドライドの推進などで、観光客の総量をコントロールすることが重要。住環境と観光資源への負荷を避けることで、観光客と住民双方にとって安全な質の良い観光政策へと転換する。"
+        ]
+      }
+    ]
+  }
+]

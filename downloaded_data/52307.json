@@ -1,0 +1,426 @@
+[
+  {
+    "candidateID": 10667,
+    "lastname": "岩田",
+    "firstname": "和親",
+    "lastname_kana": "いわた",
+    "firstname_kana": "かずちか",
+    "sex": 1,
+    "touha": 1,
+    "touha_name": "自民",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 4,
+    "rikkouhoji_tousennsu_shu": 4,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "経済産業副大臣",
+    "katagaki2": "内閣府副大臣",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 51,
+    "senkyokuID": 52307,
+    "senkyoku_name": "佐賀１区",
+    "todoufukenID": [
+      41
+    ],
+    "todokede": 1,
+    "suisen": "公明",
+    "shiji": "",
+    "answerDatetime": "2024/10/07 23:13:46",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "経済政策"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "ある程度ある"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "事業者への支援"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "黒字化目標を堅持し、財政健全化を優先すべきだ"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "若者の所得向上や雇用環境の改善"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "全世代の国民や企業が幅広く負担すべき"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃する必要はない"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "さらに強化すべき"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "必要がある"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "高めるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "今の程度でよい"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "41_0",
+        "answers": [
+          "フル規格で整備すべき"
+        ]
+      },
+      {
+        "id": "41_1",
+        "answers": [
+          "容認する"
+        ]
+      },
+      {
+        "id": "41_2",
+        "answers": [
+          "わが国の安全保障環境は極めて厳しく、抑止力の更なる向上のため、南西地域の防衛力強化が重要と考えるため。"
+        ]
+      },
+      {
+        "id": "41_3",
+        "answers": [
+          "進むべき"
+        ]
+      },
+      {
+        "id": "41_4",
+        "answers": [
+          "特定放射性廃棄物の最終処分は、決して特定の地域の問題ではなく、日本全体で取り組んでいくべき国家的課題。最終処分に対する全国的な理解を広げ、文献調査地域の拡大につなげていくことが重要。"
+        ]
+      }
+    ]
+  },
+  {
+    "candidateID": 1689,
+    "lastname": "原口",
+    "firstname": "一博",
+    "lastname_kana": "はらぐち",
+    "firstname_kana": "かずひろ",
+    "sex": 1,
+    "touha": 195,
+    "touha_name": "立民",
+    "genshoku_flg": 1,
+    "genshoku_flg_name": "前",
+    "rikkouhoji_tousennsu": 9,
+    "rikkouhoji_tousennsu_shu": 9,
+    "rikkouhoji_tousennsu_san": 0,
+    "katagaki1": "元総務大臣",
+    "katagaki2": "立憲民主党佐賀県連代表",
+    "senkyoID": 18852,
+    "senkyo_name": "第50回衆議院選挙",
+    "senkyo_touhyoubi": "2024/10/27",
+    "age": 65,
+    "senkyokuID": 52307,
+    "senkyoku_name": "佐賀１区",
+    "todoufukenID": [
+      41
+    ],
+    "todokede": 2,
+    "suisen": "",
+    "shiji": "",
+    "answerDatetime": "2024/10/10 16:06:23",
+    "qa": [
+      {
+        "id": "0",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "1",
+        "answers": [
+          "まったくない"
+        ]
+      },
+      {
+        "id": "2",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "3",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "4",
+        "answers": [
+          "減税"
+        ]
+      },
+      {
+        "id": "5",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "6",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "7",
+        "answers": [
+          "その他"
+        ]
+      },
+      {
+        "id": "8",
+        "answers": [
+          "廃止すべきでない"
+        ]
+      },
+      {
+        "id": "9",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "10",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "11",
+        "answers": [
+          "撤廃するべき"
+        ]
+      },
+      {
+        "id": "12",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "13",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "14",
+        "answers": [
+          "維持すべき"
+        ]
+      },
+      {
+        "id": "15",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "16",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "17",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "18",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "19",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "20",
+        "answers": [
+          "下げるべき"
+        ]
+      },
+      {
+        "id": "21",
+        "answers": [
+          "回答しない"
+        ]
+      },
+      {
+        "id": "22",
+        "answers": [
+          "賛成"
+        ]
+      },
+      {
+        "id": "23",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "24",
+        "answers": [
+          "反対"
+        ]
+      },
+      {
+        "id": "41_0",
+        "answers": [
+          "フル規格で整備すべき"
+        ]
+      },
+      {
+        "id": "41_1",
+        "answers": [
+          "容認しない"
+        ]
+      },
+      {
+        "id": "41_2",
+        "answers": [
+          "防衛の名に値しない。危険。ほかの防衛資源を圧迫する。"
+        ]
+      },
+      {
+        "id": "41_3",
+        "answers": [
+          "進むべきではない"
+        ]
+      },
+      {
+        "id": "41_4",
+        "answers": [
+          "住民のコンセンサスも、核廃棄物処理の前提も崩れている"
+        ]
+      }
+    ]
+  }
+]
