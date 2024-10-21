@@ -770,7 +770,7 @@ def generate_index_html(
         <div class="container">
             <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計結果</h1>
             <p>こちらのページでは、候補者の回答データを基にした様々な分析結果をご覧いただけます。</p>
-
+            <p>ソースコードは、<a href="https://github.com/JFK/shugiin2024">GitHub</a> で公開されています。</p>
             <div class="card">
                 <div class="card-header">
                     <h2>クラスタリング分析</h2>
