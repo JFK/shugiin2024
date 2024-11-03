@@ -332,14 +332,251 @@ def cluster_candidates(df, party_colors_df, questions_json):
         legend=dict(
             groupclick="togglegroup",
             tracegroupgap=5,
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=1.05,
         ),
+        height=800,  # 高さを800pxに増加
+        width=1200,  # 幅を1200pxに設定
+        margin=dict(r=150),  # 右側のマージンを増やしてレジェンドが見切れないように
     )
 
-    # HTMLファイルとして保存
-    fig.write_html(os.path.join("html", "interactive_candidate_clustering.html"))
-    print(
-        "クラスタリング結果の可視化が完了しました。'interactive_candidate_clustering.html' を確認してください。"
-    )
+    # JSONシリアライズ用のデータを準備
+    def prepare_candidate_data(df):
+        data = []
+        for _, row in df.iterrows():
+            data.append(
+                {
+                    "姓": str(row["姓"]),
+                    "名": str(row["名"]),
+                    "党派名": str(row["党派名"]),
+                    "PCA1": float(row["PCA1"]) if pd.notnull(row["PCA1"]) else 0,
+                    "PCA2": float(row["PCA2"]) if pd.notnull(row["PCA2"]) else 0,
+                }
+            )
+        return data
+
+    candidate_data = prepare_candidate_data(df)
+    # 散布図のマーカーサイズを配列として設定
+    for trace in fig.data:
+        trace.marker.size = [10] * len(trace.x)  # 各点のサイズを配列として初期化
+
+    # HTMLファイルとして保存（検索機能付き）
+    html_content = f"""
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>候補者のクラスタリング結果</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .search-container {{
+                position: fixed;
+                top: 10px;
+                right: 20px;
+                z-index: 1000;
+                background: white;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                width: 250px;
+            }}
+            #searchInput {{
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 5px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }}
+            #searchResults {{
+                max-height: 300px;
+                overflow-y: auto;
+                display: none;
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                width: 100%;
+            }}
+            .search-result {{
+                padding: 8px 12px;
+                cursor: pointer;
+                border-bottom: 1px solid #eee;
+            }}
+            .search-result:hover {{
+                background-color: #f5f5f5;
+            }}
+            .search-result:last-child {{
+                border-bottom: none;
+            }}
+            .highlight {{
+                animation: blink 1s 3;
+            }}
+            @keyframes blink {{
+                50% {{ opacity: 0.5; }}
+            }}
+            #plotly-graph {{
+                height: 800px;
+                width: 100%;
+            }}
+            .search-party {{
+                font-size: 0.8em;
+                color: #666;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="候補者名を入力...">
+            <div id="searchResults"></div>
+        </div>
+        {fig.to_html(include_plotlyjs=True, full_html=False, div_id="plotly-graph")}
+        
+
+        <script>
+        // 候補者データの定義
+        const candidateData = {json.dumps(candidate_data, ensure_ascii=False)};
+        let selectedPoint = null;
+        
+        // 検索機能の実装
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+        
+        // 点のスタイルを元に戻す関数
+        function resetPointStyle() {{
+            if (selectedPoint !== null) {{
+                const trace = document.getElementById('plotly-graph').data[selectedPoint.traceIndex];
+                const sizes = Array(trace.x.length).fill(10);
+                Plotly.restyle('plotly-graph', {{
+                    'marker.size': [sizes]
+                }}, [selectedPoint.traceIndex]);
+                selectedPoint = null;
+            }}
+        }}
+        
+        // 候補者を強調表示する関数
+        function highlightCandidate(pca1, pca2) {{
+            const graphDiv = document.getElementById('plotly-graph');
+            const traces = graphDiv.data;
+            
+            resetPointStyle();
+            
+            // 該当する点を見つける
+            for (let i = 0; i < traces.length; i++) {{
+                const trace = traces[i];
+                const pointIndex = trace.x.findIndex((x, idx) => 
+                    Math.abs(x - pca1) < 0.0001 && Math.abs(trace.y[idx] - pca2) < 0.0001
+                );
+                
+                if (pointIndex !== -1) {{
+                    // 点を大きくして強調表示
+                    const sizes = Array(trace.x.length).fill(10);
+                    sizes[pointIndex] = 20;
+                    
+                    Plotly.restyle('plotly-graph', {{
+                        'marker.size': [sizes]
+                    }}, [i]);
+                    
+                    selectedPoint = {{
+                        traceIndex: i,
+                        pointIndex: pointIndex
+                    }};
+                    
+                    // ツールチップを表示
+                    graphDiv.emit('plotly_hover', {{
+                        points: [{{
+                            curveNumber: i,
+                            pointNumber: pointIndex,
+                            x: trace.x[pointIndex],
+                            y: trace.y[pointIndex]
+                        }}]
+                    }});
+                    break;
+                }}
+            }}
+        }}
+        
+        // 検索関数 (他の部分は同じ)
+        function updateSearch(searchText) {{
+            if (!searchText) {{
+                searchResults.style.display = 'none';
+                return;
+            }}
+            
+            searchText = searchText.toLowerCase();
+            const matches = candidateData.filter(candidate => {{
+                const fullName = (candidate['姓'] + candidate['名']).toLowerCase();
+                return fullName.includes(searchText);
+            }});
+            
+            if (matches.length > 0) {{
+                searchResults.innerHTML = matches
+                    .slice(0, 20)
+                    .map(candidate =>
+                        `<div class="search-result" 
+                              data-pca1="${{candidate['PCA1']}}" 
+                              data-pca2="${{candidate['PCA2']}}">
+                            ${{candidate['姓']}} ${{candidate['名']}}
+                            <div class="search-party">${{candidate['党派名']}}</div>
+                         </div>`
+                    ).join('');
+                searchResults.style.display = 'block';
+            }} else {{
+                searchResults.style.display = 'none';
+            }}
+        }}
+        
+        searchResults.addEventListener('click', function(e) {{
+            const result = e.target.closest('.search-result');
+            if (result) {{
+                const pca1 = parseFloat(result.dataset.pca1);
+                const pca2 = parseFloat(result.dataset.pca2);
+                
+                // グラフの表示範囲を調整して候補者を中心に表示
+                Plotly.relayout('plotly-graph', {{
+                    'xaxis.range': [pca1 - 0.5, pca1 + 0.5],
+                    'yaxis.range': [pca2 - 0.5, pca2 + 0.5]
+                }}).then(() => {{
+                    // 点を強調表示
+                    highlightCandidate(pca1, pca2);
+                }});
+                
+                // 検索結果をクリア
+                searchInput.value = '';
+                searchResults.style.display = 'none';
+            }}
+        }});
+        
+        // イベントリスナー (残りの部分は同じ)
+        searchInput.addEventListener('input', (e) => updateSearch(e.target.value));
+        
+        document.addEventListener('click', function(e) {{
+            if (!e.target.closest('.search-container') && !e.target.closest('.main-svg')) {{
+                resetPointStyle();
+                if (!e.target.closest('.search-container')) {{
+                    searchResults.style.display = 'none';
+                }}
+            }}
+        }});
+        
+        document.addEventListener('keydown', function(e) {{
+            if (e.key === 'Escape') {{
+                searchInput.value = '';
+                searchResults.style.display = 'none';
+                resetPointStyle();
+            }}
+        }});
+        </script>
+
+        </body>
+    </html>
+    """
+    with open(
+        os.path.join("html", "interactive_candidate_clustering.html"),
+        "w",
+        encoding="utf-8",
+    ) as f:
+        f.write(html_content)
 
 
 def cluster_candidates_kmeans(df, party_colors_df, questions_json, num_clusters=10):
@@ -1029,17 +1266,17 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
     print(f"無所属の詳細ページを '{filename}' として生成しました。")
 
 
+def get_photo_url(kh_id):
+    filename = kao_ids_dict.get(str(kh_id))
+    if filename is None:
+        return None
+    return f"https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/{filename}"
+
+
 def create_candidate_table(cluster_data, party_colors, shousenkyoku_ids, hirei_ids):
     """政党ごとにソートされた候補者テーブルを生成する"""
     # データを政党ごとにソート
     sorted_data = cluster_data.sort_values(["党派名", "姓", "名"])
-
-    # 写真URLを生成
-    def get_photo_url(kh_id):
-        filename = kao_ids_dict.get(str(kh_id))
-        if filename is None:
-            return None
-        return f"https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/{filename}"
 
     # HTMLテーブルを手動で構築
     table_html = """
@@ -1592,15 +1829,258 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
         yaxis_title="主成分2",
         template="plotly_white",
         legend_title="政党",
-        legend=dict(groupclick="toggleitem", tracegroupgap=5),
+        legend=dict(
+            groupclick="togglegroup",
+            tracegroupgap=5,
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=1.05,
+        ),
+        height=800,  # 高さを800pxに増加
+        width=1200,  # 幅を1200pxに設定
+        margin=dict(r=150),  # 右側のマージンを増やしてレジェンドが見切れないように
     )
 
+    # JSONシリアライズ用のデータを準備
+    def prepare_candidate_data(df):
+        data = []
+        for _, row in df.iterrows():
+            data.append(
+                {
+                    "姓": str(row["姓"]),
+                    "名": str(row["名"]),
+                    "党派名": str(row["党派名"]),
+                    "PCA1": float(row["PCA1"]) if pd.notnull(row["PCA1"]) else 0,
+                    "PCA2": float(row["PCA2"]) if pd.notnull(row["PCA2"]) else 0,
+                }
+            )
+        return data
+
+    candidate_data = prepare_candidate_data(df)
+    # 散布図のマーカーサイズを配列として設定
+    for trace in fig.data:
+        trace.marker.size = [10] * len(trace.x)  # 各点のサイズを配列として初期化
+
     # HTMLファイルとして保存
-    if output_flag:
-        os.makedirs("html", exist_ok=True)
-        filename = f"interactive_winners_clustering.html"
-        fig.write_html(os.path.join("html", filename))
-        print(f"当選者のクラスタリング結果を '{filename}' として生成しました。")
+    if not output_flag:
+        return winners
+
+    # HTMLファイルとして保存（検索機能付き）
+    html_content = f"""
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>候補者のクラスタリング結果</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .search-container {{
+                position: fixed;
+                top: 10px;
+                right: 20px;
+                z-index: 1000;
+                background: white;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                width: 250px;
+            }}
+            #searchInput {{
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 5px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }}
+            #searchResults {{
+                max-height: 300px;
+                overflow-y: auto;
+                display: none;
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                width: 100%;
+            }}
+            .search-result {{
+                padding: 8px 12px;
+                cursor: pointer;
+                border-bottom: 1px solid #eee;
+            }}
+            .search-result:hover {{
+                background-color: #f5f5f5;
+            }}
+            .search-result:last-child {{
+                border-bottom: none;
+            }}
+            .highlight {{
+                animation: blink 1s 3;
+            }}
+            @keyframes blink {{
+                50% {{ opacity: 0.5; }}
+            }}
+            #plotly-graph {{
+                height: 800px;
+                width: 100%;
+            }}
+            .search-party {{
+                font-size: 0.8em;
+                color: #666;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="候補者名を入力...">
+            <div id="searchResults"></div>
+        </div>
+        {fig.to_html(include_plotlyjs=True, full_html=False, div_id="plotly-graph")}
+        
+
+        <script>
+        // 候補者データの定義
+        const candidateData = {json.dumps(candidate_data, ensure_ascii=False)};
+        let selectedPoint = null;
+        
+        // 検索機能の実装
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+        
+        // 点のスタイルを元に戻す関数
+        function resetPointStyle() {{
+            if (selectedPoint !== null) {{
+                const trace = document.getElementById('plotly-graph').data[selectedPoint.traceIndex];
+                const sizes = Array(trace.x.length).fill(10);
+                Plotly.restyle('plotly-graph', {{
+                    'marker.size': [sizes]
+                }}, [selectedPoint.traceIndex]);
+                selectedPoint = null;
+            }}
+        }}
+        
+        // 候補者を強調表示する関数
+        function highlightCandidate(pca1, pca2) {{
+            const graphDiv = document.getElementById('plotly-graph');
+            const traces = graphDiv.data;
+            
+            resetPointStyle();
+            
+            // 該当する点を見つける
+            for (let i = 0; i < traces.length; i++) {{
+                const trace = traces[i];
+                const pointIndex = trace.x.findIndex((x, idx) => 
+                    Math.abs(x - pca1) < 0.0001 && Math.abs(trace.y[idx] - pca2) < 0.0001
+                );
+                
+                if (pointIndex !== -1) {{
+                    // 点を大きくして強調表示
+                    const sizes = Array(trace.x.length).fill(10);
+                    sizes[pointIndex] = 20;
+                    
+                    Plotly.restyle('plotly-graph', {{
+                        'marker.size': [sizes]
+                    }}, [i]);
+                    
+                    selectedPoint = {{
+                        traceIndex: i,
+                        pointIndex: pointIndex
+                    }};
+                    
+                    // ツールチップを表示
+                    graphDiv.emit('plotly_hover', {{
+                        points: [{{
+                            curveNumber: i,
+                            pointNumber: pointIndex,
+                            x: trace.x[pointIndex],
+                            y: trace.y[pointIndex]
+                        }}]
+                    }});
+                    break;
+                }}
+            }}
+        }}
+        
+        // 検索関数 (他の部分は同じ)
+        function updateSearch(searchText) {{
+            if (!searchText) {{
+                searchResults.style.display = 'none';
+                return;
+            }}
+            
+            searchText = searchText.toLowerCase();
+            const matches = candidateData.filter(candidate => {{
+                const fullName = (candidate['姓'] + candidate['名']).toLowerCase();
+                return fullName.includes(searchText);
+            }});
+            
+            if (matches.length > 0) {{
+                searchResults.innerHTML = matches
+                    .slice(0, 20)
+                    .map(candidate =>
+                        `<div class="search-result" 
+                              data-pca1="${{candidate['PCA1']}}" 
+                              data-pca2="${{candidate['PCA2']}}">
+                            ${{candidate['姓']}} ${{candidate['名']}}
+                            <div class="search-party">${{candidate['党派名']}}</div>
+                         </div>`
+                    ).join('');
+                searchResults.style.display = 'block';
+            }} else {{
+                searchResults.style.display = 'none';
+            }}
+        }}
+        
+        searchResults.addEventListener('click', function(e) {{
+            const result = e.target.closest('.search-result');
+            if (result) {{
+                const pca1 = parseFloat(result.dataset.pca1);
+                const pca2 = parseFloat(result.dataset.pca2);
+                
+                // グラフの表示範囲を調整して候補者を中心に表示
+                Plotly.relayout('plotly-graph', {{
+                    'xaxis.range': [pca1 - 3, pca1 + 3],
+                    'yaxis.range': [pca2 - 3, pca2 + 3]
+                }}).then(() => {{
+                    // 点を強調表示
+                    highlightCandidate(pca1, pca2);
+                }});
+                
+                // 検索結果をクリア
+                searchInput.value = '';
+                searchResults.style.display = 'none';
+            }}
+        }});
+        
+        // イベントリスナー (残りの部分は同じ)
+        searchInput.addEventListener('input', (e) => updateSearch(e.target.value));
+        
+        document.addEventListener('click', function(e) {{
+            if (!e.target.closest('.search-container') && !e.target.closest('.main-svg')) {{
+                resetPointStyle();
+                if (!e.target.closest('.search-container')) {{
+                    searchResults.style.display = 'none';
+                }}
+            }}
+        }});
+        
+        document.addEventListener('keydown', function(e) {{
+            if (e.key === 'Escape') {{
+                searchInput.value = '';
+                searchResults.style.display = 'none';
+                resetPointStyle();
+            }}
+        }});
+        </script>
+
+        </body>
+    </html>
+    """
+    with open(
+        os.path.join("html", "interactive_winners_clustering.html"),
+        "w",
+        encoding="utf-8",
+    ) as f:
+        f.write(html_content)
 
     return winners
 
