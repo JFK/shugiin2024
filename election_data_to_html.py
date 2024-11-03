@@ -1029,7 +1029,7 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
     print(f"無所属の詳細ページを '{filename}' として生成しました。")
 
 
-def create_candidate_table(cluster_data, party_colors, prefix=""):
+def create_candidate_table(cluster_data, party_colors, shousenkyoku_ids, hirei_ids):
     """政党ごとにソートされた候補者テーブルを生成する"""
     # データを政党ごとにソート
     sorted_data = cluster_data.sort_values(["党派名", "姓", "名"])
@@ -1073,6 +1073,16 @@ def create_candidate_table(cluster_data, party_colors, prefix=""):
         # 写真URLの生成
         photo_url = get_photo_url(row["候補者ID"])
 
+        # 比例区と小選挙区をチェック
+        tousen_label = ""
+        if row["候補者ID"] in hirei_ids:
+            tousen_label = (
+                '<span style="color: blue; font-weight: bold">（比例）</span>'
+            )
+        elif row["候補者ID"] in shousenkyoku_ids:
+            tousen_label = (
+                "<span style='color: green; font-weight: bold'>（当選）</span>"
+            )
         # 行を追加
         table_html += f"""
         <tr>
@@ -1087,7 +1097,7 @@ def create_candidate_table(cluster_data, party_colors, prefix=""):
             <td><img src="{photo_url}" width="140" height="140" alt="{row['姓']} {row['名']}"></td>
         """
         table_html += f"""
-            <td>{row['姓']} {row['名']} (ID:{row["候補者ID"]})</td>
+            <td>{tousen_label}{row['姓']} {row['名']} (ID:{row["候補者ID"]})</td>
             <td>{row['年齢']}</td>
             <td>{row['選挙区名']}</td>
         </tr>
@@ -1101,7 +1111,9 @@ def create_candidate_table(cluster_data, party_colors, prefix=""):
     return table_html
 
 
-def generate_cluster_details_page(df, party_colors_df, num_clusters, prefix=""):
+def generate_cluster_details_page(
+    df, party_colors_df, num_clusters, shousenkyoku_ids, hirei_ids, prefix=""
+):
     """クラスターごとの詳細ページを生成する"""
     os.makedirs("html", exist_ok=True)
 
@@ -1201,7 +1213,9 @@ def generate_cluster_details_page(df, party_colors_df, num_clusters, prefix=""):
             os.path.join("html", f"{prefix}cluster_{cluster + 1}_details.html")
         )
         # 拡張された候補者テーブルを生成
-        candidate_table = create_candidate_table(cluster_data, party_colors, prefix)
+        candidate_table = create_candidate_table(
+            cluster_data, party_colors, shousenkyoku_ids, hirei_ids
+        )
 
         # HTMLコンテンツの作成
         html_content = f"""
@@ -1315,21 +1329,34 @@ def import_winner_ids(kekka_file="kekka.xml"):
             if "}" in elem.tag:
                 elem.tag = elem.tag.split("}", 1)[1]
 
-        winner_ids = []
+        hirei_ids = []
         for koho in root.findall("./hrtsn/prty/hrBlk/koho"):
             kh_id = koho.get("khId")
             if kh_id:
-                winner_ids.append(str(kh_id))  # IDを文字列として保存
+                hirei_ids.append(str(kh_id))
 
-        print(f"当選者ID数: {len(winner_ids)}")
-        return winner_ids
+        shousenkyoku_ids = []
+        for koho in root.findall("./senktsn/ken/senk/koho"):
+            kh_id = koho.get("khId")
+            if kh_id:
+                shousenkyoku_ids.append(str(kh_id))
+
+        print(f"比例区当選者数: {len(hirei_ids)}")
+        print(f"小選挙区当選者数: {len(shousenkyoku_ids)}")
+        return (shousenkyoku_ids, hirei_ids)
     except Exception as e:
         print(f"当選者データの読み込みエラー: {e}")
-        return [], {}
+        return [], []
 
 
 def analyze_winners(
-    df, winner_ids, party_colors_df, questions_json, inverse_answer_mapping
+    df,
+    winner_ids,
+    party_colors_df,
+    questions_json,
+    inverse_answer_mapping,
+    shousenkyoku_ids,
+    hirei_ids,
 ):
     """当選者データを分析する"""
     # 候補者IDを文字列型に変換
@@ -1358,12 +1385,16 @@ def analyze_winners(
         df_winner_results,
         df_winner_entropy,
         party_colors_df,
+        shousenkyoku_ids,
+        hirei_ids,
     )
 
     return df_winners, df_winner_results, df_winner_entropy
 
 
-def visualize_winners(df_winners, df_results, df_entropy, party_colors_df):
+def visualize_winners(
+    df_winners, df_results, df_entropy, party_colors_df, shousenkyoku_ids, hirei_ids
+):
     """当選者の分析結果を可視化する"""
     os.makedirs("html", exist_ok=True)
 
@@ -1396,7 +1427,9 @@ def visualize_winners(df_winners, df_results, df_entropy, party_colors_df):
     party_colors = dict(
         zip(party_colors_df["政党名（略）"], party_colors_df["政党カラー"])
     )
-    winners_table = create_candidate_table(df_winners, party_colors)
+    winners_table = create_candidate_table(
+        df_winners, party_colors, shousenkyoku_ids, hirei_ids
+    )
 
     # HTMLページ生成
     html_content = f"""
@@ -1622,10 +1655,13 @@ def main():
         df, party_colors_df, questions_json, num_clusters=all_num_clusters
     )
 
-    winner_ids = import_winner_ids()
+    shousenkyoku_ids, hirei_ids = import_winner_ids()
+    winner_ids = shousenkyoku_ids + hirei_ids
 
     # クラスターごとの詳細ページを生成
-    generate_cluster_details_page(df_clustered, party_colors_df, all_num_clusters)
+    generate_cluster_details_page(
+        df_clustered, party_colors_df, all_num_clusters, shousenkyoku_ids, hirei_ids
+    )
 
     # クラスター内の政党分布を可視化
     visualize_cluster_party_distribution(df_clustered, party_colors_df)
@@ -1642,6 +1678,8 @@ def main():
             party_colors_df,
             questions_json,
             inverse_answer_mapping,
+            shousenkyoku_ids,
+            hirei_ids,
         )
 
         # 当選者の可視化とクラスタリング
@@ -1672,7 +1710,12 @@ def main():
                 # クラスターごとの当選者詳細ページを生成
                 prefix = f"c{num_clusters}_winners_"
                 generate_cluster_details_page(
-                    df_winners, party_colors_df, num_clusters, prefix=prefix
+                    df_winners,
+                    party_colors_df,
+                    num_clusters,
+                    shousenkyoku_ids,
+                    hirei_ids,
+                    prefix=prefix,
                 )
 
     # index.html を生成（新しい関数に渡す引数を修正）
