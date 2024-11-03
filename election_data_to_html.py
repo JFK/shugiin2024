@@ -1848,7 +1848,6 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
         data = []
         for _, row in df.iterrows():
             cand_id = str(row["候補者ID"])
-            print(cand_id in winner_ids)
             data.append(
                 {
                     "姓": str(row["姓"]),
