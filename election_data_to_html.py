@@ -2004,11 +2004,11 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
     </head>
     <body>
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="候補者名を入力...">
+            <input type="text" id="searchInput" placeholder="議員名を入力...">
             <div id="searchResults"></div>
             <div id="selectedInfo"></div>
             <div id="nearbyResults">
-                <div class="nearby-header">近接する候補者</div>
+                <div class="nearby-header">近接する議員</div>
             </div>
         </div>
         {fig.to_html(include_plotlyjs=True, full_html=False, div_id="plotly-graph")}
@@ -2055,7 +2055,7 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
             const nearbyPoints = findNearbyPoints(candidate);
             const nearbyResults = document.getElementById('nearbyResults');
             nearbyResults.innerHTML = `
-                <div class="nearby-header">近接する候補者</div>
+                <div class="nearby-header">近接する議員</div>
                 ${{nearbyPoints.map(p => `
                     <div class="result-item" 
                          data-pca1="${{p.PCA1}}" 
