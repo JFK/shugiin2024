@@ -5,6 +5,15 @@
             <meta charset="UTF-8">
             <title>クラスター 1 の詳細</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <style>
+                .candidate-photo {
+                    object-fit: cover;
+                    border-radius: 5px;
+                }
+                .table td {
+                    vertical-align: middle;
+                }
+            </style>
         </head>
         <body>
             <div class="container">
@@ -22,1227 +31,1746 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td>参政</td><td>77</td><td>44.77%</td></tr><tr><td>自民</td><td>45</td><td>26.16%</td></tr><tr><td>無</td><td>20</td><td>11.63%</td></tr><tr><td>立民</td><td>9</td><td>5.23%</td></tr><tr><td>維新</td><td>7</td><td>4.07%</td></tr><tr><td>国民</td><td>5</td><td>2.91%</td></tr><tr><td>諸派</td><td>4</td><td>2.33%</td></tr><tr><td>保守</td><td>4</td><td>2.33%</td></tr><tr><td>みんな</td><td>1</td><td>0.58%</td></tr>
+                        <tr><td style='background-color: #eb640a; color: white;'>参政</td><td>77</td><td>44.77%</td></tr><tr><td style='background-color: #d22319; color: white;'>自民</td><td>45</td><td>26.16%</td></tr><tr><td style='background-color: #4c6a88; color: white;'>無</td><td>20</td><td>11.63%</td></tr><tr><td style='background-color: #2391ff; color: white;'>立民</td><td>9</td><td>5.23%</td></tr><tr><td style='background-color: #e19a00; color: white;'>維新</td><td>7</td><td>4.07%</td></tr><tr><td style='background-color: #0010a5; color: white;'>国民</td><td>5</td><td>2.91%</td></tr><tr><td style='background-color: #690064; color: white;'>諸派</td><td>4</td><td>2.33%</td></tr><tr><td style='background-color: #9696f0; color: white;'>保守</td><td>4</td><td>2.33%</td></tr><tr><td style='background-color: #b6c81b; color: white;'>みんな</td><td>1</td><td>0.58%</td></tr>
                     </tbody>
                 </table>
                 <h2>候補者リスト</h2>
-                <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>姓</th>
-      <th>名</th>
-      <th>党派名</th>
-      <th>年齢</th>
-      <th>選挙区名</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>田中</td>
-      <td>義人</td>
-      <td>参政</td>
-      <td>52</td>
-      <td>北海道１区</td>
-    </tr>
-    <tr>
-      <td>松木</td>
-      <td>謙公</td>
-      <td>立民</td>
-      <td>65</td>
-      <td>北海道２区</td>
-    </tr>
-    <tr>
-      <td>東</td>
-      <td>国幹</td>
-      <td>自民</td>
-      <td>56</td>
-      <td>北海道６区</td>
-    </tr>
-    <tr>
-      <td>山岡</td>
-      <td>達丸</td>
-      <td>立民</td>
-      <td>45</td>
-      <td>北海道９区</td>
-    </tr>
-    <tr>
-      <td>木村</td>
-      <td>次郎</td>
-      <td>自民</td>
-      <td>56</td>
-      <td>青森３区</td>
-    </tr>
-    <tr>
-      <td>高橋</td>
-      <td>浩司</td>
-      <td>維新</td>
-      <td>61</td>
-      <td>宮城１区</td>
-    </tr>
-    <tr>
-      <td>佐藤</td>
-      <td>雄一</td>
-      <td>維新</td>
-      <td>45</td>
-      <td>宮城４区</td>
-    </tr>
-    <tr>
-      <td>御法川</td>
-      <td>信英</td>
-      <td>自民</td>
-      <td>60</td>
-      <td>秋田３区</td>
-    </tr>
-    <tr>
-      <td>菊池</td>
-      <td>大二郎</td>
-      <td>国民</td>
-      <td>42</td>
-      <td>山形２区</td>
-    </tr>
-    <tr>
-      <td>亀岡</td>
-      <td>偉民</td>
-      <td>自民</td>
-      <td>69</td>
-      <td>福島１区</td>
-    </tr>
-    <tr>
-      <td>武藤</td>
-      <td>優子</td>
-      <td>維新</td>
-      <td>60</td>
-      <td>茨城１区</td>
-    </tr>
-    <tr>
-      <td>葉梨</td>
-      <td>康弘</td>
-      <td>自民</td>
-      <td>65</td>
-      <td>茨城３区</td>
-    </tr>
-    <tr>
-      <td>梶山</td>
-      <td>弘志</td>
-      <td>自民</td>
-      <td>69</td>
-      <td>茨城４区</td>
-    </tr>
-    <tr>
-      <td>簗</td>
-      <td>和生</td>
-      <td>自民</td>
-      <td>45</td>
-      <td>栃木３区</td>
-    </tr>
-    <tr>
-      <td>茂木</td>
-      <td>敏充</td>
-      <td>自民</td>
-      <td>69</td>
-      <td>栃木５区</td>
-    </tr>
-    <tr>
-      <td>笹川</td>
-      <td>博義</td>
-      <td>自民</td>
-      <td>58</td>
-      <td>群馬３区</td>
-    </tr>
-    <tr>
-      <td>福田</td>
-      <td>達夫</td>
-      <td>自民</td>
-      <td>57</td>
-      <td>群馬４区</td>
-    </tr>
-    <tr>
-      <td>新藤</td>
-      <td>義孝</td>
-      <td>自民</td>
-      <td>66</td>
-      <td>埼玉２区</td>
-    </tr>
-    <tr>
-      <td>松浦</td>
-      <td>玄嗣</td>
-      <td>立民</td>
-      <td>52</td>
-      <td>埼玉２区</td>
-    </tr>
-    <tr>
-      <td>大島</td>
-      <td>敦</td>
-      <td>立民</td>
-      <td>67</td>
-      <td>埼玉６区</td>
-    </tr>
-    <tr>
-      <td>橋本</td>
-      <td>幹彦</td>
-      <td>国民</td>
-      <td>28</td>
-      <td>埼玉１３区</td>
-    </tr>
-    <tr>
-      <td>関根</td>
-      <td>和也</td>
-      <td>無</td>
-      <td>44</td>
-      <td>埼玉１４区</td>
-    </tr>
-    <tr>
-      <td>高橋</td>
-      <td>易資</td>
-      <td>諸派</td>
-      <td>68</td>
-      <td>埼玉１４区</td>
-    </tr>
-    <tr>
-      <td>河合</td>
-      <td>悠祐</td>
-      <td>諸派</td>
-      <td>43</td>
-      <td>埼玉１５区</td>
-    </tr>
-    <tr>
-      <td>門山</td>
-      <td>宏哲</td>
-      <td>自民</td>
-      <td>60</td>
-      <td>千葉１区</td>
-    </tr>
-    <tr>
-      <td>上田</td>
-      <td>敦広</td>
-      <td>参政</td>
-      <td>41</td>
-      <td>千葉１区</td>
-    </tr>
-    <tr>
-      <td>小林</td>
-      <td>鷹之</td>
-      <td>自民</td>
-      <td>49</td>
-      <td>千葉２区</td>
-    </tr>
-    <tr>
-      <td>工藤</td>
-      <td>聖子</td>
-      <td>参政</td>
-      <td>45</td>
-      <td>千葉４区</td>
-    </tr>
-    <tr>
-      <td>宮路</td>
-      <td>純一</td>
-      <td>参政</td>
-      <td>35</td>
-      <td>千葉５区</td>
-    </tr>
-    <tr>
-      <td>原田</td>
-      <td>慎太郎</td>
-      <td>参政</td>
-      <td>35</td>
-      <td>千葉６区</td>
-    </tr>
-    <tr>
-      <td>宮本</td>
-      <td>寛之</td>
-      <td>参政</td>
-      <td>39</td>
-      <td>千葉８区</td>
-    </tr>
-    <tr>
-      <td>椎名</td>
-      <td>亮太</td>
-      <td>参政</td>
-      <td>40</td>
-      <td>千葉１０区</td>
-    </tr>
-    <tr>
-      <td>森</td>
-      <td>英介</td>
-      <td>自民</td>
-      <td>76</td>
-      <td>千葉１１区</td>
-    </tr>
-    <tr>
-      <td>中谷</td>
-      <td>めぐみ</td>
-      <td>参政</td>
-      <td>43</td>
-      <td>千葉１３区</td>
-    </tr>
-    <tr>
-      <td>新藤</td>
-      <td>伸夫</td>
-      <td>諸派</td>
-      <td>75</td>
-      <td>東京１区</td>
-    </tr>
-    <tr>
-      <td>桜井</td>
-      <td>祥子</td>
-      <td>参政</td>
-      <td>40</td>
-      <td>東京１区</td>
-    </tr>
-    <tr>
-      <td>最上</td>
-      <td>佳則</td>
-      <td>参政</td>
-      <td>48</td>
-      <td>東京２区</td>
-    </tr>
-    <tr>
-      <td>植木</td>
-      <td>洋貴</td>
-      <td>参政</td>
-      <td>42</td>
-      <td>東京３区</td>
-    </tr>
-    <tr>
-      <td>川口</td>
-      <td>めぐみ</td>
-      <td>無</td>
-      <td>51</td>
-      <td>東京３区</td>
-    </tr>
-    <tr>
-      <td>塩寺</td>
-      <td>勇太</td>
-      <td>参政</td>
-      <td>40</td>
-      <td>東京４区</td>
-    </tr>
-    <tr>
-      <td>平</td>
-      <td>将明</td>
-      <td>自民</td>
-      <td>57</td>
-      <td>東京４区</td>
-    </tr>
-    <tr>
-      <td>塗木</td>
-      <td>洋平</td>
-      <td>参政</td>
-      <td>42</td>
-      <td>東京５区</td>
-    </tr>
-    <tr>
-      <td>望月</td>
-      <td>正謹</td>
-      <td>参政</td>
-      <td>34</td>
-      <td>東京６区</td>
-    </tr>
-    <tr>
-      <td>石川</td>
-      <td>友梨香</td>
-      <td>参政</td>
-      <td>28</td>
-      <td>東京７区</td>
-    </tr>
-    <tr>
-      <td>大森</td>
-      <td>紀明</td>
-      <td>参政</td>
-      <td>53</td>
-      <td>東京８区</td>
-    </tr>
-    <tr>
-      <td>門</td>
-      <td>寛子</td>
-      <td>自民</td>
-      <td>44</td>
-      <td>東京８区</td>
-    </tr>
-    <tr>
-      <td>鈴木</td>
-      <td>隼人</td>
-      <td>自民</td>
-      <td>47</td>
-      <td>東京１０区</td>
-    </tr>
-    <tr>
-      <td>安田</td>
-      <td>伸</td>
-      <td>参政</td>
-      <td>53</td>
-      <td>東京１０区</td>
-    </tr>
-    <tr>
-      <td>大塚</td>
-      <td>紀久雄</td>
-      <td>無</td>
-      <td>83</td>
-      <td>東京１４区</td>
-    </tr>
-    <tr>
-      <td>大賀</td>
-      <td>靖郎</td>
-      <td>参政</td>
-      <td>42</td>
-      <td>東京１４区</td>
-    </tr>
-    <tr>
-      <td>須藤</td>
-      <td>元気</td>
-      <td>無</td>
-      <td>46</td>
-      <td>東京１５区</td>
-    </tr>
-    <tr>
-      <td>有田</td>
-      <td>正寿</td>
-      <td>参政</td>
-      <td>43</td>
-      <td>東京１６区</td>
-    </tr>
-    <tr>
-      <td>徳永</td>
-      <td>由紀子</td>
-      <td>参政</td>
-      <td>47</td>
-      <td>東京１８区</td>
-    </tr>
-    <tr>
-      <td>末松</td>
-      <td>義規</td>
-      <td>立民</td>
-      <td>67</td>
-      <td>東京１９区</td>
-    </tr>
-    <tr>
-      <td>森</td>
-      <td>裕一</td>
-      <td>参政</td>
-      <td>49</td>
-      <td>東京２１区</td>
-    </tr>
-    <tr>
-      <td>鈴木</td>
-      <td>美香</td>
-      <td>参政</td>
-      <td>60</td>
-      <td>東京２２区</td>
-    </tr>
-    <tr>
-      <td>ＡＩメイヤー</td>
-      <td>NaN</td>
-      <td>みんな</td>
-      <td>51</td>
-      <td>東京２３区</td>
-    </tr>
-    <tr>
-      <td>與倉</td>
-      <td>さゆり</td>
-      <td>参政</td>
-      <td>40</td>
-      <td>東京２４区</td>
-    </tr>
-    <tr>
-      <td>田淵</td>
-      <td>正文</td>
-      <td>無</td>
-      <td>66</td>
-      <td>東京２６区</td>
-    </tr>
-    <tr>
-      <td>松原</td>
-      <td>仁</td>
-      <td>無</td>
-      <td>68</td>
-      <td>東京２６区</td>
-    </tr>
-    <tr>
-      <td>石川</td>
-      <td>芽生子</td>
-      <td>参政</td>
-      <td>41</td>
-      <td>東京２７区</td>
-    </tr>
-    <tr>
-      <td>江崎</td>
-      <td>早苗</td>
-      <td>参政</td>
-      <td>38</td>
-      <td>東京２８区</td>
-    </tr>
-    <tr>
-      <td>武田</td>
-      <td>祐一郎</td>
-      <td>参政</td>
-      <td>38</td>
-      <td>東京３０区</td>
-    </tr>
-    <tr>
-      <td>松本</td>
-      <td>純</td>
-      <td>自民</td>
-      <td>74</td>
-      <td>神奈川１区</td>
-    </tr>
-    <tr>
-      <td>伊東</td>
-      <td>万美子</td>
-      <td>参政</td>
-      <td>53</td>
-      <td>神奈川１区</td>
-    </tr>
-    <tr>
-      <td>菅</td>
-      <td>義偉</td>
-      <td>自民</td>
-      <td>75</td>
-      <td>神奈川２区</td>
-    </tr>
-    <tr>
-      <td>平本</td>
-      <td>幸次郎</td>
-      <td>参政</td>
-      <td>62</td>
-      <td>神奈川２区</td>
-    </tr>
-    <tr>
-      <td>内田</td>
-      <td>恵美子</td>
-      <td>参政</td>
-      <td>48</td>
-      <td>神奈川３区</td>
-    </tr>
-    <tr>
-      <td>佐藤</td>
-      <td>香</td>
-      <td>維新</td>
-      <td>50</td>
-      <td>神奈川３区</td>
-    </tr>
-    <tr>
-      <td>山本</td>
-      <td>朋広</td>
-      <td>自民</td>
-      <td>49</td>
-      <td>神奈川４区</td>
-    </tr>
-    <tr>
-      <td>津野</td>
-      <td>照久</td>
-      <td>参政</td>
-      <td>57</td>
-      <td>神奈川４区</td>
-    </tr>
-    <tr>
-      <td>中山</td>
-      <td>展宏</td>
-      <td>自民</td>
-      <td>56</td>
-      <td>神奈川９区</td>
-    </tr>
-    <tr>
-      <td>江岡</td>
-      <td>貴宏</td>
-      <td>参政</td>
-      <td>38</td>
-      <td>神奈川１２区</td>
-    </tr>
-    <tr>
-      <td>石井</td>
-      <td>匡</td>
-      <td>参政</td>
-      <td>57</td>
-      <td>神奈川１３区</td>
-    </tr>
-    <tr>
-      <td>先沖</td>
-      <td>仁志</td>
-      <td>参政</td>
-      <td>48</td>
-      <td>神奈川１４区</td>
-    </tr>
-    <tr>
-      <td>藤田</td>
-      <td>修一</td>
-      <td>参政</td>
-      <td>58</td>
-      <td>神奈川１５区</td>
-    </tr>
-    <tr>
-      <td>塚田</td>
-      <td>一郎</td>
-      <td>自民</td>
-      <td>60</td>
-      <td>新潟１区</td>
-    </tr>
-    <tr>
-      <td>泉田</td>
-      <td>裕彦</td>
-      <td>無</td>
-      <td>62</td>
-      <td>新潟４区</td>
-    </tr>
-    <tr>
-      <td>高田</td>
-      <td>晃宏</td>
-      <td>参政</td>
-      <td>50</td>
-      <td>山梨１区</td>
-    </tr>
-    <tr>
-      <td>上田</td>
-      <td>英俊</td>
-      <td>自民</td>
-      <td>59</td>
-      <td>富山２区</td>
-    </tr>
-    <tr>
-      <td>橘</td>
-      <td>慶一郎</td>
-      <td>自民</td>
-      <td>63</td>
-      <td>富山３区</td>
-    </tr>
-    <tr>
-      <td>小森</td>
-      <td>卓郎</td>
-      <td>自民</td>
-      <td>54</td>
-      <td>石川１区</td>
-    </tr>
-    <tr>
-      <td>小竹</td>
-      <td>凱</td>
-      <td>国民</td>
-      <td>26</td>
-      <td>石川１区</td>
-    </tr>
-    <tr>
-      <td>藤原</td>
-      <td>徳英</td>
-      <td>無</td>
-      <td>71</td>
-      <td>石川１区</td>
-    </tr>
-    <tr>
-      <td>西山</td>
-      <td>理恵</td>
-      <td>無</td>
-      <td>48</td>
-      <td>福井１区</td>
-    </tr>
-    <tr>
-      <td>田中</td>
-      <td>こはる</td>
-      <td>参政</td>
-      <td>38</td>
-      <td>福井１区</td>
-    </tr>
-    <tr>
-      <td>斉木</td>
-      <td>武志</td>
-      <td>維新</td>
-      <td>50</td>
-      <td>福井２区</td>
-    </tr>
-    <tr>
-      <td>棚橋</td>
-      <td>泰文</td>
-      <td>自民</td>
-      <td>61</td>
-      <td>岐阜２区</td>
-    </tr>
-    <tr>
-      <td>武藤</td>
-      <td>容治</td>
-      <td>自民</td>
-      <td>69</td>
-      <td>岐阜３区</td>
-    </tr>
-    <tr>
-      <td>提坂</td>
-      <td>大介</td>
-      <td>参政</td>
-      <td>48</td>
-      <td>静岡２区</td>
-    </tr>
-    <tr>
-      <td>城内</td>
-      <td>実</td>
-      <td>自民</td>
-      <td>59</td>
-      <td>静岡７区</td>
-    </tr>
-    <tr>
-      <td>加藤</td>
-      <td>順久</td>
-      <td>無</td>
-      <td>78</td>
-      <td>静岡８区</td>
-    </tr>
-    <tr>
-      <td>河村</td>
-      <td>たかし</td>
-      <td>保守</td>
-      <td>75</td>
-      <td>愛知１区</td>
-    </tr>
-    <tr>
-      <td>中川</td>
-      <td>貴元</td>
-      <td>自民</td>
-      <td>57</td>
-      <td>愛知２区</td>
-    </tr>
-    <tr>
-      <td>大橋</td>
-      <td>享</td>
-      <td>保守</td>
-      <td>59</td>
-      <td>愛知３区</td>
-    </tr>
-    <tr>
-      <td>杉本</td>
-      <td>純子</td>
-      <td>参政</td>
-      <td>47</td>
-      <td>愛知３区</td>
-    </tr>
-    <tr>
-      <td>水野</td>
-      <td>良彦</td>
-      <td>自民</td>
-      <td>50</td>
-      <td>愛知３区</td>
-    </tr>
-    <tr>
-      <td>麻生</td>
-      <td>知沙</td>
-      <td>保守</td>
-      <td>47</td>
-      <td>愛知４区</td>
-    </tr>
-    <tr>
-      <td>神田</td>
-      <td>憲次</td>
-      <td>自民</td>
-      <td>61</td>
-      <td>愛知５区</td>
-    </tr>
-    <tr>
-      <td>田中</td>
-      <td>克和</td>
-      <td>保守</td>
-      <td>40</td>
-      <td>愛知５区</td>
-    </tr>
-    <tr>
-      <td>今枝</td>
-      <td>宗一郎</td>
-      <td>自民</td>
-      <td>40</td>
-      <td>愛知１４区</td>
-    </tr>
-    <tr>
-      <td>福森</td>
-      <td>和歌子</td>
-      <td>立民</td>
-      <td>54</td>
-      <td>三重１区</td>
-    </tr>
-    <tr>
-      <td>北野</td>
-      <td>裕子</td>
-      <td>参政</td>
-      <td>39</td>
-      <td>滋賀３区</td>
-    </tr>
-    <tr>
-      <td>勝目</td>
-      <td>康</td>
-      <td>自民</td>
-      <td>50</td>
-      <td>京都１区</td>
-    </tr>
-    <tr>
-      <td>山下</td>
-      <td>博子</td>
-      <td>無</td>
-      <td>77</td>
-      <td>京都１区</td>
-    </tr>
-    <tr>
-      <td>小松</td>
-      <td>広明</td>
-      <td>参政</td>
-      <td>41</td>
-      <td>京都２区</td>
-    </tr>
-    <tr>
-      <td>吉田</td>
-      <td>真由美</td>
-      <td>参政</td>
-      <td>44</td>
-      <td>京都３区</td>
-    </tr>
-    <tr>
-      <td>安藤</td>
-      <td>裕</td>
-      <td>参政</td>
-      <td>59</td>
-      <td>京都６区</td>
-    </tr>
-    <tr>
-      <td>宮出</td>
-      <td>千慧</td>
-      <td>参政</td>
-      <td>39</td>
-      <td>大阪１区</td>
-    </tr>
-    <tr>
-      <td>藤田</td>
-      <td>美季</td>
-      <td>参政</td>
-      <td>58</td>
-      <td>大阪２区</td>
-    </tr>
-    <tr>
-      <td>中条</td>
-      <td>栄太郎</td>
-      <td>無</td>
-      <td>55</td>
-      <td>大阪３区</td>
-    </tr>
-    <tr>
-      <td>黒川</td>
-      <td>洋司</td>
-      <td>参政</td>
-      <td>52</td>
-      <td>大阪４区</td>
-    </tr>
-    <tr>
-      <td>石橋</td>
-      <td>篤史</td>
-      <td>参政</td>
-      <td>45</td>
-      <td>大阪５区</td>
-    </tr>
-    <tr>
-      <td>月足</td>
-      <td>舞子</td>
-      <td>参政</td>
-      <td>33</td>
-      <td>大阪６区</td>
-    </tr>
-    <tr>
-      <td>福留</td>
-      <td>陽子</td>
-      <td>立民</td>
-      <td>55</td>
-      <td>大阪６区</td>
-    </tr>
-    <tr>
-      <td>池上</td>
-      <td>和日子</td>
-      <td>参政</td>
-      <td>40</td>
-      <td>大阪７区</td>
-    </tr>
-    <tr>
-      <td>谷</td>
-      <td>浩一郎</td>
-      <td>参政</td>
-      <td>43</td>
-      <td>大阪８区</td>
-    </tr>
-    <tr>
-      <td>片岡</td>
-      <td>真</td>
-      <td>参政</td>
-      <td>33</td>
-      <td>大阪９区</td>
-    </tr>
-    <tr>
-      <td>榮井</td>
-      <td>蘭菜</td>
-      <td>参政</td>
-      <td>30</td>
-      <td>大阪１４区</td>
-    </tr>
-    <tr>
-      <td>松岡</td>
-      <td>能礼</td>
-      <td>参政</td>
-      <td>30</td>
-      <td>大阪１８区</td>
-    </tr>
-    <tr>
-      <td>木原</td>
-      <td>功仁哉</td>
-      <td>無</td>
-      <td>40</td>
-      <td>兵庫１区</td>
-    </tr>
-    <tr>
-      <td>山岡</td>
-      <td>智美</td>
-      <td>参政</td>
-      <td>51</td>
-      <td>兵庫１区</td>
-    </tr>
-    <tr>
-      <td>瀬尾</td>
-      <td>英志</td>
-      <td>参政</td>
-      <td>39</td>
-      <td>兵庫２区</td>
-    </tr>
-    <tr>
-      <td>藤井</td>
-      <td>比早之</td>
-      <td>自民</td>
-      <td>53</td>
-      <td>兵庫４区</td>
-    </tr>
-    <tr>
-      <td>市村</td>
-      <td>浩一郎</td>
-      <td>維新</td>
-      <td>60</td>
-      <td>兵庫６区</td>
-    </tr>
-    <tr>
-      <td>伊藤</td>
-      <td>正哉</td>
-      <td>参政</td>
-      <td>36</td>
-      <td>兵庫６区</td>
-    </tr>
-    <tr>
-      <td>浜本</td>
-      <td>幸博</td>
-      <td>参政</td>
-      <td>60</td>
-      <td>兵庫７区</td>
-    </tr>
-    <tr>
-      <td>西村</td>
-      <td>康稔</td>
-      <td>無</td>
-      <td>62</td>
-      <td>兵庫９区</td>
-    </tr>
-    <tr>
-      <td>藤原</td>
-      <td>誠也</td>
-      <td>参政</td>
-      <td>36</td>
-      <td>兵庫１０区</td>
-    </tr>
-    <tr>
-      <td>山下</td>
-      <td>聖</td>
-      <td>参政</td>
-      <td>39</td>
-      <td>兵庫１１区</td>
-    </tr>
-    <tr>
-      <td>林元</td>
-      <td>政子</td>
-      <td>参政</td>
-      <td>50</td>
-      <td>奈良１区</td>
-    </tr>
-    <tr>
-      <td>林元</td>
-      <td>将崇</td>
-      <td>参政</td>
-      <td>26</td>
-      <td>和歌山１区</td>
-    </tr>
-    <tr>
-      <td>世耕</td>
-      <td>弘成</td>
-      <td>無</td>
-      <td>61</td>
-      <td>和歌山２区</td>
-    </tr>
-    <tr>
-      <td>高橋</td>
-      <td>秀彰</td>
-      <td>諸派</td>
-      <td>42</td>
-      <td>和歌山２区</td>
-    </tr>
-    <tr>
-      <td>赤沢</td>
-      <td>亮正</td>
-      <td>自民</td>
-      <td>63</td>
-      <td>鳥取２区</td>
-    </tr>
-    <tr>
-      <td>高見</td>
-      <td>康裕</td>
-      <td>自民</td>
-      <td>44</td>
-      <td>島根２区</td>
-    </tr>
-    <tr>
-      <td>東</td>
-      <td>克哉</td>
-      <td>立民</td>
-      <td>43</td>
-      <td>広島３区</td>
-    </tr>
-    <tr>
-      <td>野田</td>
-      <td>陽志</td>
-      <td>国民</td>
-      <td>48</td>
-      <td>山口１区</td>
-    </tr>
-    <tr>
-      <td>岸</td>
-      <td>信千世</td>
-      <td>自民</td>
-      <td>33</td>
-      <td>山口２区</td>
-    </tr>
-    <tr>
-      <td>林</td>
-      <td>芳正</td>
-      <td>自民</td>
-      <td>63</td>
-      <td>山口３区</td>
-    </tr>
-    <tr>
-      <td>山口</td>
-      <td>俊一</td>
-      <td>自民</td>
-      <td>74</td>
-      <td>徳島２区</td>
-    </tr>
-    <tr>
-      <td>小林</td>
-      <td>直美</td>
-      <td>参政</td>
-      <td>50</td>
-      <td>香川１区</td>
-    </tr>
-    <tr>
-      <td>瀬戸</td>
-      <td>隆一</td>
-      <td>自民</td>
-      <td>59</td>
-      <td>香川２区</td>
-    </tr>
-    <tr>
-      <td>塩崎</td>
-      <td>彰久</td>
-      <td>自民</td>
-      <td>48</td>
-      <td>愛媛１区</td>
-    </tr>
-    <tr>
-      <td>緒方</td>
-      <td>貴恵</td>
-      <td>参政</td>
-      <td>40</td>
-      <td>福岡１区</td>
-    </tr>
-    <tr>
-      <td>黒石</td>
-      <td>裕子</td>
-      <td>参政</td>
-      <td>32</td>
-      <td>福岡２区</td>
-    </tr>
-    <tr>
-      <td>重松</td>
-      <td>雄子</td>
-      <td>参政</td>
-      <td>65</td>
-      <td>福岡３区</td>
-    </tr>
-    <tr>
-      <td>吉松</td>
-      <td>源昭</td>
-      <td>無</td>
-      <td>56</td>
-      <td>福岡４区</td>
-    </tr>
-    <tr>
-      <td>行平</td>
-      <td>佳弘</td>
-      <td>参政</td>
-      <td>38</td>
-      <td>福岡４区</td>
-    </tr>
-    <tr>
-      <td>栗原</td>
-      <td>渉</td>
-      <td>自民</td>
-      <td>59</td>
-      <td>福岡５区</td>
-    </tr>
-    <tr>
-      <td>岡部</td>
-      <td>吉高</td>
-      <td>参政</td>
-      <td>42</td>
-      <td>福岡５区</td>
-    </tr>
-    <tr>
-      <td>古川</td>
-      <td>恭司</td>
-      <td>参政</td>
-      <td>58</td>
-      <td>福岡６区</td>
-    </tr>
-    <tr>
-      <td>近藤</td>
-      <td>雅彦</td>
-      <td>国民</td>
-      <td>49</td>
-      <td>福岡６区</td>
-    </tr>
-    <tr>
-      <td>亀田</td>
-      <td>晃尚</td>
-      <td>立民</td>
-      <td>53</td>
-      <td>福岡７区</td>
-    </tr>
-    <tr>
-      <td>大石</td>
-      <td>仁人</td>
-      <td>無</td>
-      <td>39</td>
-      <td>福岡１０区</td>
-    </tr>
-    <tr>
-      <td>下吹越</td>
-      <td>優也</td>
-      <td>参政</td>
-      <td>31</td>
-      <td>佐賀２区</td>
-    </tr>
-    <tr>
-      <td>黒石</td>
-      <td>隆太</td>
-      <td>参政</td>
-      <td>33</td>
-      <td>長崎１区</td>
-    </tr>
-    <tr>
-      <td>高木</td>
-      <td>聡子</td>
-      <td>参政</td>
-      <td>43</td>
-      <td>長崎２区</td>
-    </tr>
-    <tr>
-      <td>金子</td>
-      <td>容三</td>
-      <td>自民</td>
-      <td>41</td>
-      <td>長崎３区</td>
-    </tr>
-    <tr>
-      <td>西野</td>
-      <td>太亮</td>
-      <td>自民</td>
-      <td>46</td>
-      <td>熊本２区</td>
-    </tr>
-    <tr>
-      <td>近田</td>
-      <td>茜</td>
-      <td>参政</td>
-      <td>32</td>
-      <td>熊本２区</td>
-    </tr>
-    <tr>
-      <td>植田</td>
-      <td>貴俊</td>
-      <td>参政</td>
-      <td>40</td>
-      <td>熊本３区</td>
-    </tr>
-    <tr>
-      <td>吉良</td>
-      <td>州司</td>
-      <td>無</td>
-      <td>66</td>
-      <td>大分１区</td>
-    </tr>
-    <tr>
-      <td>滋井</td>
-      <td>祐香</td>
-      <td>参政</td>
-      <td>44</td>
-      <td>宮崎１区</td>
-    </tr>
-    <tr>
-      <td>江藤</td>
-      <td>拓</td>
-      <td>自民</td>
-      <td>64</td>
-      <td>宮崎２区</td>
-    </tr>
-    <tr>
-      <td>昇</td>
-      <td>拓真</td>
-      <td>参政</td>
-      <td>34</td>
-      <td>鹿児島１区</td>
-    </tr>
-    <tr>
-      <td>三反園</td>
-      <td>訓</td>
-      <td>無</td>
-      <td>66</td>
-      <td>鹿児島２区</td>
-    </tr>
-    <tr>
-      <td>辻</td>
-      <td>健太郎</td>
-      <td>維新</td>
-      <td>38</td>
-      <td>鹿児島２区</td>
-    </tr>
-    <tr>
-      <td>矢竹</td>
-      <td>ゆかり</td>
-      <td>参政</td>
-      <td>61</td>
-      <td>鹿児島２区</td>
-    </tr>
-    <tr>
-      <td>和田</td>
-      <td>知久</td>
-      <td>参政</td>
-      <td>64</td>
-      <td>沖縄１区</td>
-    </tr>
-    <tr>
-      <td>比嘉</td>
-      <td>隆</td>
-      <td>無</td>
-      <td>47</td>
-      <td>沖縄２区</td>
-    </tr>
-    <tr>
-      <td>今野</td>
-      <td>麻美</td>
-      <td>参政</td>
-      <td>47</td>
-      <td>沖縄２区</td>
-    </tr>
-  </tbody>
-</table>
+                
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>政党</th>
+                <th>写真</th>
+                <th>氏名</th>
+                <th>年齢</th>
+                <th>選挙区名</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+        <tr>
+            <td style="background-color: #b6c81b; color: white; font-weight: bold;">みんな</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>ＡＩメイヤー nan (ID:39834)</td>
+            <td>51</td>
+            <td>東京２３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #9696f0; color: white; font-weight: bold;">保守</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>大橋 享 (ID:54006)</td>
+            <td>59</td>
+            <td>愛知３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #9696f025;">保守</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1766_10111616.jpg" width="140" height="140" alt="河村 たかし"></td>
+        
+            <td>河村 たかし (ID:1766)</td>
+            <td>75</td>
+            <td>愛知１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #9696f025;">保守</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>田中 克和 (ID:44336)</td>
+            <td>40</td>
+            <td>愛知５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #9696f025;">保守</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>麻生 知沙 (ID:55846)</td>
+            <td>47</td>
+            <td>愛知４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a; color: white; font-weight: bold;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>上田 敦広 (ID:54400)</td>
+            <td>41</td>
+            <td>千葉１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>下吹越 優也 (ID:55825)</td>
+            <td>31</td>
+            <td>佐賀２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>中谷 めぐみ (ID:55443)</td>
+            <td>43</td>
+            <td>千葉１３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>今野 麻美 (ID:55804)</td>
+            <td>47</td>
+            <td>沖縄２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>伊東 万美子 (ID:53235)</td>
+            <td>53</td>
+            <td>神奈川１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>伊藤 正哉 (ID:53230)</td>
+            <td>36</td>
+            <td>兵庫６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>先沖 仁志 (ID:52956)</td>
+            <td>48</td>
+            <td>神奈川１４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>内田 恵美子 (ID:55359)</td>
+            <td>48</td>
+            <td>神奈川３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/55238_10111616.jpg" width="140" height="140" alt="北野 裕子"></td>
+        
+            <td>北野 裕子 (ID:55238)</td>
+            <td>39</td>
+            <td>滋賀３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>原田 慎太郎 (ID:55442)</td>
+            <td>35</td>
+            <td>千葉６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>古川 恭司 (ID:55098)</td>
+            <td>58</td>
+            <td>福岡６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>吉田 真由美 (ID:55561)</td>
+            <td>44</td>
+            <td>京都３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>和田 知久 (ID:55222)</td>
+            <td>64</td>
+            <td>沖縄１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>塗木 洋平 (ID:55688)</td>
+            <td>42</td>
+            <td>東京５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>塩寺 勇太 (ID:55821)</td>
+            <td>40</td>
+            <td>東京４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>大森 紀明 (ID:55066)</td>
+            <td>53</td>
+            <td>東京８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>大賀 靖郎 (ID:55049)</td>
+            <td>42</td>
+            <td>東京１４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>安田 伸 (ID:55054)</td>
+            <td>53</td>
+            <td>東京１０区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>安藤 裕 (ID:32308)</td>
+            <td>59</td>
+            <td>京都６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>宮出 千慧 (ID:55029)</td>
+            <td>39</td>
+            <td>大阪１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>宮本 寛之 (ID:55173)</td>
+            <td>39</td>
+            <td>千葉８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>宮路 純一 (ID:55172)</td>
+            <td>35</td>
+            <td>千葉５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>小松 広明 (ID:55208)</td>
+            <td>41</td>
+            <td>京都２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>小林 直美 (ID:53250)</td>
+            <td>50</td>
+            <td>香川１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>山下 聖 (ID:55831)</td>
+            <td>39</td>
+            <td>兵庫１１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>山岡 智美 (ID:55028)</td>
+            <td>51</td>
+            <td>兵庫１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>岡部 吉高 (ID:55097)</td>
+            <td>42</td>
+            <td>福岡５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>工藤 聖子 (ID:54614)</td>
+            <td>45</td>
+            <td>千葉４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>平本 幸次郎 (ID:55291)</td>
+            <td>62</td>
+            <td>神奈川２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>徳永 由紀子 (ID:55112)</td>
+            <td>47</td>
+            <td>東京１８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>提坂 大介 (ID:55141)</td>
+            <td>48</td>
+            <td>静岡２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>昇 拓真 (ID:53155)</td>
+            <td>34</td>
+            <td>鹿児島１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>最上 佳則 (ID:55051)</td>
+            <td>48</td>
+            <td>東京２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>月足 舞子 (ID:55103)</td>
+            <td>33</td>
+            <td>大阪６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>有田 正寿 (ID:55056)</td>
+            <td>43</td>
+            <td>東京１６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>望月 正謹 (ID:55107)</td>
+            <td>34</td>
+            <td>東京６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>杉本 純子 (ID:55121)</td>
+            <td>47</td>
+            <td>愛知３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>松岡 能礼 (ID:55110)</td>
+            <td>30</td>
+            <td>大阪１８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>林元 将崇 (ID:55126)</td>
+            <td>26</td>
+            <td>和歌山１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>林元 政子 (ID:55030)</td>
+            <td>50</td>
+            <td>奈良１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>桜井 祥子 (ID:55303)</td>
+            <td>40</td>
+            <td>東京１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>森 裕一 (ID:55165)</td>
+            <td>49</td>
+            <td>東京２１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>植木 洋貴 (ID:55052)</td>
+            <td>42</td>
+            <td>東京３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>植田 貴俊 (ID:55836)</td>
+            <td>40</td>
+            <td>熊本３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>椎名 亮太 (ID:43909)</td>
+            <td>40</td>
+            <td>千葉１０区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>榮井 蘭菜 (ID:55105)</td>
+            <td>30</td>
+            <td>大阪１４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>武田 祐一郎 (ID:55823)</td>
+            <td>38</td>
+            <td>東京３０区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>江岡 貴宏 (ID:55086)</td>
+            <td>38</td>
+            <td>神奈川１２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>江崎 早苗 (ID:55061)</td>
+            <td>38</td>
+            <td>東京２８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>池上 和日子 (ID:53916)</td>
+            <td>40</td>
+            <td>大阪７区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>津野 照久 (ID:55085)</td>
+            <td>57</td>
+            <td>神奈川４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>浜本 幸博 (ID:55196)</td>
+            <td>60</td>
+            <td>兵庫７区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>滋井 祐香 (ID:55237)</td>
+            <td>44</td>
+            <td>宮崎１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>瀬尾 英志 (ID:55219)</td>
+            <td>39</td>
+            <td>兵庫２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>片岡 真 (ID:53244)</td>
+            <td>33</td>
+            <td>大阪９区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>田中 こはる (ID:55815)</td>
+            <td>38</td>
+            <td>福井１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>田中 義人 (ID:35490)</td>
+            <td>52</td>
+            <td>北海道１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>矢竹 ゆかり (ID:54920)</td>
+            <td>61</td>
+            <td>鹿児島２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>石井 匡 (ID:55082)</td>
+            <td>57</td>
+            <td>神奈川１３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>石川 友梨香 (ID:55162)</td>
+            <td>28</td>
+            <td>東京７区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>石川 芽生子 (ID:55111)</td>
+            <td>41</td>
+            <td>東京２７区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>石橋 篤史 (ID:55108)</td>
+            <td>45</td>
+            <td>大阪５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>緒方 貴恵 (ID:55802)</td>
+            <td>40</td>
+            <td>福岡１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>與倉 さゆり (ID:55822)</td>
+            <td>40</td>
+            <td>東京２４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>藤原 誠也 (ID:55290)</td>
+            <td>36</td>
+            <td>兵庫１０区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>藤田 修一 (ID:55083)</td>
+            <td>58</td>
+            <td>神奈川１５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>藤田 美季 (ID:55025)</td>
+            <td>58</td>
+            <td>大阪２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>行平 佳弘 (ID:55099)</td>
+            <td>38</td>
+            <td>福岡４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>谷 浩一郎 (ID:55001)</td>
+            <td>43</td>
+            <td>大阪８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>近田 茜 (ID:55239)</td>
+            <td>32</td>
+            <td>熊本２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>重松 雄子 (ID:53220)</td>
+            <td>65</td>
+            <td>福岡３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>鈴木 美香 (ID:55058)</td>
+            <td>60</td>
+            <td>東京２２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>高木 聡子 (ID:55199)</td>
+            <td>43</td>
+            <td>長崎２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>高田 晃宏 (ID:55192)</td>
+            <td>50</td>
+            <td>山梨１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>黒川 洋司 (ID:53714)</td>
+            <td>52</td>
+            <td>大阪４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>黒石 裕子 (ID:55803)</td>
+            <td>32</td>
+            <td>福岡２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #eb640a25;">参政</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>黒石 隆太 (ID:54587)</td>
+            <td>33</td>
+            <td>長崎１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #0010a5; color: white; font-weight: bold;">国民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/55541_10111616.jpg" width="140" height="140" alt="小竹 凱"></td>
+        
+            <td>小竹 凱 (ID:55541)</td>
+            <td>26</td>
+            <td>石川１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #0010a525;">国民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/54205_10111616.jpg" width="140" height="140" alt="橋本 幹彦"></td>
+        
+            <td>橋本 幹彦 (ID:54205)</td>
+            <td>28</td>
+            <td>埼玉１３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #0010a525;">国民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/41537_10111616.jpg" width="140" height="140" alt="菊池 大二郎"></td>
+        
+            <td>菊池 大二郎 (ID:41537)</td>
+            <td>42</td>
+            <td>山形２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #0010a525;">国民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>近藤 雅彦 (ID:55286)</td>
+            <td>49</td>
+            <td>福岡６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #0010a525;">国民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>野田 陽志 (ID:54706)</td>
+            <td>48</td>
+            <td>山口１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a88; color: white; font-weight: bold;">無</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/47147_10111616.jpg" width="140" height="140" alt="三反園 訓"></td>
+        
+            <td>三反園 訓 (ID:47147)</td>
+            <td>66</td>
+            <td>鹿児島２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/2279_10111616.jpg" width="140" height="140" alt="世耕 弘成"></td>
+        
+            <td>世耕 弘成 (ID:2279)</td>
+            <td>61</td>
+            <td>和歌山２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>中条 栄太郎 (ID:48757)</td>
+            <td>55</td>
+            <td>大阪３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>加藤 順久 (ID:55838)</td>
+            <td>78</td>
+            <td>静岡８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>吉松 源昭 (ID:2360)</td>
+            <td>56</td>
+            <td>福岡４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1089_10111616.jpg" width="140" height="140" alt="吉良 州司"></td>
+        
+            <td>吉良 州司 (ID:1089)</td>
+            <td>66</td>
+            <td>大分１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>大塚 紀久雄 (ID:48769)</td>
+            <td>83</td>
+            <td>東京１４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>大石 仁人 (ID:52052)</td>
+            <td>39</td>
+            <td>福岡１０区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>山下 博子 (ID:55891)</td>
+            <td>77</td>
+            <td>京都１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>川口 めぐみ (ID:55632)</td>
+            <td>51</td>
+            <td>東京３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>木原 功仁哉 (ID:52675)</td>
+            <td>40</td>
+            <td>兵庫１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/994_10111616.jpg" width="140" height="140" alt="松原 仁"></td>
+        
+            <td>松原 仁 (ID:994)</td>
+            <td>68</td>
+            <td>東京２６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>比嘉 隆 (ID:55548)</td>
+            <td>47</td>
+            <td>沖縄２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>泉田 裕彦 (ID:3687)</td>
+            <td>62</td>
+            <td>新潟４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>田淵 正文 (ID:47193)</td>
+            <td>66</td>
+            <td>東京２６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>藤原 徳英 (ID:55867)</td>
+            <td>71</td>
+            <td>石川１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>西山 理恵 (ID:53685)</td>
+            <td>48</td>
+            <td>福井１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/614_10112040.jpg" width="140" height="140" alt="西村 康稔"></td>
+        
+            <td>西村 康稔 (ID:614)</td>
+            <td>62</td>
+            <td>兵庫９区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>関根 和也 (ID:49809)</td>
+            <td>44</td>
+            <td>埼玉１４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #4c6a8825;">無</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>須藤 元気 (ID:51365)</td>
+            <td>46</td>
+            <td>東京１５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff; color: white; font-weight: bold;">立民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>亀田 晃尚 (ID:55725)</td>
+            <td>53</td>
+            <td>福岡７区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1213_10111616.jpg" width="140" height="140" alt="大島 敦"></td>
+        
+            <td>大島 敦 (ID:1213)</td>
+            <td>67</td>
+            <td>埼玉６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/5043_10111616.jpg" width="140" height="140" alt="山岡 達丸"></td>
+        
+            <td>山岡 達丸 (ID:5043)</td>
+            <td>45</td>
+            <td>北海道９区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1837_10111616.jpg" width="140" height="140" alt="末松 義規"></td>
+        
+            <td>末松 義規 (ID:1837)</td>
+            <td>67</td>
+            <td>東京１９区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/54109_10111616.jpg" width="140" height="140" alt="東 克哉"></td>
+        
+            <td>東 克哉 (ID:54109)</td>
+            <td>43</td>
+            <td>広島３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/805_10111616.jpg" width="140" height="140" alt="松木 謙公"></td>
+        
+            <td>松木 謙公 (ID:805)</td>
+            <td>65</td>
+            <td>北海道２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>松浦 玄嗣 (ID:55563)</td>
+            <td>52</td>
+            <td>埼玉２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/55215_10111616.jpg" width="140" height="140" alt="福森 和歌子"></td>
+        
+            <td>福森 和歌子 (ID:55215)</td>
+            <td>54</td>
+            <td>三重１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #2391ff25;">立民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>福留 陽子 (ID:55863)</td>
+            <td>55</td>
+            <td>大阪６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #e19a00; color: white; font-weight: bold;">維新</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>佐藤 雄一 (ID:55269)</td>
+            <td>45</td>
+            <td>宮城４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #e19a0025;">維新</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>佐藤 香 (ID:55761)</td>
+            <td>50</td>
+            <td>神奈川３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #e19a0025;">維新</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1387_10111616.jpg" width="140" height="140" alt="市村 浩一郎"></td>
+        
+            <td>市村 浩一郎 (ID:1387)</td>
+            <td>60</td>
+            <td>兵庫６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #e19a0025;">維新</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/3702_10111616.jpg" width="140" height="140" alt="斉木 武志"></td>
+        
+            <td>斉木 武志 (ID:3702)</td>
+            <td>50</td>
+            <td>福井２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #e19a0025;">維新</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>武藤 優子 (ID:37204)</td>
+            <td>60</td>
+            <td>茨城１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #e19a0025;">維新</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>辻 健太郎 (ID:52589)</td>
+            <td>38</td>
+            <td>鹿児島２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #e19a0025;">維新</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>高橋 浩司 (ID:55550)</td>
+            <td>61</td>
+            <td>宮城１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d22319; color: white; font-weight: bold;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/8253_10111616.jpg" width="140" height="140" alt="上田 英俊"></td>
+        
+            <td>上田 英俊 (ID:8253)</td>
+            <td>59</td>
+            <td>富山２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>中山 展宏 (ID:5037)</td>
+            <td>56</td>
+            <td>神奈川９区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>中川 貴元 (ID:8811)</td>
+            <td>57</td>
+            <td>愛知２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>亀岡 偉民 (ID:819)</td>
+            <td>69</td>
+            <td>福島１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/35837_10111616.jpg" width="140" height="140" alt="今枝 宗一郎"></td>
+        
+            <td>今枝 宗一郎 (ID:35837)</td>
+            <td>40</td>
+            <td>愛知１４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/52521_10111616.jpg" width="140" height="140" alt="勝目 康"></td>
+        
+            <td>勝目 康 (ID:52521)</td>
+            <td>50</td>
+            <td>京都１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/611_10111616.jpg" width="140" height="140" alt="城内 実"></td>
+        
+            <td>城内 実 (ID:611)</td>
+            <td>59</td>
+            <td>静岡７区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>塚田 一郎 (ID:3313)</td>
+            <td>60</td>
+            <td>新潟１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/52532_10111616.jpg" width="140" height="140" alt="塩崎 彰久"></td>
+        
+            <td>塩崎 彰久 (ID:52532)</td>
+            <td>48</td>
+            <td>愛媛１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/32386_10111616.jpg" width="140" height="140" alt="小林 鷹之"></td>
+        
+            <td>小林 鷹之 (ID:32386)</td>
+            <td>49</td>
+            <td>千葉２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/52625_10111616.jpg" width="140" height="140" alt="小森 卓郎"></td>
+        
+            <td>小森 卓郎 (ID:52625)</td>
+            <td>54</td>
+            <td>石川１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/2202_10111616.jpg" width="140" height="140" alt="山口 俊一"></td>
+        
+            <td>山口 俊一 (ID:2202)</td>
+            <td>74</td>
+            <td>徳島２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>山本 朋広 (ID:1618)</td>
+            <td>49</td>
+            <td>神奈川４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/53763_10111616.jpg" width="140" height="140" alt="岸 信千世"></td>
+        
+            <td>岸 信千世 (ID:53763)</td>
+            <td>33</td>
+            <td>山口２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/998_10111616.jpg" width="140" height="140" alt="平 将明"></td>
+        
+            <td>平 将明 (ID:998)</td>
+            <td>57</td>
+            <td>東京４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1530_10111616.jpg" width="140" height="140" alt="御法川 信英"></td>
+        
+            <td>御法川 信英 (ID:1530)</td>
+            <td>60</td>
+            <td>秋田３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1202_10111616.jpg" width="140" height="140" alt="新藤 義孝"></td>
+        
+            <td>新藤 義孝 (ID:1202)</td>
+            <td>66</td>
+            <td>埼玉２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>木村 次郎 (ID:48589)</td>
+            <td>56</td>
+            <td>青森３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/6614_10111616.jpg" width="140" height="140" alt="東 国幹"></td>
+        
+            <td>東 国幹 (ID:6614)</td>
+            <td>56</td>
+            <td>北海道６区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>松本 純 (ID:1811)</td>
+            <td>74</td>
+            <td>神奈川１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/2567_10111616.jpg" width="140" height="140" alt="林 芳正"></td>
+        
+            <td>林 芳正 (ID:2567)</td>
+            <td>63</td>
+            <td>山口３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/28983_10111616.jpg" width="140" height="140" alt="栗原 渉"></td>
+        
+            <td>栗原 渉 (ID:28983)</td>
+            <td>59</td>
+            <td>福岡５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/840_10111616.jpg" width="140" height="140" alt="梶山 弘志"></td>
+        
+            <td>梶山 弘志 (ID:840)</td>
+            <td>69</td>
+            <td>茨城４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1550_10111616.jpg" width="140" height="140" alt="棚橋 泰文"></td>
+        
+            <td>棚橋 泰文 (ID:1550)</td>
+            <td>61</td>
+            <td>岐阜２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/913_10111616.jpg" width="140" height="140" alt="森 英介"></td>
+        
+            <td>森 英介 (ID:913)</td>
+            <td>76</td>
+            <td>千葉１１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/4525_10112040.jpg" width="140" height="140" alt="橘 慶一郎"></td>
+        
+            <td>橘 慶一郎 (ID:4525)</td>
+            <td>63</td>
+            <td>富山３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1553_10111616.jpg" width="140" height="140" alt="武藤 容治"></td>
+        
+            <td>武藤 容治 (ID:1553)</td>
+            <td>69</td>
+            <td>岐阜３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>水野 良彦 (ID:55742)</td>
+            <td>50</td>
+            <td>愛知３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1109_10111616.jpg" width="140" height="140" alt="江藤 拓"></td>
+        
+            <td>江藤 拓 (ID:1109)</td>
+            <td>64</td>
+            <td>宮崎２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/36527_10111616.jpg" width="140" height="140" alt="瀬戸 隆一"></td>
+        
+            <td>瀬戸 隆一 (ID:36527)</td>
+            <td>59</td>
+            <td>香川２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>神田 憲次 (ID:37206)</td>
+            <td>61</td>
+            <td>愛知５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/36639_10111616.jpg" width="140" height="140" alt="福田 達夫"></td>
+        
+            <td>福田 達夫 (ID:36639)</td>
+            <td>57</td>
+            <td>群馬４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/7073_10111616.jpg" width="140" height="140" alt="笹川 博義"></td>
+        
+            <td>笹川 博義 (ID:7073)</td>
+            <td>58</td>
+            <td>群馬３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/36528_10111616.jpg" width="140" height="140" alt="簗 和生"></td>
+        
+            <td>簗 和生 (ID:36528)</td>
+            <td>45</td>
+            <td>栃木３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1182_10111616.jpg" width="140" height="140" alt="茂木 敏充"></td>
+        
+            <td>茂木 敏充 (ID:1182)</td>
+            <td>69</td>
+            <td>栃木５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/1814_10111616.jpg" width="140" height="140" alt="菅 義偉"></td>
+        
+            <td>菅 義偉 (ID:1814)</td>
+            <td>75</td>
+            <td>神奈川２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/838_10111616.jpg" width="140" height="140" alt="葉梨 康弘"></td>
+        
+            <td>葉梨 康弘 (ID:838)</td>
+            <td>65</td>
+            <td>茨城３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/35828_10111616.jpg" width="140" height="140" alt="藤井 比早之"></td>
+        
+            <td>藤井 比早之 (ID:35828)</td>
+            <td>53</td>
+            <td>兵庫４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/47654_10111616.jpg" width="140" height="140" alt="西野 太亮"></td>
+        
+            <td>西野 太亮 (ID:47654)</td>
+            <td>46</td>
+            <td>熊本２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/691_10111616.jpg" width="140" height="140" alt="赤沢 亮正"></td>
+        
+            <td>赤沢 亮正 (ID:691)</td>
+            <td>63</td>
+            <td>鳥取２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/55198_10111616.jpg" width="140" height="140" alt="金子 容三"></td>
+        
+            <td>金子 容三 (ID:55198)</td>
+            <td>41</td>
+            <td>長崎３区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/40981_10111616.jpg" width="140" height="140" alt="鈴木 隼人"></td>
+        
+            <td>鈴木 隼人 (ID:40981)</td>
+            <td>47</td>
+            <td>東京１０区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>門 寛子 (ID:55080)</td>
+            <td>44</td>
+            <td>東京８区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>門山 宏哲 (ID:32383)</td>
+            <td>60</td>
+            <td>千葉１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #d2231925;">自民</td>
+        
+            <td><img src="https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/40297_10111616.jpg" width="140" height="140" alt="高見 康裕"></td>
+        
+            <td>高見 康裕 (ID:40297)</td>
+            <td>44</td>
+            <td>島根２区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #690064; color: white; font-weight: bold;">諸派</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>新藤 伸夫 (ID:38642)</td>
+            <td>75</td>
+            <td>東京１区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #69006425;">諸派</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>河合 悠祐 (ID:52187)</td>
+            <td>43</td>
+            <td>埼玉１５区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #69006425;">諸派</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>高橋 易資 (ID:53246)</td>
+            <td>68</td>
+            <td>埼玉１４区</td>
+        </tr>
+        
+        <tr>
+            <td style="background-color: #69006425;">諸派</td>
+        
+            <td>&nbsp;</td>
+        
+            <td>高橋 秀彰 (ID:55866)</td>
+            <td>42</td>
+            <td>和歌山２区</td>
+        </tr>
+        
+        </tbody>
+    </table>
+    
                 <a href="index.html" class="btn btn-primary mt-3">戻る</a>
             </div>
         </body>

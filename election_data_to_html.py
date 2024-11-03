@@ -13,6 +13,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from plotly.subplots import make_subplots
 
+# 候補者ID, ファイル名
+kao_df = pd.read_csv("kao.csv")
+
+# 1列目が候補者ID、2列目がファイル名
+kao_ids_dict = {
+    str(row[0]): row[1] for row in kao_df[["候補者ID", "ファイル名"]].values
+}
+
 
 def set_japanese_font():
     import matplotlib.pyplot as plt
@@ -421,7 +429,9 @@ def cluster_candidates_kmeans(df, party_colors_df, questions_json, num_clusters=
     return df
 
 
-def visualize_cluster_party_distribution(df, party_colors_df):
+def visualize_cluster_party_distribution(
+    df, party_colors_df, output_file="cluster_party_distribution.html"
+):
     """各クラスター内の政党分布を可視化する"""
     # クラスターごとの政党分布を計算
     cluster_party_distribution = (
@@ -461,9 +471,10 @@ def visualize_cluster_party_distribution(df, party_colors_df):
     )
 
     # HTMLファイルとして保存
-    fig.write_html(os.path.join("html", "cluster_party_distribution.html"))
+    os.makedirs("html", exist_ok=True)
+    fig.write_html(os.path.join("html", output_file))
     print(
-        "クラスター内の政党分布の可視化が完了しました。'cluster_party_distribution.html' を確認してください。"
+        f"クラスター内の政党分布の可視化が完了しました。'{output_file}' を確認してください。"
     )
 
 
@@ -770,25 +781,19 @@ def generate_index_html(
         <div class="container">
             <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計</h1>
             <p>こちらのページでは、候補者の回答データを基にした様々な分析結果をご覧いただけます。</p>
+            <p>アンケートに答えた候補者のアンケート情報を元に、政党別の回答割合やエントロピーを計算し、クラスタリングを行いました。</p>
             <p>ソースコードは、<a href="https://github.com/JFK/shugiin2024">GitHub</a> で公開されています。</p>
             <p>NHKの衆議院選挙2024アンケートに関する情報は、<a href="https://www.nhk.or.jp/senkyo/database/shugiin/">NHK選挙WEB</a>で公開されています。</p>
             <div class="card">
+                <!-- INSERT_WINNERS_SECTION -->
                 <div class="card-header">
-                    <h2>クラスタリング分析</h2>
+                    <h2>候補者分析</h2>
                 </div>
                 <div class="card-body">
                     <p>候補者の政策スタンスを基にクラスタリングを行い、類似したスタンスを持つ候補者同士をグループ化しました。これにより、政党を超えた政策的な共通点を持つ候補者を視覚的に理解できます。</p>
-                    <p><a href="interactive_candidate_clustering.html" class="btn btn-primary">クラスタリング結果を見る</a></p>
+                    <p><a href="interactive_candidate_clustering.html" class="btn btn-primary">分布結果を見る</a></p>
                     <p><a href="cluster_party_distribution.html" class="btn btn-primary">クラスター内の政党分布を見る</a></p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <h2>クラスター詳細</h2>
-                </div>
-                <div class="card-body">
-                    <p>各クラスターの詳細情報を確認できます：</p>
+                    <p>各クラスター内の政党分布の詳細情報を確認できます：</p>
                     <ul>
     """
 
@@ -1024,7 +1029,79 @@ def generate_independent_details_page(df, party_colors_df, inverse_answer_mappin
     print(f"無所属の詳細ページを '{filename}' として生成しました。")
 
 
-def generate_cluster_details_page(df, party_colors_df, num_clusters):
+def create_candidate_table(cluster_data, party_colors, prefix=""):
+    """政党ごとにソートされた候補者テーブルを生成する"""
+    # データを政党ごとにソート
+    sorted_data = cluster_data.sort_values(["党派名", "姓", "名"])
+
+    # 写真URLを生成
+    def get_photo_url(kh_id):
+        filename = kao_ids_dict.get(str(kh_id))
+        if filename is None:
+            return None
+        return f"https://www.nhk.or.jp/senkyo-data/database/shugiin/2024/00/18852/photo/{filename}"
+
+    # HTMLテーブルを手動で構築
+    table_html = """
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>政党</th>
+                <th>写真</th>
+                <th>氏名</th>
+                <th>年齢</th>
+                <th>選挙区名</th>
+            </tr>
+        </thead>
+        <tbody>
+    """
+
+    current_party = None
+    for _, row in sorted_data.iterrows():
+        # 政党が変わったらスタイルを適用
+        party_color = party_colors.get(row["党派名"], "#000000")
+        if current_party != row["党派名"]:
+            current_party = row["党派名"]
+            party_style = (
+                f"background-color: {party_color}; color: white; font-weight: bold;"
+            )
+        else:
+            party_style = (
+                f"background-color: {party_color}25;"  # 25は透明度を表す16進数
+            )
+
+        # 写真URLの生成
+        photo_url = get_photo_url(row["候補者ID"])
+
+        # 行を追加
+        table_html += f"""
+        <tr>
+            <td style="{party_style}">{row['党派名']}</td>
+        """
+        if photo_url is None:
+            table_html += """
+            <td>&nbsp;</td>
+        """
+        else:
+            table_html += f"""
+            <td><img src="{photo_url}" width="140" height="140" alt="{row['姓']} {row['名']}"></td>
+        """
+        table_html += f"""
+            <td>{row['姓']} {row['名']} (ID:{row["候補者ID"]})</td>
+            <td>{row['年齢']}</td>
+            <td>{row['選挙区名']}</td>
+        </tr>
+        """
+
+    table_html += """
+        </tbody>
+    </table>
+    """
+
+    return table_html
+
+
+def generate_cluster_details_page(df, party_colors_df, num_clusters, prefix=""):
     """クラスターごとの詳細ページを生成する"""
     os.makedirs("html", exist_ok=True)
 
@@ -1035,6 +1112,10 @@ def generate_cluster_details_page(df, party_colors_df, num_clusters):
 
     for cluster in range(num_clusters):
         cluster_data = df[df["Cluster"] == cluster]
+        other_data = df[df["Cluster"] != cluster]  # 他のクラスタのデータ
+
+        if len(cluster_data) == 0:
+            continue  # データが存在しないクラスタはスキップ
 
         # クラスター内の政党分布を計算
         party_distribution = cluster_data["党派名"].value_counts()
@@ -1044,41 +1125,83 @@ def generate_cluster_details_page(df, party_colors_df, num_clusters):
         fig_pie = px.pie(
             values=party_distribution,
             names=party_distribution.index,
-            title=f"クラスター {cluster + 1} の政党分布",
+            title=f"{prefix}クラスター {cluster + 1} の政党分布",
             color=party_distribution.index,
             color_discrete_map=party_colors,
         )
 
-        # クラスター内の候補者の散布図を作成
-        fig_scatter = px.scatter(
-            cluster_data,
-            x="PCA1",
-            y="PCA2",
-            color="党派名",
-            hover_data=["姓", "名", "年齢", "選挙区名"],
-            title=f"クラスター {cluster + 1} の候補者分布",
-            color_discrete_map=party_colors,
+        # 散布図を作成（go.Figureを使用）
+        fig_scatter = go.Figure()
+
+        # 選択されたクラスタのデータを政党ごとに表示
+        for party_name in sorted(cluster_data["党派名"].unique()):
+            party_data = cluster_data[cluster_data["党派名"] == party_name]
+
+            hover_text = [
+                f"氏名: {row['姓']} {row['名']}<br>"
+                f"党派: {party_name}<br>"
+                f"年齢: {row['年齢']}<br>"
+                f"選挙区: {row['選挙区名']}"
+                for _, row in party_data.iterrows()
+            ]
+
+            fig_scatter.add_trace(
+                go.Scatter(
+                    x=party_data["PCA1"],
+                    y=party_data["PCA2"],
+                    mode="markers",
+                    marker=dict(
+                        color=party_colors.get(party_name, "#000000"),
+                        size=10,
+                        line=dict(color="white", width=1),
+                    ),
+                    name=party_name,
+                    text=hover_text,
+                    hoverinfo="text",
+                    showlegend=True,
+                )
+            )
+
+        # 散布図のレイアウトを更新
+        fig_scatter.update_layout(
+            title=f"{prefix}クラスター {cluster + 1} の候補者分布",
+            xaxis_title="主成分1",
+            yaxis_title="主成分2",
+            template="plotly_white",
+            legend=dict(yanchor="top", y=0.99, xanchor="left", x=1.05),
+            showlegend=True,
         )
 
         # サブプロットを作成
         fig = make_subplots(
-            rows=1, cols=2, specs=[[{"type": "domain"}, {"type": "xy"}]]
+            rows=1,
+            cols=2,
+            specs=[[{"type": "domain"}, {"type": "xy"}]],
+            horizontal_spacing=0.05,
         )
+
+        # 円グラフを追加
         fig.add_trace(fig_pie.data[0], row=1, col=1)
-        fig.add_trace(fig_scatter.data[0], row=1, col=2)
+
+        # 散布図のトレースを追加
+        for trace in fig_scatter.data:
+            fig.add_trace(trace, row=1, col=2)
 
         # レイアウトの更新
         fig.update_layout(
-            title_text=f"クラスター {cluster + 1} の詳細", height=600, width=1200
+            title_text=f"{prefix}クラスター {cluster + 1} の詳細",
+            height=600,
+            width=1000,
+            showlegend=True,
+            legend=dict(yanchor="top", y=0.99, xanchor="left", x=1.05),
         )
 
         # HTMLファイルとして保存
-        fig.write_html(os.path.join("html", f"cluster_{cluster + 1}_details.html"))
-
-        # 候補者リストのテーブルを作成
-        candidate_table = cluster_data[
-            ["姓", "名", "党派名", "年齢", "選挙区名"]
-        ].to_html(index=False)
+        fig.write_html(
+            os.path.join("html", f"{prefix}cluster_{cluster + 1}_details.html")
+        )
+        # 拡張された候補者テーブルを生成
+        candidate_table = create_candidate_table(cluster_data, party_colors, prefix)
 
         # HTMLコンテンツの作成
         html_content = f"""
@@ -1086,14 +1209,23 @@ def generate_cluster_details_page(df, party_colors_df, num_clusters):
         <html lang="ja">
         <head>
             <meta charset="UTF-8">
-            <title>クラスター {cluster + 1} の詳細</title>
+            <title>{prefix}クラスター {cluster + 1} の詳細</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <style>
+                .candidate-photo {{
+                    object-fit: cover;
+                    border-radius: 5px;
+                }}
+                .table td {{
+                    vertical-align: middle;
+                }}
+            </style>
         </head>
         <body>
             <div class="container">
-                <h1 class="text-center">クラスター {cluster + 1} の詳細</h1>
+                <h1 class="text-center">{prefix}クラスター {cluster + 1} の詳細</h1>
                 <div id="charts">
-                    <iframe src="cluster_{cluster + 1}_details.html" width="100%" height="620" frameborder="0"></iframe>
+                    <iframe src="{prefix}cluster_{cluster + 1}_details.html" width="100%" height="620" frameborder="0"></iframe>
                 </div>
                 <h2>政党分布</h2>
                 <table class="table table-striped">
@@ -1105,7 +1237,7 @@ def generate_cluster_details_page(df, party_colors_df, num_clusters):
                         </tr>
                     </thead>
                     <tbody>
-                        {"".join(f"<tr><td>{party}</td><td>{count}</td><td>{percentage:.2f}%</td></tr>" for party, count, percentage in zip(party_distribution.index, party_distribution, party_distribution_percentage))}
+                        {"".join(f"<tr><td style='background-color: {party_colors.get(party, '#000000')}; color: white;'>{party}</td><td>{count}</td><td>{percentage:.2f}%</td></tr>" for party, count, percentage in zip(party_distribution.index, party_distribution, party_distribution_percentage))}
                     </tbody>
                 </table>
                 <h2>候補者リスト</h2>
@@ -1118,13 +1250,13 @@ def generate_cluster_details_page(df, party_colors_df, num_clusters):
 
         # ファイルに保存
         with open(
-            os.path.join("html", f"cluster_{cluster + 1}_details_full.html"),
+            os.path.join("html", f"{prefix}cluster_{cluster + 1}_details_full.html"),
             "w",
             encoding="utf-8",
         ) as f:
             f.write(html_content)
 
-    print(f"{num_clusters}個のクラスター詳細ページを生成しました。")
+    print(f"{num_clusters}個の{prefix}クラスター詳細ページを生成しました。")
 
 
 def update_index_html_with_clusters(num_clusters):
@@ -1164,6 +1296,280 @@ def update_index_html_with_clusters(num_clusters):
         f.write(new_content)
 
     print("index.htmlにクラスター詳細へのリンクを追加しました。")
+
+
+def import_winner_ids(kekka_file="kekka.xml"):
+    """kekka.xmlから当選者IDを読み込む"""
+    import xml.etree.ElementTree as ET
+
+    if not os.path.exists(kekka_file):
+        print(f"当選者データファイルが見つかりません: {kekka_file}")
+        return []
+
+    try:
+        tree = ET.parse(kekka_file)
+        root = tree.getroot()
+
+        # 名前空間を削除
+        for elem in tree.iter():
+            if "}" in elem.tag:
+                elem.tag = elem.tag.split("}", 1)[1]
+
+        winner_ids = []
+        for koho in root.findall("./hrtsn/prty/hrBlk/koho"):
+            kh_id = koho.get("khId")
+            if kh_id:
+                winner_ids.append(str(kh_id))  # IDを文字列として保存
+
+        print(f"当選者ID数: {len(winner_ids)}")
+        return winner_ids
+    except Exception as e:
+        print(f"当選者データの読み込みエラー: {e}")
+        return [], {}
+
+
+def analyze_winners(
+    df, winner_ids, party_colors_df, questions_json, inverse_answer_mapping
+):
+    """当選者データを分析する"""
+    # 候補者IDを文字列型に変換
+    df["候補者ID"] = df["候補者ID"].astype(str)
+
+    # 当選者データを抽出
+    df_winners = df[df["候補者ID"].isin(winner_ids)].copy()
+
+    if len(df_winners) == 0:
+        print("当選者データが見つかりません。")
+        return None, None, None
+
+    print(f"当選者数: {len(df_winners)}")
+
+    # 当選者の回答分析
+    df_winner_results = analyze_party_response_ratios(
+        df_winners, questions_json, inverse_answer_mapping
+    )
+
+    # 当選者のエントロピー計算
+    df_winner_entropy = compute_answer_entropy(df_winners, questions_json)
+
+    # 当選者の可視化ページを生成
+    visualize_winners(
+        df_winners,
+        df_winner_results,
+        df_winner_entropy,
+        party_colors_df,
+    )
+
+    return df_winners, df_winner_results, df_winner_entropy
+
+
+def visualize_winners(df_winners, df_results, df_entropy, party_colors_df):
+    """当選者の分析結果を可視化する"""
+    os.makedirs("html", exist_ok=True)
+
+    # 政党分布の円グラフ
+    party_dist = df_winners["党派名"].value_counts()
+    fig_party = px.pie(
+        values=party_dist,
+        names=party_dist.index,
+        title="当選者の政党分布",
+        color=party_dist.index,
+        color_discrete_map=dict(
+            zip(party_colors_df["政党名（略）"], party_colors_df["政党カラー"])
+        ),
+    )
+
+    # 政党別の平均エントロピー
+    avg_entropy = df_entropy.groupby("政党名")["エントロピー"].mean().reset_index()
+    fig_entropy = px.bar(
+        avg_entropy,
+        x="政党名",
+        y="エントロピー",
+        title="当選者の政党別平均エントロピー",
+        color="政党名",
+        color_discrete_map=dict(
+            zip(party_colors_df["政党名（略）"], party_colors_df["政党カラー"])
+        ),
+    )
+
+    # 政党カラーの辞書を作成
+    party_colors = dict(
+        zip(party_colors_df["政党名（略）"], party_colors_df["政党カラー"])
+    )
+    winners_table = create_candidate_table(df_winners, party_colors)
+
+    # HTMLページ生成
+    html_content = f"""
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>当選者分析 - 衆議院選挙2024</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center mb-4">当選者分析</h1>
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h2>政党分布</h2>
+                </div>
+                <div class="card-body">
+                    {fig_party.to_html(full_html=False, include_plotlyjs='cdn')}
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h2>エントロピー分析</h2>
+                </div>
+                <div class="card-body">
+                    {fig_entropy.to_html(full_html=False, include_plotlyjs=False)}
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h2>当選者リスト</h2>
+                </div>
+                <div class="card-body">
+                    {winners_table}
+                </div>
+            </div>
+            <a href="index.html" class="btn btn-primary">戻る</a>
+        </div>
+    </body>
+    </html>
+    """
+
+    with open(
+        os.path.join("html", "winners_analysis.html"), "w", encoding="utf-8"
+    ) as f:
+        f.write(html_content)
+
+
+def update_index_html_with_winners(index_path, num_clusters):
+    """index.htmlに当選者分析へのリンクを追加"""
+    with open(index_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    winners_section = """
+            <div class="card">
+                <div class="card-header">
+                    <h2>当選者分析</h2>
+                </div>
+                <div class="card-body">
+                    <p><a href="winners_analysis.html" class="btn btn-primary">当選者の分析詳細</a></p>
+                    <p><a href="interactive_winners_clustering.html" class="btn btn-primary">当選者の分布結果を見る</a></p>
+                </div>
+                <div class="card-body">
+                    <p>当選者の各クラスター内の政党分布の詳細情報を確認できます：</p>
+"""
+    for n in num_clusters:
+        winners_section += "--"
+        winners_section += f"<h4>{n}分類でのクラスター内の政党分布</h4>"
+        winners_section += f'<p><a href="winners_clustering_{n}.html" class="btn btn-primary">当選者のクラスタリング内の政党分布を見る</a></p>'
+        winners_section += "<ul>\n"
+        for i in range(0, n):
+            winners_section += f'<li><a href="c{n}_winners_cluster_{i + 1}_details_full.html" >クラスター {i + 1} の詳細</a></li>\n'
+        winners_section += "</ul>"
+    winners_section += """
+                </div>
+            </div>
+    """
+
+    # 適切な位置にセクションを挿入
+    content = content.replace("<!-- INSERT_WINNERS_SECTION -->", winners_section)
+
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+
+def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=True):
+    """当選者のクラスタリング結果を可視化する"""
+    # 候補者IDを文字列型に統一
+    df["候補者ID"] = df["候補者ID"].astype(str)
+    winner_ids = [str(id) for id in winner_ids]
+
+    # 当選フラグを追加
+    df["is_winner"] = df["候補者ID"].isin(winner_ids)
+
+    # 政党IDと政党名のマッピングを作成
+    party_id_to_name = dict(zip(df["党派ID"].astype(str), df["党派名"]))
+
+    fig = go.Figure()
+
+    # 非当選者を薄く表示
+    non_winners = df[~df["is_winner"]]
+    fig.add_trace(
+        go.Scatter(
+            x=non_winners["PCA1"],
+            y=non_winners["PCA2"],
+            mode="markers",
+            name="非当選者",
+            marker=dict(size=8, color="lightgray", opacity=0.3),
+            hoverinfo="skip",
+            showlegend=True,
+        )
+    )
+
+    # 当選者を政党ごとにプロット
+    winners = df[df["is_winner"]]
+    for party_id, party_name in sorted(party_id_to_name.items(), key=lambda x: x[1]):
+        party_winners = winners[winners["党派ID"].astype(str) == party_id]
+
+        if party_winners.empty:
+            continue
+
+        try:
+            party_color = party_colors_df.set_index("政党ID").loc[
+                party_id, "政党カラー"
+            ]
+        except KeyError:
+            party_color = "#000000"
+
+        hover_text = [
+            f"氏名: {row['姓']} {row['名']}<br>"
+            f"党派: {party_name}<br>"
+            f"年齢: {row['年齢']}<br>"
+            f"選挙区: {row['選挙区名']}<br>"
+            f"クラスタ: {row['Cluster'] + 1}"
+            for _, row in party_winners.iterrows()
+        ]
+
+        fig.add_trace(
+            go.Scatter(
+                x=party_winners["PCA1"],
+                y=party_winners["PCA2"],
+                mode="markers",
+                name=f"{party_name} (当選)",
+                marker=dict(
+                    size=12,
+                    color=party_color,
+                    opacity=1.0,
+                    line=dict(color="white", width=1),
+                ),
+                text=hover_text,
+                hoverinfo="text",
+                showlegend=True,
+            )
+        )
+
+    fig.update_layout(
+        title="当選者のクラスタリング結果（全体の中での位置）",
+        xaxis_title="主成分1",
+        yaxis_title="主成分2",
+        template="plotly_white",
+        legend_title="政党",
+        legend=dict(groupclick="toggleitem", tracegroupgap=5),
+    )
+
+    # HTMLファイルとして保存
+    if output_flag:
+        os.makedirs("html", exist_ok=True)
+        filename = f"interactive_winners_clustering.html"
+        fig.write_html(os.path.join("html", filename))
+        print(f"当選者のクラスタリング結果を '{filename}' として生成しました。")
+
+    return winners
 
 
 def main():
@@ -1211,20 +1617,72 @@ def main():
     cluster_candidates(df, party_colors_df, questions_json)
 
     # クラスタリング(kmeans)手法の実行と結果の取得
-    num_clusters = 4
+    all_num_clusters = 4
     df_clustered = cluster_candidates_kmeans(
-        df, party_colors_df, questions_json, num_clusters=num_clusters
+        df, party_colors_df, questions_json, num_clusters=all_num_clusters
     )
+
+    winner_ids = import_winner_ids()
+
+    # クラスターごとの詳細ページを生成
+    generate_cluster_details_page(df_clustered, party_colors_df, all_num_clusters)
 
     # クラスター内の政党分布を可視化
     visualize_cluster_party_distribution(df_clustered, party_colors_df)
 
-    # クラスターごとの詳細ページを生成
-    generate_cluster_details_page(df_clustered, party_colors_df, num_clusters)
+    # 当選者IDの読み込み
+    num_clusters_list = [2, 3, 4, 5]
+    if not winner_ids:
+        print("当選者データを読み込めませんでした。")
+    else:
+        # 当選者の分析
+        df_winners, df_winner_results, df_winner_entropy = analyze_winners(
+            df_clustered,  # クラスタリング済みの全データから当選者をフィルタリング
+            winner_ids,
+            party_colors_df,
+            questions_json,
+            inverse_answer_mapping,
+        )
+
+        # 当選者の可視化とクラスタリング
+        df_winners = visualize_winners_clustering(
+            df_clustered, winner_ids, party_colors_df
+        )
+
+        for num_clusters in num_clusters_list:
+            df_clustered = cluster_candidates_kmeans(
+                df, party_colors_df, questions_json, num_clusters=num_clusters
+            )
+
+            # 当選者の可視化とクラスタリング
+            df_winners = visualize_winners_clustering(
+                df_clustered,
+                winner_ids,
+                party_colors_df,
+                False,
+            )
+
+            if not df_winners.empty:
+                # 当選者のクラスタ分布を可視化
+                output_file = f"winners_clustering_{num_clusters}.html"
+                visualize_cluster_party_distribution(
+                    df_winners, party_colors_df, output_file=output_file
+                )
+
+                # クラスターごとの当選者詳細ページを生成
+                prefix = f"c{num_clusters}_winners_"
+                generate_cluster_details_page(
+                    df_winners, party_colors_df, num_clusters, prefix=prefix
+                )
 
     # index.html を生成（新しい関数に渡す引数を修正）
     generate_index_html(
-        df_results, df_entropy, questions_json, average_entropy, num_clusters
+        df_results, df_entropy, questions_json, average_entropy, all_num_clusters
+    )
+
+    # 当選者分析へのリンクを追加
+    update_index_html_with_winners(
+        os.path.join("html", "index.html"), num_clusters_list
     )
 
     print(

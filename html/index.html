@@ -35,25 +35,51 @@
         <div class="container">
             <h1 class="text-center">NHKの衆議院選挙2024各候補者アンケート集計</h1>
             <p>こちらのページでは、候補者の回答データを基にした様々な分析結果をご覧いただけます。</p>
+            <p>アンケートに答えた候補者のアンケート情報を元に、政党別の回答割合やエントロピーを計算し、クラスタリングを行いました。</p>
             <p>ソースコードは、<a href="https://github.com/JFK/shugiin2024">GitHub</a> で公開されています。</p>
             <p>NHKの衆議院選挙2024アンケートに関する情報は、<a href="https://www.nhk.or.jp/senkyo/database/shugiin/">NHK選挙WEB</a>で公開されています。</p>
             <div class="card">
+                
+            <div class="card">
                 <div class="card-header">
-                    <h2>クラスタリング分析</h2>
+                    <h2>当選者分析</h2>
+                </div>
+                <div class="card-body">
+                    <p><a href="winners_analysis.html" class="btn btn-primary">当選者の分析詳細</a></p>
+                    <p><a href="interactive_winners_clustering.html" class="btn btn-primary">当選者の分布結果を見る</a></p>
+                </div>
+                <div class="card-body">
+                    <p>当選者の各クラスター内の政党分布の詳細情報を確認できます：</p>
+--<h4>2分類でのクラスター内の政党分布</h4><p><a href="winners_clustering_2.html" class="btn btn-primary">当選者のクラスタリング内の政党分布を見る</a></p><ul>
+<li><a href="c2_winners_cluster_1_details_full.html" >クラスター 1 の詳細</a></li>
+<li><a href="c2_winners_cluster_2_details_full.html" >クラスター 2 の詳細</a></li>
+</ul>--<h4>3分類でのクラスター内の政党分布</h4><p><a href="winners_clustering_3.html" class="btn btn-primary">当選者のクラスタリング内の政党分布を見る</a></p><ul>
+<li><a href="c3_winners_cluster_1_details_full.html" >クラスター 1 の詳細</a></li>
+<li><a href="c3_winners_cluster_2_details_full.html" >クラスター 2 の詳細</a></li>
+<li><a href="c3_winners_cluster_3_details_full.html" >クラスター 3 の詳細</a></li>
+</ul>--<h4>4分類でのクラスター内の政党分布</h4><p><a href="winners_clustering_4.html" class="btn btn-primary">当選者のクラスタリング内の政党分布を見る</a></p><ul>
+<li><a href="c4_winners_cluster_1_details_full.html" >クラスター 1 の詳細</a></li>
+<li><a href="c4_winners_cluster_2_details_full.html" >クラスター 2 の詳細</a></li>
+<li><a href="c4_winners_cluster_3_details_full.html" >クラスター 3 の詳細</a></li>
+<li><a href="c4_winners_cluster_4_details_full.html" >クラスター 4 の詳細</a></li>
+</ul>--<h4>5分類でのクラスター内の政党分布</h4><p><a href="winners_clustering_5.html" class="btn btn-primary">当選者のクラスタリング内の政党分布を見る</a></p><ul>
+<li><a href="c5_winners_cluster_1_details_full.html" >クラスター 1 の詳細</a></li>
+<li><a href="c5_winners_cluster_2_details_full.html" >クラスター 2 の詳細</a></li>
+<li><a href="c5_winners_cluster_3_details_full.html" >クラスター 3 の詳細</a></li>
+<li><a href="c5_winners_cluster_4_details_full.html" >クラスター 4 の詳細</a></li>
+<li><a href="c5_winners_cluster_5_details_full.html" >クラスター 5 の詳細</a></li>
+</ul>
+                </div>
+            </div>
+    
+                <div class="card-header">
+                    <h2>候補者分析</h2>
                 </div>
                 <div class="card-body">
                     <p>候補者の政策スタンスを基にクラスタリングを行い、類似したスタンスを持つ候補者同士をグループ化しました。これにより、政党を超えた政策的な共通点を持つ候補者を視覚的に理解できます。</p>
-                    <p><a href="interactive_candidate_clustering.html" class="btn btn-primary">クラスタリング結果を見る</a></p>
+                    <p><a href="interactive_candidate_clustering.html" class="btn btn-primary">分布結果を見る</a></p>
                     <p><a href="cluster_party_distribution.html" class="btn btn-primary">クラスター内の政党分布を見る</a></p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <h2>クラスター詳細</h2>
-                </div>
-                <div class="card-body">
-                    <p>各クラスターの詳細情報を確認できます：</p>
+                    <p>各クラスター内の政党分布の詳細情報を確認できます：</p>
                     <ul>
             <li><a href="cluster_1_details_full.html">クラスター 1 の詳細</a></li>
         <li><a href="cluster_2_details_full.html">クラスター 2 の詳細</a></li>

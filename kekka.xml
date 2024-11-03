@@ -1,0 +1,2504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nhk-el:tsnall xmlns:nhk-el="http://www.xml-nhk-el.or.jp" xmlns:xsi="http://www.w3.org/2001/XMLSchema" upd="2024/10/28 06:50:21" dosaMode="pub" ctsFor="ka" elId="18852" elNm="衆院選" elTypeId="1" station="000">
+  <prtyGrpLst>
+    <prtyGrp prtyGrpId="1" dispOdr="1" prtyGrpNm="与党"/>
+    <prtyGrp prtyGrpId="2" dispOdr="2" prtyGrpNm="野党他"/>
+  </prtyGrpLst>
+  <senktsn>
+    <ken nhkPftCd="01" pftNm="北海道" senkSu="12">
+      <senk senkId="52042" senkNm="北海道１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="6603" khNmKnj="道下　大樹" khNmKana="みちした　だいき" prtyId="195" prtyNm="立民" zmskNm="前" age="48" tsKaisu="3" prof1="元北海道議会議員" prof2="元衆議院議員秘書" rcmmPrty="社民道連合" support="" kao="6603_10111616.jpg"/>
+      </senk>
+      <senk senkId="52043" senkNm="北海道２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="805" khNmKnj="松木　謙公" khNmKana="まつき　けんこう" prtyId="195" prtyNm="立民" zmskNm="前" age="65" tsKaisu="7" prof1="元農林水産政務官" prof2="業界紙社長" rcmmPrty="社民道連合" support="" kao="805_10111616.jpg"/>
+      </senk>
+      <senk senkId="52044" senkNm="北海道３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="52514" khNmKnj="荒井　優" khNmKana="あらい　ゆたか" prtyId="195" prtyNm="立民" zmskNm="前" age="49" tsKaisu="2" prof1="学校法人副理事長" prof2="元ソフトバンク社員" rcmmPrty="社民道連合" support="" kao="52514_10111616.jpg"/>
+      </senk>
+      <senk senkId="52045" senkNm="北海道４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="52568" khNmKnj="大築　紅葉" khNmKana="おおつき　くれは" prtyId="195" prtyNm="立民" zmskNm="前" age="41" tsKaisu="2" prof1="元フジテレビ記者" prof2="立憲民主党国会対策委員長補佐" rcmmPrty="社民道連合" support="" kao="52568_10111616.jpg"/>
+      </senk>
+      <senk senkId="52046" senkNm="北海道５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="40939" khNmKnj="池田　真紀" khNmKana="いけだ　まき" prtyId="195" prtyNm="立民" zmskNm="元" age="52" tsKaisu="2" prof1="元東京都板橋区職員" prof2="社会福祉士" rcmmPrty="社民道連合" support="" kao="40939_10111616.jpg"/>
+      </senk>
+      <senk senkId="52047" senkNm="北海道６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="6614" khNmKnj="東　国幹" khNmKana="あずま　くによし" prtyId="1" prtyNm="自民" zmskNm="前" age="56" tsKaisu="2" prof1="元北海道議会議員" prof2="元北海道旭川市議会議員" rcmmPrty="公明・大地" support="" kao="6614_10111616.jpg"/>
+      </senk>
+      <senk senkId="52048" senkNm="北海道７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="37085" khNmKnj="鈴木　貴子" khNmKana="すずき　たかこ" prtyId="1" prtyNm="自民" zmskNm="前" age="38" tsKaisu="5" prof1="元外務副大臣" prof2="元ＮＨＫディレクター" rcmmPrty="公明・大地" support="" kao="37085_10111616.jpg"/>
+      </senk>
+      <senk senkId="52049" senkNm="北海道８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2618" khNmKnj="逢坂　誠二" khNmKana="おおさか　せいじ" prtyId="195" prtyNm="立民" zmskNm="前" age="65" tsKaisu="6" prof1="元立憲民主党代表代行" prof2="元総理大臣補佐官" rcmmPrty="社民道連合" support="" kao="2618_10111616.jpg"/>
+      </senk>
+      <senk senkId="52050" senkNm="北海道９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="5043" khNmKnj="山岡　達丸" khNmKana="やまおか　たつまる" prtyId="195" prtyNm="立民" zmskNm="前" age="45" tsKaisu="4" prof1="元ＮＨＫ記者" prof2="立憲民主党副幹事長" rcmmPrty="社民道連合" support="" kao="5043_10111616.jpg"/>
+      </senk>
+      <senk senkId="52051" senkNm="北海道１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="40940" khNmKnj="神谷　裕" khNmKana="かみや　ひろし" prtyId="195" prtyNm="立民" zmskNm="前" age="56" tsKaisu="3" prof1="元衆議院議員秘書" prof2="元日本かつお・まぐろ漁協職員" rcmmPrty="社民道連合" support="" kao="40940_10111616.jpg"/>
+      </senk>
+      <senk senkId="52052" senkNm="北海道１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="48635" khNmKnj="石川　香織" khNmKana="いしかわ　かおり" prtyId="195" prtyNm="立民" zmskNm="前" age="40" tsKaisu="3" prof1="元日本ＢＳ放送アナウンサー" prof2="立憲民主党副幹事長" rcmmPrty="" support="社民道連合" kao="48635_10111616.jpg"/>
+      </senk>
+      <senk senkId="52053" senkNm="北海道１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36688" khNmKnj="武部　新" khNmKana="たけべ　あらた" prtyId="1" prtyNm="自民" zmskNm="前" age="54" tsKaisu="5" prof1="文部科学副大臣" prof2="元農林水産副大臣" rcmmPrty="公明・大地" support="" kao="36688_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="02" pftNm="青森" senkSu="3">
+      <senk senkId="52054" senkNm="青森１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="4997" khNmKnj="津島　淳" khNmKana="つしま　じゅん" prtyId="1" prtyNm="自民" zmskNm="前" age="58" tsKaisu="5" prof1="元法務副大臣" prof2="自民党青森県連会長" rcmmPrty="公明" support="" kao="4997_10111616.jpg"/>
+      </senk>
+      <senk senkId="52055" senkNm="青森２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="52580" khNmKnj="神田　潤一" khNmKana="かんだ　じゅんいち" prtyId="1" prtyNm="自民" zmskNm="前" age="54" tsKaisu="2" prof1="内閣府政務官" prof2="元日本銀行職員" rcmmPrty="公明" support="" kao="52580_10111616.jpg"/>
+      </senk>
+      <senk senkId="52056" senkNm="青森３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55532" khNmKnj="岡田　華子" khNmKana="おかだ　はなこ" prtyId="195" prtyNm="立民" zmskNm="新" age="44" tsKaisu="1" prof1="弁護士" prof2="AGC社員" rcmmPrty="社民県連合" support="" kao="55532_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="03" pftNm="岩手" senkSu="3">
+      <senk senkId="52057" senkNm="岩手１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3301" khNmKnj="階　猛" khNmKana="しな　たけし" prtyId="195" prtyNm="立民" zmskNm="前" age="58" tsKaisu="7" prof1="元総務政務官" prof2="弁護士" rcmmPrty="" support="" kao="3301_10111616.jpg"/>
+      </senk>
+      <senk senkId="52058" senkNm="岩手２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1498" khNmKnj="鈴木　俊一" khNmKana="すずき　しゅんいち" prtyId="1" prtyNm="自民" zmskNm="前" age="71" tsKaisu="11" prof1="元財務大臣" prof2="自民党総務会長" rcmmPrty="公明" support="" kao="1498_10111616.jpg"/>
+      </senk>
+      <senk senkId="52059" senkNm="岩手３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1301" khNmKnj="小沢　一郎" khNmKana="おざわ　いちろう" prtyId="195" prtyNm="立民" zmskNm="前" age="82" tsKaisu="19" prof1="元自由党代表" prof2="元民主党代表" rcmmPrty="" support="" kao="1301_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="04" pftNm="宮城" senkSu="5">
+      <senk senkId="52060" senkNm="宮城１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3183" khNmKnj="岡本　章子" khNmKana="おかもと　あきこ" prtyId="195" prtyNm="立民" zmskNm="前" age="60" tsKaisu="3" prof1="立憲民主党宮城県連代表代行" prof2="元仙台市議会議員" rcmmPrty="" support="" kao="3183_10111616.jpg"/>
+      </senk>
+      <senk senkId="52061" senkNm="宮城２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="36608" khNmKnj="鎌田　さゆり" khNmKana="かまた　さゆり" prtyId="195" prtyNm="立民" zmskNm="前" age="59" tsKaisu="4" prof1="立憲民主党宮城県連副代表" prof2="元宮城県議会議員" rcmmPrty="" support="" kao="36608_10111616.jpg"/>
+      </senk>
+      <senk senkId="52062" senkNm="宮城３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55552" khNmKnj="柳沢　剛" khNmKana="やなぎさわ　つよし" prtyId="195" prtyNm="立民" zmskNm="新" age="61" tsKaisu="1" prof1="元仙台放送アナウンサー" prof2="少年野球チーム監督" rcmmPrty="" support="" kao="55552_10111616.jpg"/>
+      </senk>
+      <senk senkId="52063" senkNm="宮城４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="4" khNmKnj="安住　淳" khNmKana="あずみ　じゅん" prtyId="195" prtyNm="立民" zmskNm="前" age="62" tsKaisu="10" prof1="元財務大臣" prof2="元立憲民主党国会対策委員長" rcmmPrty="" support="" kao="4_10111616.jpg"/>
+      </senk>
+      <senk senkId="52064" senkNm="宮城５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1517" khNmKnj="小野寺　五典" khNmKana="おのでら　いつのり" prtyId="1" prtyNm="自民" zmskNm="前" age="64" tsKaisu="9" prof1="自民党政務調査会長" prof2="元防衛大臣" rcmmPrty="公明" support="" kao="1517_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="05" pftNm="秋田" senkSu="3">
+      <senk senkId="52066" senkNm="秋田１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="6782" khNmKnj="冨樫　博之" khNmKana="とがし　ひろゆき" prtyId="1" prtyNm="自民" zmskNm="前" age="69" tsKaisu="5" prof1="元復興副大臣" prof2="元自民党副幹事長" rcmmPrty="公明" support="" kao="6782_10111616.jpg"/>
+      </senk>
+      <senk senkId="52067" senkNm="秋田２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="40915" khNmKnj="緑川　貴士" khNmKana="みどりかわ　たかし" prtyId="195" prtyNm="立民" zmskNm="前" age="39" tsKaisu="3" prof1="立憲民主党秋田県連代表" prof2="元秋田朝日放送アナウンサー" rcmmPrty="" support="" kao="40915_10111616.jpg"/>
+      </senk>
+      <senk senkId="52068" senkNm="秋田３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="811" khNmKnj="村岡　敏英" khNmKana="むらおか　としひで" prtyId="197" prtyNm="国民" zmskNm="元" age="64" tsKaisu="3" prof1="国民民主党秋田県連代表" prof2="元官房長官秘書官" rcmmPrty="" support="" kao="811_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="06" pftNm="山形" senkSu="3">
+      <senk senkId="52069" senkNm="山形１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="812" khNmKnj="遠藤　利明" khNmKana="えんどう　としあき" prtyId="1" prtyNm="自民" zmskNm="前" age="74" tsKaisu="10" prof1="元オリンピック・パラリンピック担当大臣" prof2="元自民党総務会長" rcmmPrty="公明" support="" kao="812_10111616.jpg"/>
+      </senk>
+      <senk senkId="52070" senkNm="山形２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36070" khNmKnj="鈴木　憲和" khNmKana="すずき　のりかず" prtyId="1" prtyNm="自民" zmskNm="前" age="42" tsKaisu="5" prof1="農林水産副大臣" prof2="元外務政務官" rcmmPrty="公明" support="" kao="36070_10111616.jpg"/>
+      </senk>
+      <senk senkId="52071" senkNm="山形３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="40833" khNmKnj="加藤　鮎子" khNmKana="かとう　あゆこ" prtyId="1" prtyNm="自民" zmskNm="前" age="45" tsKaisu="4" prof1="元こども政策担当大臣" prof2="元国土交通政務官" rcmmPrty="公明" support="" kao="40833_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="07" pftNm="福島" senkSu="4">
+      <senk senkId="52072" senkNm="福島１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3286" khNmKnj="金子　恵美" khNmKana="かねこ　えみ" prtyId="195" prtyNm="立民" zmskNm="前" age="59" tsKaisu="4" prof1="元復興政務官" prof2="元参議院議員" rcmmPrty="" support="" kao="3286_10231726.jpg"/>
+      </senk>
+      <senk senkId="52073" senkNm="福島２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="829" khNmKnj="玄葉　光一郎" khNmKana="げんば　こういちろう" prtyId="195" prtyNm="立民" zmskNm="前" age="60" tsKaisu="11" prof1="元外務大臣" prof2="元国家戦略担当大臣" rcmmPrty="" support="" kao="829_10111616.jpg"/>
+      </senk>
+      <senk senkId="52074" senkNm="福島３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="4178" khNmKnj="小熊　慎司" khNmKana="おぐま　しんじ" prtyId="195" prtyNm="立民" zmskNm="前" age="56" tsKaisu="5" prof1="元参議院議員" prof2="元福島県議会議員" rcmmPrty="" support="" kao="4178_10221039.jpg"/>
+      </senk>
+      <senk senkId="52075" senkNm="福島４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="46892" khNmKnj="坂本　竜太郎" khNmKana="さかもと　りゅうたろう" prtyId="1" prtyNm="自民" zmskNm="新" age="44" tsKaisu="1" prof1="元福島県議会議員" prof2="元福島県いわき市議会議員" rcmmPrty="公明" support="" kao="46892_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="08" pftNm="茨城" senkSu="7">
+      <senk senkId="52077" senkNm="茨城１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="834" khNmKnj="福島　伸享" khNmKana="ふくしま　のぶゆき" prtyId="-1" prtyNm="無" zmskNm="前" age="54" tsKaisu="4" prof1="元内閣官房参事官補佐" prof2="元筑波大学客員教授" rcmmPrty="" support="" kao="834_10111616.jpg"/>
+      </senk>
+      <senk senkId="52078" senkNm="茨城２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="837" khNmKnj="額賀　福志郎" khNmKana="ぬかが　ふくしろう" prtyId="1" prtyNm="自民" zmskNm="前" age="80" tsKaisu="14" prof1="元衆議院議長" prof2="元財務大臣" rcmmPrty="公明" support="" kao="837_10111616.jpg"/>
+      </senk>
+      <senk senkId="52079" senkNm="茨城３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="838" khNmKnj="葉梨　康弘" khNmKana="はなし　やすひろ" prtyId="1" prtyNm="自民" zmskNm="前" age="65" tsKaisu="7" prof1="元法務大臣" prof2="元農林水産副大臣" rcmmPrty="公明" support="" kao="838_10111616.jpg"/>
+      </senk>
+      <senk senkId="52080" senkNm="茨城４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="840" khNmKnj="梶山　弘志" khNmKana="かじやま　ひろし" prtyId="1" prtyNm="自民" zmskNm="前" age="69" tsKaisu="9" prof1="元自民党幹事長代行" prof2="元経済産業大臣" rcmmPrty="公明" support="" kao="840_10111616.jpg"/>
+      </senk>
+      <senk senkId="52081" senkNm="茨城５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47186" khNmKnj="浅野　哲" khNmKana="あさの　さとし" prtyId="197" prtyNm="国民" zmskNm="前" age="42" tsKaisu="3" prof1="国民民主党茨城県連代表" prof2="元日立製作所労組特別中央執行委員" rcmmPrty="" support="" kao="47186_10111616.jpg"/>
+      </senk>
+      <senk senkId="52082" senkNm="茨城６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2434" khNmKnj="青山　大人" khNmKana="あおやま　やまと" prtyId="195" prtyNm="立民" zmskNm="前" age="45" tsKaisu="3" prof1="立憲民主党茨城県連代表" prof2="元茨城県議会議員" rcmmPrty="" support="" kao="2434_10111616.jpg"/>
+      </senk>
+      <senk senkId="52083" senkNm="茨城７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="49481" khNmKnj="中村　勇太" khNmKana="なかむら　はやと" prtyId="-1" prtyNm="無" zmskNm="新" age="38" tsKaisu="1" prof1="元茨城県議会議員" prof2="自動車学校役員" rcmmPrty="" support="" kao="49481_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="09" pftNm="栃木" senkSu="5">
+      <senk senkId="52084" senkNm="栃木１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="852" khNmKnj="船田　元" khNmKana="ふなだ　はじめ" prtyId="1" prtyNm="自民" zmskNm="前" age="70" tsKaisu="14" prof1="自民党衆議院議員総会長" prof2="元経済企画庁長官" rcmmPrty="公明" support="" kao="852_10111616.jpg"/>
+      </senk>
+      <senk senkId="52085" senkNm="栃木２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1159" khNmKnj="福田　昭夫" khNmKana="ふくだ　あきお" prtyId="195" prtyNm="立民" zmskNm="前" age="76" tsKaisu="7" prof1="元栃木県知事" prof2="元総務政務官" rcmmPrty="" support="社民県連合" kao="1159_10111616.jpg"/>
+      </senk>
+      <senk senkId="52086" senkNm="栃木３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36528" khNmKnj="簗　和生" khNmKana="やな　かずお" prtyId="1" prtyNm="自民" zmskNm="前" age="45" tsKaisu="5" prof1="元文部科学副大臣" prof2="元国土交通政務官" rcmmPrty="公明" support="" kao="36528_10111616.jpg"/>
+      </senk>
+      <senk senkId="52087" senkNm="栃木４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="5817" khNmKnj="藤岡　隆雄" khNmKana="ふじおか　たかお" prtyId="195" prtyNm="立民" zmskNm="前" age="47" tsKaisu="2" prof1="元金融庁課長補佐" prof2="元衆議院議員秘書" rcmmPrty="" support="社民県連合" kao="5817_10111616.jpg"/>
+      </senk>
+      <senk senkId="52088" senkNm="栃木５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1182" khNmKnj="茂木　敏充" khNmKana="もてぎ　としみつ" prtyId="1" prtyNm="自民" zmskNm="前" age="69" tsKaisu="11" prof1="元自民党幹事長" prof2="元外務大臣" rcmmPrty="公明" support="" kao="1182_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="10" pftNm="群馬" senkSu="5">
+      <senk senkId="52089" senkNm="群馬１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="48626" khNmKnj="中曽根　康隆" khNmKana="なかそね　やすたか" prtyId="1" prtyNm="自民" zmskNm="前" age="42" tsKaisu="3" prof1="元防衛政務官" prof2="元ＪＰモルガン証券社員" rcmmPrty="公明" support="" kao="48626_10111616.jpg"/>
+      </senk>
+      <senk senkId="52090" senkNm="群馬２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="29091" khNmKnj="井野　俊郎" khNmKana="いの　としろう" prtyId="1" prtyNm="自民" zmskNm="前" age="44" tsKaisu="5" prof1="元防衛副大臣" prof2="元群馬県伊勢崎市議会議員" rcmmPrty="公明" support="" kao="29091_10111616.jpg"/>
+      </senk>
+      <senk senkId="52091" senkNm="群馬３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="7073" khNmKnj="笹川　博義" khNmKana="ささがわ　ひろよし" prtyId="1" prtyNm="自民" zmskNm="前" age="58" tsKaisu="5" prof1="元環境副大臣" prof2="元群馬県議会議員" rcmmPrty="公明" support="" kao="7073_10111616.jpg"/>
+      </senk>
+      <senk senkId="52092" senkNm="群馬４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36639" khNmKnj="福田　達夫" khNmKana="ふくだ　たつお" prtyId="1" prtyNm="自民" zmskNm="前" age="57" tsKaisu="5" prof1="自民党幹事長代行" prof2="元自民党総務会長" rcmmPrty="公明" support="" kao="36639_10111616.jpg"/>
+      </senk>
+      <senk senkId="52093" senkNm="群馬５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1196" khNmKnj="小渕　優子" khNmKana="おぶち　ゆうこ" prtyId="1" prtyNm="自民" zmskNm="前" age="50" tsKaisu="9" prof1="自民党組織運動本部長" prof2="元経済産業大臣" rcmmPrty="公明" support="" kao="1196_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="11" pftNm="埼玉" senkSu="16">
+      <senk senkId="52094" senkNm="埼玉１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36030" khNmKnj="村井　英樹" khNmKana="むらい　ひでき" prtyId="1" prtyNm="自民" zmskNm="前" age="44" tsKaisu="5" prof1="元官房副長官" prof2="元自民党国会対策副委員長" rcmmPrty="公明" support="" kao="36030_10141512.jpg"/>
+      </senk>
+      <senk senkId="52095" senkNm="埼玉２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1202" khNmKnj="新藤　義孝" khNmKana="しんどう　よしたか" prtyId="1" prtyNm="自民" zmskNm="前" age="66" tsKaisu="9" prof1="元経済再生担当大臣" prof2="元総務大臣" rcmmPrty="公明" support="" kao="1202_10111616.jpg"/>
+      </senk>
+      <senk senkId="52096" senkNm="埼玉３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="32172" khNmKnj="黄川田　仁志" khNmKana="きかわだ　ひとし" prtyId="1" prtyNm="自民" zmskNm="前" age="54" tsKaisu="5" prof1="元内閣府副大臣" prof2="元外務政務官" rcmmPrty="公明" support="" kao="32172_10111616.jpg"/>
+      </senk>
+      <senk senkId="52097" senkNm="埼玉４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="42501" khNmKnj="穂坂　泰" khNmKana="ほさか　やすし" prtyId="1" prtyNm="自民" zmskNm="前" age="50" tsKaisu="3" prof1="外務政務官" prof2="元埼玉県志木市議会議員" rcmmPrty="公明" support="" kao="42501_10111616.jpg"/>
+      </senk>
+      <senk senkId="52098" senkNm="埼玉５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1210" khNmKnj="枝野　幸男" khNmKana="えだの　ゆきお" prtyId="195" prtyNm="立民" zmskNm="前" age="60" tsKaisu="11" prof1="元官房長官" prof2="元経済産業大臣" rcmmPrty="" support="" kao="1210_10111616.jpg"/>
+      </senk>
+      <senk senkId="52099" senkNm="埼玉６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1213" khNmKnj="大島　敦" khNmKana="おおしま　あつし" prtyId="195" prtyNm="立民" zmskNm="前" age="67" tsKaisu="9" prof1="立憲民主党企業団体交流委員長" prof2="元総務副大臣" rcmmPrty="" support="" kao="1213_10111616.jpg"/>
+      </senk>
+      <senk senkId="52100" senkNm="埼玉７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1168" khNmKnj="小宮山　泰子" khNmKana="こみやま　やすこ" prtyId="195" prtyNm="立民" zmskNm="前" age="59" tsKaisu="8" prof1="立憲民主党埼玉県連代表" prof2="元埼玉県議会議員" rcmmPrty="" support="" kao="1168_10111616.jpg"/>
+      </senk>
+      <senk senkId="52101" senkNm="埼玉８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1170" khNmKnj="柴山　昌彦" khNmKana="しばやま　まさひこ" prtyId="1" prtyNm="自民" zmskNm="前" age="58" tsKaisu="8" prof1="元文部科学大臣" prof2="弁護士" rcmmPrty="公明" support="" kao="1170_10111616.jpg"/>
+      </senk>
+      <senk senkId="52102" senkNm="埼玉９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="29526" khNmKnj="杉村　慎治" khNmKana="すぎむら　しんじ" prtyId="195" prtyNm="立民" zmskNm="新" age="48" tsKaisu="1" prof1="元衆議院議員秘書" prof2="元参議院議員秘書" rcmmPrty="" support="" kao="29526_10111616.jpg"/>
+      </senk>
+      <senk senkId="52103" senkNm="埼玉１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="36537" khNmKnj="坂本　祐之輔" khNmKana="さかもと　ゆうのすけ" prtyId="195" prtyNm="立民" zmskNm="前" age="69" tsKaisu="4" prof1="元埼玉県東松山市長" prof2="立憲民主党倫理委員長" rcmmPrty="" support="" kao="36537_10111616.jpg"/>
+      </senk>
+      <senk senkId="52104" senkNm="埼玉１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="860" khNmKnj="小泉　龍司" khNmKana="こいずみ　りゅうじ" prtyId="1" prtyNm="自民" zmskNm="前" age="72" tsKaisu="8" prof1="元法務大臣" prof2="元大蔵省証券局調査室長" rcmmPrty="公明" support="" kao="860_10111616.jpg"/>
+      </senk>
+      <senk senkId="52105" senkNm="埼玉１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="7305" khNmKnj="森田　俊和" khNmKana="もりた　としかず" prtyId="195" prtyNm="立民" zmskNm="前" age="50" tsKaisu="3" prof1="介護福祉施設代表" prof2="元埼玉県議会議員" rcmmPrty="" support="" kao="7305_10111616.jpg"/>
+      </senk>
+      <senk senkId="52106" senkNm="埼玉１３区" senkDispOdr="13" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="54205" khNmKnj="橋本　幹彦" khNmKana="はしもと　みきひこ" prtyId="197" prtyNm="国民" zmskNm="新" age="28" tsKaisu="1" prof1="元航空自衛官" prof2="経営コンサルティング会社顧問" rcmmPrty="" support="" kao="54205_10111616.jpg"/>
+      </senk>
+      <senk senkId="52107" senkNm="埼玉１４区" senkDispOdr="14" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="7331" khNmKnj="鈴木　義弘" khNmKana="すずき　よしひろ" prtyId="197" prtyNm="国民" zmskNm="前" age="61" tsKaisu="4" prof1="不動産会社代表" prof2="元埼玉県議会議員" rcmmPrty="" support="" kao="7331_10111616.jpg"/>
+      </senk>
+      <senk senkId="52108" senkNm="埼玉１５区" senkDispOdr="15" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="880" khNmKnj="田中　良生" khNmKana="たなか　りょうせい" prtyId="1" prtyNm="自民" zmskNm="前" age="60" tsKaisu="6" prof1="元内閣府副大臣" prof2="元国土交通副大臣" rcmmPrty="公明" support="" kao="880_10111616.jpg"/>
+      </senk>
+      <senk senkId="52342" senkNm="埼玉１６区" senkDispOdr="16" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="873" khNmKnj="土屋　品子" khNmKana="つちや　しなこ" prtyId="1" prtyNm="自民" zmskNm="前" age="72" tsKaisu="9" prof1="元復興大臣" prof2="元厚生労働副大臣" rcmmPrty="公明" support="" kao="873_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="12" pftNm="千葉" senkSu="14">
+      <senk senkId="52109" senkNm="千葉１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="11" khNmKnj="田嶋　要" khNmKana="たじま　かなめ" prtyId="195" prtyNm="立民" zmskNm="前" age="63" tsKaisu="8" prof1="元経済産業政務官" prof2="" rcmmPrty="" support="" kao="11_10111616.jpg"/>
+      </senk>
+      <senk senkId="52110" senkNm="千葉２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="32386" khNmKnj="小林　鷹之" khNmKana="こばやし　たかゆき" prtyId="1" prtyNm="自民" zmskNm="前" age="49" tsKaisu="5" prof1="元経済安全保障担当大臣" prof2="元財務省課長補佐" rcmmPrty="公明" support="" kao="32386_10111616.jpg"/>
+      </senk>
+      <senk senkId="52111" senkNm="千葉３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="890" khNmKnj="松野　博一" khNmKana="まつの　ひろかず" prtyId="1" prtyNm="自民" zmskNm="前" age="62" tsKaisu="9" prof1="元官房長官" prof2="元文部科学大臣" rcmmPrty="公明" support="" kao="890_10141512.jpg"/>
+      </senk>
+      <senk senkId="52112" senkNm="千葉４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55178" khNmKnj="水沼　秀幸" khNmKana="みずぬま　ひでゆき" prtyId="195" prtyNm="立民" zmskNm="新" age="34" tsKaisu="1" prof1="元東京海上日動火災保険課長代理" prof2="" rcmmPrty="" support="" kao="55178_10111616.jpg"/>
+      </senk>
+      <senk senkId="52113" senkNm="千葉５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="7441" khNmKnj="矢崎　堅太郎" khNmKana="やざき　けんたろう" prtyId="195" prtyNm="立民" zmskNm="新" age="57" tsKaisu="1" prof1="元千葉県議会議員" prof2="元みずほ銀行行員" rcmmPrty="" support="" kao="7441_10111616.jpg"/>
+      </senk>
+      <senk senkId="52114" senkNm="千葉６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="41210" khNmKnj="安藤　じゅん子" khNmKana="あんどう　じゅんこ" prtyId="195" prtyNm="立民" zmskNm="新" age="48" tsKaisu="1" prof1="元千葉県議会議員" prof2="元出版社社員" rcmmPrty="" support="" kao="41210_10111616.jpg"/>
+      </senk>
+      <senk senkId="52115" senkNm="千葉７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="3452" khNmKnj="齋藤　健" khNmKana="さいとう　けん" prtyId="1" prtyNm="自民" zmskNm="前" age="65" tsKaisu="6" prof1="元経済産業大臣" prof2="元法務大臣" rcmmPrty="公明" support="" kao="3452_10111616.jpg"/>
+      </senk>
+      <senk senkId="52116" senkNm="千葉８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="51569" khNmKnj="本庄　知史" khNmKana="ほんじょう　さとし" prtyId="195" prtyNm="立民" zmskNm="前" age="50" tsKaisu="2" prof1="立憲民主党代表補佐" prof2="元副総理秘書官" rcmmPrty="" support="" kao="51569_10111616.jpg"/>
+      </senk>
+      <senk senkId="52117" senkNm="千葉９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3706" khNmKnj="奥野　総一郎" khNmKana="おくの　そういちろう" prtyId="195" prtyNm="立民" zmskNm="前" age="60" tsKaisu="6" prof1="立憲民主党役員室長" prof2="立憲民主党千葉県連代表" rcmmPrty="" support="" kao="3706_10111616.jpg"/>
+      </senk>
+      <senk senkId="52118" senkNm="千葉１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="17407" khNmKnj="小池　正昭" khNmKana="こいけ　まさあき" prtyId="1" prtyNm="自民" zmskNm="新" age="58" tsKaisu="1" prof1="元千葉県議会議員" prof2="社会福祉法人理事長" rcmmPrty="公明" support="" kao="17407_10111616.jpg"/>
+      </senk>
+      <senk senkId="52119" senkNm="千葉１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="913" khNmKnj="森　英介" khNmKana="もり　えいすけ" prtyId="1" prtyNm="自民" zmskNm="前" age="76" tsKaisu="12" prof1="元法務大臣" prof2="元衆議院憲法審査会長" rcmmPrty="公明" support="" kao="913_10111616.jpg"/>
+      </senk>
+      <senk senkId="52120" senkNm="千葉１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="13" khNmKnj="浜田　靖一" khNmKana="はまだ　やすかず" prtyId="1" prtyNm="自民" zmskNm="前" age="69" tsKaisu="11" prof1="元自民党国会対策委員長" prof2="元防衛大臣" rcmmPrty="公明" support="" kao="13_10111616.jpg"/>
+      </senk>
+      <senk senkId="52121" senkNm="千葉１３区" senkDispOdr="13" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="52354" khNmKnj="松本　尚" khNmKana="まつもと　ひさし" prtyId="1" prtyNm="自民" zmskNm="前" age="62" tsKaisu="2" prof1="防衛政務官" prof2="日本医科大学特任教授" rcmmPrty="公明" support="" kao="52354_10111616.jpg"/>
+      </senk>
+      <senk senkId="52343" senkNm="千葉１４区" senkDispOdr="14" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="891" khNmKnj="野田　佳彦" khNmKana="のだ　よしひこ" prtyId="195" prtyNm="立民" zmskNm="前" age="67" tsKaisu="10" prof1="立憲民主党代表" prof2="元総理大臣" rcmmPrty="" support="" kao="891_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="13" pftNm="東京" senkSu="30">
+      <senk senkId="52122" senkNm="東京１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1175" khNmKnj="海江田　万里" khNmKana="かいえだ　ばんり" prtyId="195" prtyNm="立民" zmskNm="前" age="75" tsKaisu="9" prof1="元衆議院副議長" prof2="元経済産業大臣" rcmmPrty="" support="" kao="1175_10111616.jpg"/>
+      </senk>
+      <senk senkId="52123" senkNm="東京２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36518" khNmKnj="辻　清人" khNmKana="つじ　きよと" prtyId="1" prtyNm="自民" zmskNm="前" age="45" tsKaisu="5" prof1="外務副大臣" prof2="元外務政務官" rcmmPrty="公明" support="" kao="36518_10111616.jpg"/>
+      </senk>
+      <senk senkId="52124" senkNm="東京３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="995" khNmKnj="石原　宏高" khNmKana="いしはら　ひろたか" prtyId="1" prtyNm="自民" zmskNm="前" age="60" tsKaisu="6" prof1="元総理大臣補佐官" prof2="元環境副大臣" rcmmPrty="公明" support="" kao="995_10111616.jpg"/>
+      </senk>
+      <senk senkId="52125" senkNm="東京４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="998" khNmKnj="平　将明" khNmKana="たいら　まさあき" prtyId="1" prtyNm="自民" zmskNm="前" age="57" tsKaisu="7" prof1="デジタル大臣" prof2="元内閣府副大臣" rcmmPrty="公明" support="" kao="998_10111616.jpg"/>
+      </senk>
+      <senk senkId="52126" senkNm="東京５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1010" khNmKnj="手塚　仁雄" khNmKana="てづか　よしお" prtyId="195" prtyNm="立民" zmskNm="前" age="58" tsKaisu="6" prof1="立憲民主党幹事長代行" prof2="元総理大臣補佐官" rcmmPrty="" support="" kao="1010_10111616.jpg"/>
+      </senk>
+      <senk senkId="52127" senkNm="東京６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="35998" khNmKnj="落合　貴之" khNmKana="おちあい　たかゆき" prtyId="195" prtyNm="立民" zmskNm="前" age="45" tsKaisu="4" prof1="立憲民主党副幹事長" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="35998_10111616.jpg"/>
+      </senk>
+      <senk senkId="52128" senkNm="東京７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47214" khNmKnj="松尾　明弘" khNmKana="まつお　あきひろ" prtyId="195" prtyNm="立民" zmskNm="元" age="49" tsKaisu="2" prof1="弁護士" prof2="元ＩＴ関連企業役員" rcmmPrty="" support="" kao="47214_10111616.jpg"/>
+      </senk>
+      <senk senkId="52129" senkNm="東京８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="29256" khNmKnj="吉田　晴美" khNmKana="よしだ　はるみ" prtyId="195" prtyNm="立民" zmskNm="前" age="52" tsKaisu="2" prof1="元法務大臣秘書官" prof2="神田外語大学客員教授" rcmmPrty="社民都連合" support="" kao="29256_10111616.jpg"/>
+      </senk>
+      <senk senkId="52130" senkNm="東京９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="51352" khNmKnj="山岸　一生" khNmKana="やまぎし　いっせい" prtyId="195" prtyNm="立民" zmskNm="前" age="43" tsKaisu="2" prof1="元朝日新聞記者" prof2="元立憲民主党政務調査会長筆頭補佐" rcmmPrty="" support="" kao="51352_10111616.jpg"/>
+      </senk>
+      <senk senkId="52131" senkNm="東京１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="40981" khNmKnj="鈴木　隼人" khNmKana="すずき　はやと" prtyId="1" prtyNm="自民" zmskNm="前" age="47" tsKaisu="4" prof1="元外務政務官" prof2="元経済産業省職員" rcmmPrty="公明" support="" kao="40981_10111616.jpg"/>
+      </senk>
+      <senk senkId="52132" senkNm="東京１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1808" khNmKnj="阿久津　幸彦" khNmKana="あくつ　ゆきひこ" prtyId="195" prtyNm="立民" zmskNm="元" age="68" tsKaisu="5" prof1="元総理大臣補佐官" prof2="元内閣府政務官" rcmmPrty="" support="" kao="1808_10111616.jpg"/>
+      </senk>
+      <senk senkId="52133" senkNm="東京１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="4106" khNmKnj="高木　啓" khNmKana="たかぎ　けい" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="3" prof1="元外務政務官" prof2="元東京都議会議員" rcmmPrty="公明" support="" kao="4106_10111616.jpg"/>
+      </senk>
+      <senk senkId="52134" senkNm="東京１３区" senkDispOdr="13" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="52676" khNmKnj="土田　慎" khNmKana="つちだ　しん" prtyId="1" prtyNm="自民" zmskNm="前" age="33" tsKaisu="2" prof1="デジタル政務官" prof2="元参議院議員秘書" rcmmPrty="公明" support="" kao="52676_10111616.jpg"/>
+      </senk>
+      <senk senkId="52135" senkNm="東京１４区" senkDispOdr="14" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1006" khNmKnj="松島　みどり" khNmKana="まつしま　みどり" prtyId="1" prtyNm="自民" zmskNm="前" age="68" tsKaisu="8" prof1="元法務大臣" prof2="元自民党広報本部長" rcmmPrty="公明" support="" kao="1006_10111616.jpg"/>
+      </senk>
+      <senk senkId="52136" senkNm="東京１５区" senkDispOdr="15" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55349" khNmKnj="酒井　菜摘" khNmKana="さかい　なつみ" prtyId="195" prtyNm="立民" zmskNm="前" age="38" tsKaisu="2" prof1="元東京都江東区議会議員" prof2="助産師" rcmmPrty="" support="" kao="55349_10111616.jpg"/>
+      </senk>
+      <senk senkId="52137" senkNm="東京１６区" senkDispOdr="16" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="31108" khNmKnj="大西　洋平" khNmKana="おおにし　ようへい" prtyId="1" prtyNm="自民" zmskNm="新" age="46" tsKaisu="1" prof1="元東京都江戸川区議会議員" prof2="元衆議院議員秘書" rcmmPrty="公明" support="" kao="31108_10111616.jpg"/>
+      </senk>
+      <senk senkId="52138" senkNm="東京１７区" senkDispOdr="17" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1039" khNmKnj="平沢　勝栄" khNmKana="ひらさわ　かつえい" prtyId="-1" prtyNm="無" zmskNm="前" age="79" tsKaisu="10" prof1="元復興大臣" prof2="元内閣府副大臣" rcmmPrty="" support="" kao="1039_10111616.jpg"/>
+      </senk>
+      <senk senkId="52139" senkNm="東京１８区" senkDispOdr="18" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="55041" khNmKnj="福田　かおる" khNmKana="ふくだ　かおる" prtyId="1" prtyNm="自民" zmskNm="新" age="39" tsKaisu="1" prof1="元農林水産省職員" prof2="元法務大臣秘書官" rcmmPrty="公明" support="" kao="55041_10111616.jpg"/>
+      </senk>
+      <senk senkId="52140" senkNm="東京１９区" senkDispOdr="19" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1837" khNmKnj="末松　義規" khNmKana="すえまつ　よしのり" prtyId="195" prtyNm="立民" zmskNm="前" age="67" tsKaisu="8" prof1="元復興副大臣" prof2="元総理大臣補佐官" rcmmPrty="" support="" kao="1837_10111616.jpg"/>
+      </senk>
+      <senk senkId="52141" senkNm="東京２０区" senkDispOdr="20" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="750" khNmKnj="木原　誠二" khNmKana="きはら　せいじ" prtyId="1" prtyNm="自民" zmskNm="前" age="54" tsKaisu="6" prof1="自民党選挙対策委員長代理" prof2="元官房副長官" rcmmPrty="公明" support="" kao="750_10111616.jpg"/>
+      </senk>
+      <senk senkId="52142" senkNm="東京２１区" senkDispOdr="21" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3281" khNmKnj="大河原　雅子" khNmKana="おおかわら　まさこ" prtyId="195" prtyNm="立民" zmskNm="前" age="71" tsKaisu="3" prof1="元参議院議員" prof2="元東京都議会議員" rcmmPrty="社民都連合" support="" kao="3281_10111616.jpg"/>
+      </senk>
+      <senk senkId="52143" senkNm="東京２２区" senkDispOdr="22" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="757" khNmKnj="山花　郁夫" khNmKana="やまはな　いくお" prtyId="195" prtyNm="立民" zmskNm="元" age="57" tsKaisu="5" prof1="元法務副大臣" prof2="元衆議院憲法審査会会長代理" rcmmPrty="" support="" kao="757_10111616.jpg"/>
+      </senk>
+      <senk senkId="52144" senkNm="東京２３区" senkDispOdr="23" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="37070" khNmKnj="伊藤　俊輔" khNmKana="いとう　しゅんすけ" prtyId="195" prtyNm="立民" zmskNm="前" age="45" tsKaisu="3" prof1="立憲民主党副幹事長" prof2="元航空貨物会社社長" rcmmPrty="社民都連合" support="" kao="37070_10111616.jpg"/>
+      </senk>
+      <senk senkId="52145" senkNm="東京２４区" senkDispOdr="24" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="27" khNmKnj="萩生田　光一" khNmKana="はぎうだ　こういち" prtyId="-1" prtyNm="無" zmskNm="前" age="61" tsKaisu="7" prof1="元自民党政務調査会長" prof2="元経済産業大臣" rcmmPrty="自民地域支部（八王子）" support="" kao="27_10111616.jpg"/>
+      </senk>
+      <senk senkId="52146" senkNm="東京２５区" senkDispOdr="25" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1810" khNmKnj="井上　信治" khNmKana="いのうえ　しんじ" prtyId="1" prtyNm="自民" zmskNm="前" age="55" tsKaisu="8" prof1="自民党東京都連会長" prof2="元万博担当大臣" rcmmPrty="公明" support="" kao="1810_10111616.jpg"/>
+      </senk>
+      <senk senkId="52344" senkNm="東京２６区" senkDispOdr="26" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="994" khNmKnj="松原　仁" khNmKana="まつばら　じん" prtyId="-1" prtyNm="無" zmskNm="前" age="68" tsKaisu="9" prof1="元拉致問題担当大臣" prof2="元国家公安委員長" rcmmPrty="" support="" kao="994_10111616.jpg"/>
+      </senk>
+      <senk senkId="52345" senkNm="東京２７区" senkDispOdr="27" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1015" khNmKnj="長妻　昭" khNmKana="ながつま　あきら" prtyId="195" prtyNm="立民" zmskNm="前" age="64" tsKaisu="9" prof1="元厚生労働大臣" prof2="立憲民主党代表代行" rcmmPrty="" support="" kao="1015_10111616.jpg"/>
+      </senk>
+      <senk senkId="52346" senkNm="東京２８区" senkDispOdr="28" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="30679" khNmKnj="高松　智之" khNmKana="たかまつ　さとし" prtyId="195" prtyNm="立民" zmskNm="新" age="50" tsKaisu="1" prof1="元東京都練馬区議会議員" prof2="元参議院議員秘書" rcmmPrty="" support="" kao="30679_10111616.jpg"/>
+      </senk>
+      <senk senkId="52347" senkNm="東京２９区" senkDispOdr="29" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="37003" khNmKnj="岡本　三成" khNmKana="おかもと　みつなり" prtyId="3" prtyNm="公明" zmskNm="前" age="59" tsKaisu="5" prof1="公明党政務調査会長" prof2="元財務副大臣" rcmmPrty="自民" support="" kao="37003_10111616.jpg"/>
+      </senk>
+      <senk senkId="52348" senkNm="東京３０区" senkDispOdr="30" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="52345" khNmKnj="五十嵐　衣里" khNmKana="いがらし　えり" prtyId="195" prtyNm="立民" zmskNm="新" age="40" tsKaisu="1" prof1="元東京都議会議員" prof2="弁護士" rcmmPrty="" support="" kao="52345_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="14" pftNm="神奈川" senkSu="20">
+      <senk senkId="52147" senkNm="神奈川１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="29085" khNmKnj="篠原　豪" khNmKana="しのはら　ごう" prtyId="195" prtyNm="立民" zmskNm="前" age="49" tsKaisu="4" prof1="元横浜市議会議員" prof2="立憲民主党政務調査会副会長" rcmmPrty="" support="" kao="29085_10111616.jpg"/>
+      </senk>
+      <senk senkId="52148" senkNm="神奈川２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1814" khNmKnj="菅　義偉" khNmKana="すが　よしひで" prtyId="1" prtyNm="自民" zmskNm="前" age="75" tsKaisu="10" prof1="元総理大臣" prof2="元官房長官" rcmmPrty="公明" support="" kao="1814_10111616.jpg"/>
+      </senk>
+      <senk senkId="52149" senkNm="神奈川３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="5064" khNmKnj="中西　健治" khNmKana="なかにし　けんじ" prtyId="1" prtyNm="自民" zmskNm="前" age="60" tsKaisu="2" prof1="元財務副大臣" prof2="元証券会社副社長" rcmmPrty="公明" support="" kao="5064_10111616.jpg"/>
+      </senk>
+      <senk senkId="52150" senkNm="神奈川４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="29155" khNmKnj="早稲田　夕季" khNmKana="わせだ　ゆき" prtyId="195" prtyNm="立民" zmskNm="前" age="65" tsKaisu="3" prof1="元神奈川県議会議員" prof2="元神奈川県鎌倉市議会議員" rcmmPrty="" support="" kao="29155_10111616.jpg"/>
+      </senk>
+      <senk senkId="52151" senkNm="神奈川５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1829" khNmKnj="坂井　学" khNmKana="さかい　まなぶ" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="6" prof1="国家公安委員長" prof2="元内閣官房副長官" rcmmPrty="公明" support="" kao="1829_10111616.jpg"/>
+      </senk>
+      <senk senkId="52152" senkNm="神奈川６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="36430" khNmKnj="青柳　陽一郎" khNmKana="あおやぎ　よういちろう" prtyId="195" prtyNm="立民" zmskNm="前" age="55" tsKaisu="5" prof1="立憲民主党神奈川県連代表" prof2="NPO法人会長" rcmmPrty="" support="" kao="36430_10111616.jpg"/>
+      </senk>
+      <senk senkId="52153" senkNm="神奈川７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="29159" khNmKnj="中谷　一馬" khNmKana="なかたに　かずま" prtyId="195" prtyNm="立民" zmskNm="前" age="41" tsKaisu="3" prof1="立憲民主党神奈川県連幹事長" prof2="元神奈川県議会議員" rcmmPrty="" support="" kao="29159_10111616.jpg"/>
+      </senk>
+      <senk senkId="52154" senkNm="神奈川８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1570" khNmKnj="江田　憲司" khNmKana="えだ　けんじ" prtyId="195" prtyNm="立民" zmskNm="前" age="68" tsKaisu="8" prof1="元立憲民主党代表代行" prof2="元総理大臣秘書官" rcmmPrty="" support="" kao="1570_10111616.jpg"/>
+      </senk>
+      <senk senkId="52155" senkNm="神奈川９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1574" khNmKnj="笠　浩史" khNmKana="りゅう　ひろふみ" prtyId="195" prtyNm="立民" zmskNm="前" age="59" tsKaisu="8" prof1="立憲民主党国会対策委員長" prof2="元文部科学副大臣" rcmmPrty="" support="" kao="1574_10111616.jpg"/>
+      </senk>
+      <senk senkId="52156" senkNm="神奈川１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1533" khNmKnj="田中　和徳" khNmKana="たなか　かずのり" prtyId="1" prtyNm="自民" zmskNm="前" age="75" tsKaisu="10" prof1="元復興大臣" prof2="元自民党組織運動本部長" rcmmPrty="公明" support="" kao="1533_10111616.jpg"/>
+      </senk>
+      <senk senkId="52157" senkNm="神奈川１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="4014" khNmKnj="小泉　進次郎" khNmKana="こいずみ　しんじろう" prtyId="1" prtyNm="自民" zmskNm="前" age="43" tsKaisu="6" prof1="自民党選挙対策委員長" prof2="元環境大臣" rcmmPrty="" support="" kao="4014_10111616.jpg"/>
+      </senk>
+      <senk senkId="52158" senkNm="神奈川１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1583" khNmKnj="阿部　知子" khNmKana="あべ　ともこ" prtyId="195" prtyNm="立民" zmskNm="前" age="76" tsKaisu="9" prof1="元立憲民主党神奈川県連代表" prof2="医師" rcmmPrty="社民県連合" support="" kao="1583_10111616.jpg"/>
+      </senk>
+      <senk senkId="52159" senkNm="神奈川１３区" senkDispOdr="13" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47427" khNmKnj="太　栄志" khNmKana="ふとり　ひでし" prtyId="195" prtyNm="立民" zmskNm="前" age="47" tsKaisu="2" prof1="元米シンクタンク職員" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="47427_10111616.jpg"/>
+      </senk>
+      <senk senkId="52160" senkNm="神奈川１４区" senkDispOdr="14" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="748" khNmKnj="赤間　二郎" khNmKana="あかま　じろう" prtyId="1" prtyNm="自民" zmskNm="前" age="56" tsKaisu="6" prof1="元総務副大臣" prof2="元内閣府副大臣" rcmmPrty="公明" support="" kao="748_10111616.jpg"/>
+      </senk>
+      <senk senkId="52161" senkNm="神奈川１５区" senkDispOdr="15" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="772" khNmKnj="河野　太郎" khNmKana="こうの　たろう" prtyId="1" prtyNm="自民" zmskNm="前" age="61" tsKaisu="10" prof1="元デジタル大臣" prof2="元外務大臣" rcmmPrty="公明" support="" kao="772_10111616.jpg"/>
+      </senk>
+      <senk senkId="52162" senkNm="神奈川１６区" senkDispOdr="16" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2276" khNmKnj="後藤　祐一" khNmKana="ごとう　ゆういち" prtyId="195" prtyNm="立民" zmskNm="前" age="55" tsKaisu="6" prof1="立憲民主党国会対策委員長代理" prof2="立憲民主党神奈川県連選挙対策委員長" rcmmPrty="" support="" kao="2276_10111616.jpg"/>
+      </senk>
+      <senk senkId="52163" senkNm="神奈川１７区" senkDispOdr="17" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="3991" khNmKnj="牧島　かれん" khNmKana="まきしま　かれん" prtyId="1" prtyNm="自民" zmskNm="前" age="47" tsKaisu="5" prof1="元デジタル大臣" prof2="元内閣府政務官" rcmmPrty="公明" support="" kao="3991_10141512.jpg"/>
+      </senk>
+      <senk senkId="52164" senkNm="神奈川１８区" senkDispOdr="18" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55388" khNmKnj="宗野　創" khNmKana="そうの　はじめ" prtyId="195" prtyNm="立民" zmskNm="新" age="31" tsKaisu="1" prof1="元三井住友銀行行員" prof2="元こども支援団体事務局長" rcmmPrty="社民県連合" support="" kao="55388_10111616.jpg"/>
+      </senk>
+      <senk senkId="52349" senkNm="神奈川１９区" senkDispOdr="19" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="29003" khNmKnj="草間　剛" khNmKana="くさま　つよし" prtyId="1" prtyNm="自民" zmskNm="新" age="42" tsKaisu="1" prof1="元横浜市議会議員" prof2="元参議院議員秘書" rcmmPrty="公明" support="" kao="29003_10111616.jpg"/>
+      </senk>
+      <senk senkId="52350" senkNm="神奈川２０区" senkDispOdr="20" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55088" khNmKnj="大塚　小百合" khNmKana="おおつか　さゆり" prtyId="195" prtyNm="立民" zmskNm="新" age="44" tsKaisu="1" prof1="社会福祉法人常務理事" prof2="元相模原市高齢者福祉施設協議会副会長" rcmmPrty="社民県連合" support="" kao="55088_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="15" pftNm="新潟" senkSu="5">
+      <senk senkId="52165" senkNm="新潟１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="785" khNmKnj="西村　智奈美" khNmKana="にしむら　ちなみ" prtyId="195" prtyNm="立民" zmskNm="前" age="57" tsKaisu="7" prof1="元厚生労働副大臣" prof2="元立憲民主党代表代行" rcmmPrty="社民県連合" support="" kao="785_10111616.jpg"/>
+      </senk>
+      <senk senkId="52166" senkNm="新潟２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="988" khNmKnj="菊田　真紀子" khNmKana="きくた　まきこ" prtyId="195" prtyNm="立民" zmskNm="前" age="55" tsKaisu="8" prof1="元外務政務官" prof2="立憲民主党常任幹事会議長" rcmmPrty="社民県連合" support="" kao="988_10111616.jpg"/>
+      </senk>
+      <senk senkId="52167" senkNm="新潟３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2617" khNmKnj="黒岩　宇洋" khNmKana="くろいわ　たかひろ" prtyId="195" prtyNm="立民" zmskNm="元" age="58" tsKaisu="4" prof1="元法務政務官" prof2="元立憲民主党国会対策委員長代理" rcmmPrty="社民県連合" support="" kao="2617_10111616.jpg"/>
+      </senk>
+      <senk senkId="52168" senkNm="新潟４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="990" khNmKnj="米山　隆一" khNmKana="よねやま　りゅういち" prtyId="195" prtyNm="立民" zmskNm="前" age="57" tsKaisu="2" prof1="元新潟県知事" prof2="弁護士" rcmmPrty="社民県連合" support="" kao="990_10111616.jpg"/>
+      </senk>
+      <senk senkId="52169" senkNm="新潟５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="7961" khNmKnj="梅谷　守" khNmKana="うめたに　まもる" prtyId="195" prtyNm="立民" zmskNm="前" age="50" tsKaisu="2" prof1="立憲民主党新潟県連副代表" prof2="元新潟県議会議員" rcmmPrty="社民県連合" support="" kao="7961_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="16" pftNm="長野" senkSu="5">
+      <senk senkId="52171" senkNm="長野１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1372" khNmKnj="篠原　孝" khNmKana="しのはら　たかし" prtyId="195" prtyNm="立民" zmskNm="前" age="76" tsKaisu="8" prof1="元農林水産副大臣" prof2="立憲民主党長野県連代表代行" rcmmPrty="" support="" kao="1372_10111616.jpg"/>
+      </senk>
+      <senk senkId="52172" senkNm="長野２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1375" khNmKnj="下条　みつ" khNmKana="しもじょう　みつ" prtyId="195" prtyNm="立民" zmskNm="前" age="68" tsKaisu="6" prof1="元防衛政務官" prof2="立憲民主党長野県連代表代行" rcmmPrty="" support="" kao="1375_10111616.jpg"/>
+      </senk>
+      <senk senkId="52173" senkNm="長野３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="52527" khNmKnj="神津　健" khNmKana="こうづ　たけし" prtyId="195" prtyNm="立民" zmskNm="前" age="47" tsKaisu="2" prof1="元JICA企画調査員" prof2="立憲民主党長野県連副代表" rcmmPrty="" support="" kao="52527_10111616.jpg"/>
+      </senk>
+      <senk senkId="52174" senkNm="長野４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1359" khNmKnj="後藤　茂之" khNmKana="ごとう　しげゆき" prtyId="1" prtyNm="自民" zmskNm="前" age="68" tsKaisu="8" prof1="元経済再生担当大臣" prof2="元厚生労働大臣" rcmmPrty="公明" support="" kao="1359_10111616.jpg"/>
+      </senk>
+      <senk senkId="52175" senkNm="長野５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1361" khNmKnj="宮下　一郎" khNmKana="みやした　いちろう" prtyId="1" prtyNm="自民" zmskNm="前" age="66" tsKaisu="7" prof1="元農林水産大臣" prof2="自民党長野県連会長" rcmmPrty="公明" support="" kao="1361_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="17" pftNm="山梨" senkSu="2">
+      <senk senkId="52176" senkNm="山梨１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="36185" khNmKnj="中島　克仁" khNmKana="なかじま　かつひと" prtyId="195" prtyNm="立民" zmskNm="前" age="57" tsKaisu="5" prof1="医師" prof2="元衆議院厚生労働委員会筆頭理事" rcmmPrty="" support="社民県連合" kao="36185_10111616.jpg"/>
+      </senk>
+      <senk senkId="52177" senkNm="山梨２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36873" khNmKnj="堀内　詔子" khNmKana="ほりうち　のりこ" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="5" prof1="元ワクチン接種担当大臣" prof2="元オリンピック・パラリンピック担当大臣" rcmmPrty="公明" support="" kao="36873_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="18" pftNm="富山" senkSu="3">
+      <senk senkId="52178" senkNm="富山１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="30784" khNmKnj="田畑　裕明" khNmKana="たばた　ひろあき" prtyId="1" prtyNm="自民" zmskNm="前" age="51" tsKaisu="5" prof1="元総務副大臣" prof2="元厚生労働政務官" rcmmPrty="公明" support="" kao="30784_10111616.jpg"/>
+      </senk>
+      <senk senkId="52179" senkNm="富山２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="8253" khNmKnj="上田　英俊" khNmKana="うえだ　えいしゅん" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="2" prof1="元衆議院議員秘書" prof2="元富山県議会議長" rcmmPrty="公明" support="" kao="8253_10111616.jpg"/>
+      </senk>
+      <senk senkId="52180" senkNm="富山３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="4525" khNmKnj="橘　慶一郎" khNmKana="たちばな　けいいちろう" prtyId="1" prtyNm="自民" zmskNm="前" age="63" tsKaisu="6" prof1="官房副長官" prof2="元復興副大臣" rcmmPrty="公明" support="" kao="4525_10112040.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="19" pftNm="石川" senkSu="3">
+      <senk senkId="52181" senkNm="石川１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="52625" khNmKnj="小森　卓郎" khNmKana="こもり　たくお" prtyId="1" prtyNm="自民" zmskNm="前" age="54" tsKaisu="2" prof1="元総務政務官" prof2="元金融庁総合政策課長" rcmmPrty="公明" support="" kao="52625_10111616.jpg"/>
+      </senk>
+      <senk senkId="52182" senkNm="石川２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36599" khNmKnj="佐々木　紀" khNmKana="ささき　はじめ" prtyId="1" prtyNm="自民" zmskNm="前" age="50" tsKaisu="5" prof1="元国土交通政務官" prof2="元自民党青年局長" rcmmPrty="公明" support="" kao="36599_10111616.jpg"/>
+      </senk>
+      <senk senkId="52183" senkNm="石川３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3483" khNmKnj="近藤　和也" khNmKana="こんどう　かずや" prtyId="195" prtyNm="立民" zmskNm="前" age="50" tsKaisu="4" prof1="立憲民主党石川県連代表" prof2="元野村証券社員" rcmmPrty="" support="社民県連合" kao="3483_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="20" pftNm="福井" senkSu="2">
+      <senk senkId="52184" senkNm="福井１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1733" khNmKnj="稲田　朋美" khNmKana="いなだ　ともみ" prtyId="1" prtyNm="自民" zmskNm="前" age="65" tsKaisu="7" prof1="元防衛大臣" prof2="元自民党幹事長代理" rcmmPrty="公明" support="" kao="1733_10111616.jpg"/>
+      </senk>
+      <senk senkId="52185" senkNm="福井２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55680" khNmKnj="辻　英之" khNmKana="つじ　ひでゆき" prtyId="195" prtyNm="立民" zmskNm="新" age="54" tsKaisu="1" prof1="NPO法人代表" prof2="元青森大学社会学部教授" rcmmPrty="" support="" kao="55680_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="21" pftNm="岐阜" senkSu="5">
+      <senk senkId="52186" senkNm="岐阜１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1549" khNmKnj="野田　聖子" khNmKana="のだ　せいこ" prtyId="1" prtyNm="自民" zmskNm="前" age="64" tsKaisu="11" prof1="元少子化担当大臣" prof2="元自民党幹事長代行" rcmmPrty="公明" support="" kao="1549_10111616.jpg"/>
+      </senk>
+      <senk senkId="52187" senkNm="岐阜２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1550" khNmKnj="棚橋　泰文" khNmKana="たなはし　やすふみ" prtyId="1" prtyNm="自民" zmskNm="前" age="61" tsKaisu="10" prof1="元国家公安委員長" prof2="元衆議院予算委員長" rcmmPrty="公明" support="" kao="1550_10111616.jpg"/>
+      </senk>
+      <senk senkId="52188" senkNm="岐阜３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1553" khNmKnj="武藤　容治" khNmKana="むとう　ようじ" prtyId="1" prtyNm="自民" zmskNm="前" age="69" tsKaisu="6" prof1="経済産業大臣" prof2="自民党岐阜県連会長" rcmmPrty="公明" support="" kao="1553_10111616.jpg"/>
+      </senk>
+      <senk senkId="52189" senkNm="岐阜４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="4105" khNmKnj="今井　雅人" khNmKana="いまい　まさと" prtyId="195" prtyNm="立民" zmskNm="元" age="62" tsKaisu="5" prof1="元ＵＦＪ銀行行員" prof2="元立憲民主党内閣部会長" rcmmPrty="" support="" kao="4105_10111616.jpg"/>
+      </senk>
+      <senk senkId="52190" senkNm="岐阜５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="475" khNmKnj="古屋　圭司" khNmKana="ふるや　けいじ" prtyId="1" prtyNm="自民" zmskNm="前" age="71" tsKaisu="12" prof1="元国家公安委員長" prof2="自民党憲法改正実現本部長" rcmmPrty="公明" support="" kao="475_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="22" pftNm="静岡" senkSu="8">
+      <senk senkId="52191" senkNm="静岡１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="479" khNmKnj="上川　陽子" khNmKana="かみかわ　ようこ" prtyId="1" prtyNm="自民" zmskNm="前" age="71" tsKaisu="8" prof1="元外務大臣" prof2="元法務大臣" rcmmPrty="公明" support="" kao="479_10111616.jpg"/>
+      </senk>
+      <senk senkId="52192" senkNm="静岡２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="35903" khNmKnj="井林　辰憲" khNmKana="いばやし　たつのり" prtyId="1" prtyNm="自民" zmskNm="前" age="48" tsKaisu="5" prof1="内閣府副大臣" prof2="自民党静岡県連会長" rcmmPrty="公明" support="" kao="35903_10111616.jpg"/>
+      </senk>
+      <senk senkId="52193" senkNm="静岡３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3432" khNmKnj="小山　展弘" khNmKana="こやま　のぶひろ" prtyId="195" prtyNm="立民" zmskNm="前" age="48" tsKaisu="4" prof1="元農林中央金庫職員" prof2="元日本労働者協同組合連合会顧問" rcmmPrty="" support="" kao="3432_10111616.jpg"/>
+      </senk>
+      <senk senkId="52194" senkNm="静岡４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="4062" khNmKnj="田中　健" khNmKana="たなか　けん" prtyId="197" prtyNm="国民" zmskNm="前" age="47" tsKaisu="2" prof1="元東京都議会議員" prof2="国民民主党静岡県連会長" rcmmPrty="" support="" kao="4062_10111616.jpg"/>
+      </senk>
+      <senk senkId="52195" senkNm="静岡５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="491" khNmKnj="細野　豪志" khNmKana="ほその　ごうし" prtyId="1" prtyNm="自民" zmskNm="前" age="53" tsKaisu="9" prof1="元環境大臣" prof2="元民主党幹事長" rcmmPrty="公明" support="" kao="491_10111616.jpg"/>
+      </senk>
+      <senk senkId="52196" senkNm="静岡６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="461" khNmKnj="渡辺　周" khNmKana="わたなべ　しゅう" prtyId="195" prtyNm="立民" zmskNm="前" age="62" tsKaisu="10" prof1="元立憲民主党幹事長代行" prof2="元防衛副大臣" rcmmPrty="" support="" kao="461_10111616.jpg"/>
+      </senk>
+      <senk senkId="52197" senkNm="静岡７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="611" khNmKnj="城内　実" khNmKana="きうち　みのる" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="7" prof1="経済安全保障担当大臣" prof2="元外務副大臣" rcmmPrty="公明" support="" kao="611_10111616.jpg"/>
+      </senk>
+      <senk senkId="52198" senkNm="静岡８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="8572" khNmKnj="源馬　謙太郎" khNmKana="げんま　けんたろう" prtyId="195" prtyNm="立民" zmskNm="前" age="51" tsKaisu="3" prof1="立憲民主党静岡県連代表" prof2="元静岡県議会議員" rcmmPrty="" support="" kao="8572_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="23" pftNm="愛知" senkSu="16">
+      <senk senkId="52199" senkNm="愛知１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1766" khNmKnj="河村　たかし" khNmKana="かわむら　たかし" prtyId="245" prtyNm="保守" zmskNm="元" age="75" tsKaisu="6" prof1="元名古屋市長" prof2="日本保守党共同代表" rcmmPrty="" support="" kao="1766_10111616.jpg"/>
+      </senk>
+      <senk senkId="52200" senkNm="愛知２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1776" khNmKnj="古川　元久" khNmKana="ふるかわ　もとひさ" prtyId="197" prtyNm="国民" zmskNm="前" age="58" tsKaisu="10" prof1="国民民主党国会対策委員長" prof2="元国家戦略担当大臣" rcmmPrty="" support="" kao="1776_10111616.jpg"/>
+      </senk>
+      <senk senkId="52201" senkNm="愛知３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1778" khNmKnj="近藤　昭一" khNmKana="こんどう　しょういち" prtyId="195" prtyNm="立民" zmskNm="前" age="66" tsKaisu="10" prof1="元環境副大臣" prof2="元中日新聞社員" rcmmPrty="" support="" kao="1778_10111616.jpg"/>
+      </senk>
+      <senk senkId="52202" senkNm="愛知４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1584" khNmKnj="牧　義夫" khNmKana="まき　よしお" prtyId="195" prtyNm="立民" zmskNm="前" age="66" tsKaisu="8" prof1="元厚生労働副大臣" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="1584_10111616.jpg"/>
+      </senk>
+      <senk senkId="52203" senkNm="愛知５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="8673" khNmKnj="西川　厚志" khNmKana="にしかわ　あつし" prtyId="195" prtyNm="立民" zmskNm="新" age="55" tsKaisu="1" prof1="元愛知県議会議員" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="8673_10111616.jpg"/>
+      </senk>
+      <senk senkId="52204" senkNm="愛知６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1590" khNmKnj="丹羽　秀樹" khNmKana="にわ　ひでき" prtyId="1" prtyNm="自民" zmskNm="前" age="51" tsKaisu="7" prof1="元文部科学副大臣" prof2="自民党愛知県連会長" rcmmPrty="公明" support="" kao="1590_10111616.jpg"/>
+      </senk>
+      <senk senkId="52205" senkNm="愛知７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55261" khNmKnj="日野　紗里亜" khNmKana="ひの　さりあ" prtyId="197" prtyNm="国民" zmskNm="新" age="36" tsKaisu="1" prof1="福祉施設運営会社社長" prof2="元一般社団法人代表理事" rcmmPrty="" support="" kao="55261_10111616.jpg"/>
+      </senk>
+      <senk senkId="52206" senkNm="愛知８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1598" khNmKnj="伴野　豊" khNmKana="ばんの　ゆたか" prtyId="195" prtyNm="立民" zmskNm="前" age="63" tsKaisu="7" prof1="元外務副大臣" prof2="元ＪＲ東海社員" rcmmPrty="" support="" kao="1598_10111616.jpg"/>
+      </senk>
+      <senk senkId="52207" senkNm="愛知９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1604" khNmKnj="岡本　充功" khNmKana="おかもと　みつのり" prtyId="195" prtyNm="立民" zmskNm="元" age="53" tsKaisu="6" prof1="医師" prof2="元厚生労働政務官" rcmmPrty="" support="" kao="1604_10111616.jpg"/>
+      </senk>
+      <senk senkId="52208" senkNm="愛知１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="51376" khNmKnj="藤原　規眞" khNmKana="ふじわら　のりまさ" prtyId="195" prtyNm="立民" zmskNm="新" age="46" tsKaisu="1" prof1="弁護士" prof2="文筆業" rcmmPrty="" support="" kao="51376_10111616.jpg"/>
+      </senk>
+      <senk senkId="52209" senkNm="愛知１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="52997" khNmKnj="丹野　みどり" khNmKana="たんの　みどり" prtyId="197" prtyNm="国民" zmskNm="新" age="51" tsKaisu="1" prof1="元ＣＢＣアナウンサー" prof2="国民民主党愛知県連幹事" rcmmPrty="" support="" kao="52997_10111616.jpg"/>
+      </senk>
+      <senk senkId="52210" senkNm="愛知１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="28811" khNmKnj="重徳　和彦" khNmKana="しげとく　かずひこ" prtyId="195" prtyNm="立民" zmskNm="前" age="53" tsKaisu="5" prof1="立憲民主党政務調査会長" prof2="元総務省課長補佐" rcmmPrty="" support="" kao="28811_10111616.jpg"/>
+      </senk>
+      <senk senkId="52211" senkNm="愛知１３区" senkDispOdr="13" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3537" khNmKnj="大西　健介" khNmKana="おおにし　けんすけ" prtyId="195" prtyNm="立民" zmskNm="前" age="53" tsKaisu="6" prof1="元立憲民主党選挙対策委員長" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="3537_10111616.jpg"/>
+      </senk>
+      <senk senkId="52212" senkNm="愛知１４区" senkDispOdr="14" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="35837" khNmKnj="今枝　宗一郎" khNmKana="いまえだ　そういちろう" prtyId="1" prtyNm="自民" zmskNm="前" age="40" tsKaisu="5" prof1="文部科学副大臣" prof2="医師" rcmmPrty="公明" support="" kao="35837_10111616.jpg"/>
+      </senk>
+      <senk senkId="52213" senkNm="愛知１５区" senkDispOdr="15" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="22277" khNmKnj="根本　幸典" khNmKana="ねもと　ゆきのり" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="5" prof1="元国土交通政務官" prof2="元愛知県豊橋市議会議員" rcmmPrty="公明" support="" kao="22277_10111616.jpg"/>
+      </senk>
+      <senk senkId="52351" senkNm="愛知１６区" senkDispOdr="16" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55036" khNmKnj="福田　徹" khNmKana="ふくた　とおる" prtyId="197" prtyNm="国民" zmskNm="新" age="42" tsKaisu="1" prof1="医師" prof2="元日赤名古屋第二病院救急科医長" rcmmPrty="" support="" kao="55036_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="24" pftNm="三重" senkSu="4">
+      <senk senkId="52214" senkNm="三重１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2120" khNmKnj="田村　憲久" khNmKana="たむら　のりひさ" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="10" prof1="元厚生労働大臣" prof2="自民党政務調査会長代行" rcmmPrty="公明" support="" kao="2120_10111616.jpg"/>
+      </senk>
+      <senk senkId="52215" senkNm="三重２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="30244" khNmKnj="下野　幸助" khNmKana="しもの　こうすけ" prtyId="195" prtyNm="立民" zmskNm="新" age="47" tsKaisu="1" prof1="元三重県議会議員" prof2="元内閣官房職員" rcmmPrty="" support="国民県連" kao="30244_10111616.jpg"/>
+      </senk>
+      <senk senkId="52216" senkNm="三重３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2116" khNmKnj="岡田　克也" khNmKana="おかだ　かつや" prtyId="195" prtyNm="立民" zmskNm="前" age="71" tsKaisu="12" prof1="元立憲民主党幹事長" prof2="元副総理" rcmmPrty="" support="国民県連" kao="2116_10111616.jpg"/>
+      </senk>
+      <senk senkId="52217" senkNm="三重４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="3714" khNmKnj="鈴木　英敬" khNmKana="すずき　えいけい" prtyId="1" prtyNm="自民" zmskNm="前" age="50" tsKaisu="2" prof1="元内閣府政務官" prof2="元三重県知事" rcmmPrty="公明" support="" kao="3714_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="25" pftNm="滋賀" senkSu="3">
+      <senk senkId="52218" senkNm="滋賀１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="49553" khNmKnj="斎藤　アレックス" khNmKana="さいとう　あれっくす" prtyId="187" prtyNm="維新" zmskNm="前" age="39" tsKaisu="2" prof1="元衆議院議員秘書" prof2="元証券会社社員" rcmmPrty="" support="" kao="49553_10111616.jpg"/>
+      </senk>
+      <senk senkId="52219" senkNm="滋賀２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2119" khNmKnj="上野　賢一郎" khNmKana="うえの　けんいちろう" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="6" prof1="元財務副大臣" prof2="元総務省課長補佐" rcmmPrty="公明" support="" kao="2119_10111616.jpg"/>
+      </senk>
+      <senk senkId="52220" senkNm="滋賀３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="5668" khNmKnj="武村　展英" khNmKana="たけむら　のぶひで" prtyId="1" prtyNm="自民" zmskNm="前" age="52" tsKaisu="5" prof1="農林水産副大臣" prof2="公認会計士" rcmmPrty="公明" support="" kao="5668_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="26" pftNm="京都" senkSu="6">
+      <senk senkId="52222" senkNm="京都１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="52521" khNmKnj="勝目　康" khNmKana="かつめ　やすし" prtyId="1" prtyNm="自民" zmskNm="前" age="50" tsKaisu="2" prof1="元総務省室長" prof2="元京都府総務部長" rcmmPrty="公明" support="" kao="52521_10111616.jpg"/>
+      </senk>
+      <senk senkId="52223" senkNm="京都２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1622" khNmKnj="前原　誠司" khNmKana="まえはら　せいじ" prtyId="187" prtyNm="維新" zmskNm="前" age="62" tsKaisu="11" prof1="元外務大臣" prof2="日本維新の会国会議員団副代表" rcmmPrty="" support="" kao="1622_10111616.jpg"/>
+      </senk>
+      <senk senkId="52224" senkNm="京都３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1624" khNmKnj="泉　健太" khNmKana="いずみ　けんた" prtyId="195" prtyNm="立民" zmskNm="前" age="50" tsKaisu="9" prof1="元立憲民主党代表" prof2="元内閣府政務官" rcmmPrty="" support="" kao="1624_10111616.jpg"/>
+      </senk>
+      <senk senkId="52225" senkNm="京都４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1628" khNmKnj="北神　圭朗" khNmKana="きたがみ　けいろう" prtyId="-1" prtyNm="無" zmskNm="前" age="57" tsKaisu="5" prof1="京都先端科学大学経済経営学部特別招聘客員教授" prof2="元総理大臣補佐官" rcmmPrty="" support="" kao="1628_10111616.jpg"/>
+      </senk>
+      <senk senkId="52226" senkNm="京都５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="41650" khNmKnj="本田　太郎" khNmKana="ほんだ　たろう" prtyId="1" prtyNm="自民" zmskNm="前" age="50" tsKaisu="3" prof1="元外務政務官" prof2="弁護士" rcmmPrty="公明" support="" kao="41650_10111616.jpg"/>
+      </senk>
+      <senk senkId="52227" senkNm="京都６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="971" khNmKnj="山井　和則" khNmKana="やまのい　かずのり" prtyId="195" prtyNm="立民" zmskNm="前" age="62" tsKaisu="9" prof1="元厚生労働政務官" prof2="立憲民主党国会対策筆頭副委員長" rcmmPrty="" support="" kao="971_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="27" pftNm="大阪" senkSu="19">
+      <senk senkId="52228" senkNm="大阪１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="9274" khNmKnj="井上　英孝" khNmKana="いのうえ　ひでたか" prtyId="187" prtyNm="維新" zmskNm="前" age="53" tsKaisu="5" prof1="元大阪市議会議員" prof2="日本維新の会選挙対策本部長代行" rcmmPrty="" support="" kao="9274_10111616.jpg"/>
+      </senk>
+      <senk senkId="52229" senkNm="大阪２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="30143" khNmKnj="守島　正" khNmKana="もりしま　ただし" prtyId="187" prtyNm="維新" zmskNm="前" age="43" tsKaisu="2" prof1="元大阪市議会議員" prof2="元中小企業診断士" rcmmPrty="" support="" kao="30143_10111616.jpg"/>
+      </senk>
+      <senk senkId="52230" senkNm="大阪３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="9419" khNmKnj="東　徹" khNmKana="あずま　とおる" prtyId="187" prtyNm="維新" zmskNm="新" age="58" tsKaisu="1" prof1="元参議院議員" prof2="元大阪府議会議員" rcmmPrty="" support="" kao="9419_10111616.jpg"/>
+      </senk>
+      <senk senkId="52231" senkNm="大阪４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="9253" khNmKnj="美延　映夫" khNmKana="みのべ　てるお" prtyId="187" prtyNm="維新" zmskNm="前" age="63" tsKaisu="3" prof1="元大阪市議会議長" prof2="元大阪市監査委員" rcmmPrty="" support="" kao="9253_10111616.jpg"/>
+      </senk>
+      <senk senkId="52232" senkNm="大阪５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3256" khNmKnj="梅村　聡" khNmKana="うめむら　さとし" prtyId="187" prtyNm="維新" zmskNm="新" age="49" tsKaisu="1" prof1="元参議院議員" prof2="医師" rcmmPrty="" support="" kao="3256_10111616.jpg"/>
+      </senk>
+      <senk senkId="52233" senkNm="大阪６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="9479" khNmKnj="西田　薫" khNmKana="にしだ　かおる" prtyId="187" prtyNm="維新" zmskNm="新" age="57" tsKaisu="1" prof1="元大阪府議会議員" prof2="元参議院議員秘書" rcmmPrty="" support="" kao="9479_10111616.jpg"/>
+      </senk>
+      <senk senkId="52234" senkNm="大阪７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="9494" khNmKnj="奥下　剛光" khNmKana="おくした　たけみつ" prtyId="187" prtyNm="維新" zmskNm="前" age="49" tsKaisu="2" prof1="元大阪市長秘書" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="9494_10111616.jpg"/>
+      </senk>
+      <senk senkId="52235" senkNm="大阪８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="30092" khNmKnj="漆間　譲司" khNmKana="うるま　じょうじ" prtyId="187" prtyNm="維新" zmskNm="前" age="50" tsKaisu="2" prof1="元大阪府議会議員" prof2="元第一勧業銀行行員" rcmmPrty="" support="" kao="30092_10111616.jpg"/>
+      </senk>
+      <senk senkId="52236" senkNm="大阪９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55847" khNmKnj="萩原　佳" khNmKana="はぎはら　けい" prtyId="187" prtyNm="維新" zmskNm="新" age="47" tsKaisu="1" prof1="元大阪府茨木市議会議員" prof2="税理士" rcmmPrty="" support="" kao="55847_10111616.jpg"/>
+      </senk>
+      <senk senkId="52237" senkNm="大阪１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="30890" khNmKnj="池下　卓" khNmKana="いけした　たく" prtyId="187" prtyNm="維新" zmskNm="前" age="49" tsKaisu="2" prof1="元大阪府議会議員" prof2="税理士" rcmmPrty="" support="" kao="30890_10111616.jpg"/>
+      </senk>
+      <senk senkId="52238" senkNm="大阪１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3026" khNmKnj="中司　宏" khNmKana="なかつか　ひろし" prtyId="187" prtyNm="維新" zmskNm="前" age="68" tsKaisu="2" prof1="元大阪府議会議員" prof2="元大阪府枚方市長" rcmmPrty="" support="" kao="3026_10111616.jpg"/>
+      </senk>
+      <senk senkId="52239" senkNm="大阪１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47885" khNmKnj="藤田　文武" khNmKana="ふじた　ふみたけ" prtyId="187" prtyNm="維新" zmskNm="前" age="43" tsKaisu="3" prof1="日本維新の会幹事長" prof2="スポーツ・福祉施設運営会社役員" rcmmPrty="" support="" kao="47885_10111616.jpg"/>
+      </senk>
+      <senk senkId="52240" senkNm="大阪１３区" senkDispOdr="13" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="29509" khNmKnj="岩谷　良平" khNmKana="いわたに　りょうへい" prtyId="187" prtyNm="維新" zmskNm="前" age="44" tsKaisu="2" prof1="元大阪府議会議員" prof2="行政書士" rcmmPrty="" support="" kao="29509_10111616.jpg"/>
+      </senk>
+      <senk senkId="52241" senkNm="大阪１４区" senkDispOdr="14" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="37048" khNmKnj="青柳　仁士" khNmKana="あおやぎ　ひとし" prtyId="187" prtyNm="維新" zmskNm="前" age="45" tsKaisu="2" prof1="元国連職員" prof2="日本維新の会国際局長" rcmmPrty="" support="" kao="37048_10111616.jpg"/>
+      </senk>
+      <senk senkId="52242" senkNm="大阪１５区" senkDispOdr="15" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="9509" khNmKnj="浦野　靖人" khNmKana="うらの　やすと" prtyId="187" prtyNm="維新" zmskNm="前" age="51" tsKaisu="5" prof1="元大阪府議会議員" prof2="日本維新の会選挙対策本部長代理" rcmmPrty="" support="" kao="9509_10111616.jpg"/>
+      </senk>
+      <senk senkId="52243" senkNm="大阪１６区" senkDispOdr="16" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="29772" khNmKnj="黒田　征樹" khNmKana="くろだ　まさき" prtyId="187" prtyNm="維新" zmskNm="新" age="44" tsKaisu="1" prof1="元堺市議会議員" prof2="元塗装会社経営" rcmmPrty="" support="" kao="29772_10111616.jpg"/>
+      </senk>
+      <senk senkId="52244" senkNm="大阪１７区" senkDispOdr="17" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="9215" khNmKnj="馬場　伸幸" khNmKana="ばば　のぶゆき" prtyId="187" prtyNm="維新" zmskNm="前" age="59" tsKaisu="5" prof1="日本維新の会代表" prof2="元堺市議会議員" rcmmPrty="" support="" kao="9215_10111616.jpg"/>
+      </senk>
+      <senk senkId="52245" senkNm="大阪１８区" senkDispOdr="18" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="35895" khNmKnj="遠藤　敬" khNmKana="えんどう　たかし" prtyId="187" prtyNm="維新" zmskNm="前" age="56" tsKaisu="5" prof1="日本維新の会国会対策委員長" prof2="公益社団法人秋田犬保存会会長" rcmmPrty="" support="" kao="35895_10111616.jpg"/>
+      </senk>
+      <senk senkId="52246" senkNm="大阪１９区" senkDispOdr="19" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="37038" khNmKnj="伊東　信久" khNmKana="いとう　のぶひさ" prtyId="187" prtyNm="維新" zmskNm="前" age="60" tsKaisu="4" prof1="医師" prof2="元日本維新の会国際局長" rcmmPrty="" support="" kao="37038_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="28" pftNm="兵庫" senkSu="12">
+      <senk senkId="52247" senkNm="兵庫１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="5791" khNmKnj="井坂　信彦" khNmKana="いさか　のぶひこ" prtyId="195" prtyNm="立民" zmskNm="前" age="50" tsKaisu="4" prof1="元神戸市議会議員" prof2="行政書士" rcmmPrty="国民県連・社民県連合" support="" kao="5791_10111616.jpg"/>
+      </senk>
+      <senk senkId="52248" senkNm="兵庫２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="552" khNmKnj="赤羽　一嘉" khNmKana="あかば　かずよし" prtyId="3" prtyNm="公明" zmskNm="前" age="66" tsKaisu="10" prof1="元国土交通大臣" prof2="元経済産業副大臣" rcmmPrty="自民" support="" kao="552_10111616.jpg"/>
+      </senk>
+      <senk senkId="52249" senkNm="兵庫３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="507" khNmKnj="関　芳弘" khNmKana="せき　よしひろ" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="6" prof1="元経済産業副大臣" prof2="元環境副大臣" rcmmPrty="公明" support="" kao="507_10111616.jpg"/>
+      </senk>
+      <senk senkId="52250" senkNm="兵庫４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="35828" khNmKnj="藤井　比早之" khNmKana="ふじい　ひさゆき" prtyId="1" prtyNm="自民" zmskNm="前" age="53" tsKaisu="5" prof1="元デジタル副大臣" prof2="元総務省職員" rcmmPrty="公明" support="" kao="35828_10111616.jpg"/>
+      </senk>
+      <senk senkId="52251" senkNm="兵庫５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1383" khNmKnj="谷　公一" khNmKana="たに　こういち" prtyId="1" prtyNm="自民" zmskNm="前" age="72" tsKaisu="8" prof1="元国家公安委員長" prof2="元防災担当大臣" rcmmPrty="公明" support="" kao="1383_10112040.jpg"/>
+      </senk>
+      <senk senkId="52252" senkNm="兵庫６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="30472" khNmKnj="桜井　周" khNmKana="さくらい　しゅう" prtyId="195" prtyNm="立民" zmskNm="前" age="54" tsKaisu="3" prof1="元兵庫県伊丹市議会議員" prof2="元国際協力銀行職員" rcmmPrty="国民県連・社民県連合" support="" kao="30472_10111616.jpg"/>
+      </senk>
+      <senk senkId="52253" senkNm="兵庫７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="35829" khNmKnj="山田　賢司" khNmKana="やまだ　けんじ" prtyId="1" prtyNm="自民" zmskNm="前" age="58" tsKaisu="5" prof1="元外務副大臣" prof2="元三井住友銀行行員" rcmmPrty="公明" support="" kao="35829_10111616.jpg"/>
+      </senk>
+      <senk senkId="52254" senkNm="兵庫８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="35926" khNmKnj="中野　洋昌" khNmKana="なかの　ひろまさ" prtyId="3" prtyNm="公明" zmskNm="前" age="46" tsKaisu="5" prof1="元経済産業政務官" prof2="元国土交通省職員" rcmmPrty="自民" support="" kao="35926_10111616.jpg"/>
+      </senk>
+      <senk senkId="52255" senkNm="兵庫９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="614" khNmKnj="西村　康稔" khNmKana="にしむら　やすとし" prtyId="-1" prtyNm="無" zmskNm="前" age="62" tsKaisu="8" prof1="元経済産業大臣" prof2="元経済再生担当大臣" rcmmPrty="自民地域支部（明石・淡路）・公明" support="" kao="614_10112040.jpg"/>
+      </senk>
+      <senk senkId="52256" senkNm="兵庫１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2159" khNmKnj="渡海　紀三朗" khNmKana="とかい　きさぶろう" prtyId="1" prtyNm="自民" zmskNm="前" age="76" tsKaisu="11" prof1="元自民党政務調査会長" prof2="元文部科学大臣" rcmmPrty="公明" support="" kao="2159_10111616.jpg"/>
+      </senk>
+      <senk senkId="52257" senkNm="兵庫１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2161" khNmKnj="松本　剛明" khNmKana="まつもと　たけあき" prtyId="1" prtyNm="自民" zmskNm="前" age="65" tsKaisu="9" prof1="元総務大臣" prof2="元外務大臣" rcmmPrty="公明" support="" kao="2161_10111616.jpg"/>
+      </senk>
+      <senk senkId="52258" senkNm="兵庫１２区" senkDispOdr="12" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2134" khNmKnj="山口　壯" khNmKana="やまぐち　つよし" prtyId="1" prtyNm="自民" zmskNm="前" age="70" tsKaisu="8" prof1="元環境大臣" prof2="元外務副大臣" rcmmPrty="公明" support="" kao="2134_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="29" pftNm="奈良" senkSu="3">
+      <senk senkId="52259" senkNm="奈良１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2136" khNmKnj="馬淵　澄夫" khNmKana="まぶち　すみお" prtyId="195" prtyNm="立民" zmskNm="前" age="64" tsKaisu="8" prof1="元国土交通大臣" prof2="元総理大臣補佐官" rcmmPrty="" support="" kao="2136_10111616.jpg"/>
+      </senk>
+      <senk senkId="52260" senkNm="奈良２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2168" khNmKnj="高市　早苗" khNmKana="たかいち　さなえ" prtyId="1" prtyNm="自民" zmskNm="前" age="63" tsKaisu="10" prof1="元経済安全保障担当大臣" prof2="元自民党政務調査会長" rcmmPrty="公明" support="" kao="2168_10111616.jpg"/>
+      </senk>
+      <senk senkId="52261" senkNm="奈良３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36991" khNmKnj="田野瀬　太道" khNmKana="たのせ　たいどう" prtyId="1" prtyNm="自民" zmskNm="前" age="50" tsKaisu="5" prof1="元文部科学副大臣" prof2="元内閣府副大臣" rcmmPrty="公明" support="" kao="36991_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="30" pftNm="和歌山" senkSu="2">
+      <senk senkId="52262" senkNm="和歌山１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="55689" khNmKnj="山本　大地" khNmKana="やまもと　だいち" prtyId="1" prtyNm="自民" zmskNm="新" age="33" tsKaisu="1" prof1="元和歌山市議会議員" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="55689_10111616.jpg"/>
+      </senk>
+      <senk senkId="52263" senkNm="和歌山２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2279" khNmKnj="世耕　弘成" khNmKana="せこう　ひろしげ" prtyId="-1" prtyNm="無" zmskNm="新" age="61" tsKaisu="1" prof1="元自民党参議院幹事長" prof2="元経済産業大臣" rcmmPrty="" support="" kao="2279_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="31" pftNm="鳥取" senkSu="2">
+      <senk senkId="52265" senkNm="鳥取１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="689" khNmKnj="石破　茂" khNmKana="いしば　しげる" prtyId="1" prtyNm="自民" zmskNm="前" age="67" tsKaisu="13" prof1="総理大臣" prof2="元自民党幹事長" rcmmPrty="公明" support="" kao="689_10111616.jpg"/>
+      </senk>
+      <senk senkId="52266" senkNm="鳥取２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="691" khNmKnj="赤沢　亮正" khNmKana="あかざわ　りょうせい" prtyId="1" prtyNm="自民" zmskNm="前" age="63" tsKaisu="7" prof1="経済再生担当大臣" prof2="元財務副大臣" rcmmPrty="公明" support="" kao="691_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="32" pftNm="島根" senkSu="2">
+      <senk senkId="52267" senkNm="島根１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3326" khNmKnj="亀井　亜紀子" khNmKana="かめい　あきこ" prtyId="195" prtyNm="立民" zmskNm="前" age="59" tsKaisu="3" prof1="立憲民主党島根県連代表" prof2="元参議院議員" rcmmPrty="" support="" kao="3326_10111616.jpg"/>
+      </senk>
+      <senk senkId="52268" senkNm="島根２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="40297" khNmKnj="高見　康裕" khNmKana="たかみ　やすひろ" prtyId="1" prtyNm="自民" zmskNm="前" age="44" tsKaisu="2" prof1="元法務政務官" prof2="元島根県議会議員" rcmmPrty="公明" support="" kao="40297_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="33" pftNm="岡山" senkSu="4">
+      <senk senkId="52269" senkNm="岡山１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1654" khNmKnj="逢沢　一郎" khNmKana="あいさわ　いちろう" prtyId="1" prtyNm="自民" zmskNm="前" age="70" tsKaisu="13" prof1="元自民党国会対策委員長" prof2="元衆議院政治倫理審査会会長" rcmmPrty="公明" support="" kao="1654_10111616.jpg"/>
+      </senk>
+      <senk senkId="52270" senkNm="岡山２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="32165" khNmKnj="山下　貴司" khNmKana="やました　たかし" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="5" prof1="元法務大臣" prof2="弁護士" rcmmPrty="公明" support="" kao="32165_10111616.jpg"/>
+      </senk>
+      <senk senkId="52271" senkNm="岡山３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1952" khNmKnj="加藤　勝信" khNmKana="かとう　かつのぶ" prtyId="1" prtyNm="自民" zmskNm="前" age="68" tsKaisu="8" prof1="財務大臣" prof2="元官房長官" rcmmPrty="公明" support="" kao="1952_10111616.jpg"/>
+      </senk>
+      <senk senkId="52272" senkNm="岡山４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1379" khNmKnj="柚木　道義" khNmKana="ゆのき　みちよし" prtyId="195" prtyNm="立民" zmskNm="前" age="52" tsKaisu="7" prof1="元財務政務官" prof2="立憲民主党岡山県連代表" rcmmPrty="" support="" kao="1379_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="34" pftNm="広島" senkSu="6">
+      <senk senkId="52274" senkNm="広島１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1406" khNmKnj="岸田　文雄" khNmKana="きしだ　ふみお" prtyId="1" prtyNm="自民" zmskNm="前" age="67" tsKaisu="11" prof1="元総理大臣" prof2="元外務大臣" rcmmPrty="公明" support="" kao="1406_10111616.jpg"/>
+      </senk>
+      <senk senkId="52275" senkNm="広島２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1410" khNmKnj="平口　洋" khNmKana="ひらぐち　ひろし" prtyId="1" prtyNm="自民" zmskNm="前" age="76" tsKaisu="6" prof1="元法務副大臣" prof2="元環境副大臣" rcmmPrty="公明" support="" kao="1410_10111616.jpg"/>
+      </senk>
+      <senk senkId="52276" senkNm="広島３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="883" khNmKnj="斉藤　鉄夫" khNmKana="さいとう　てつお" prtyId="3" prtyNm="公明" zmskNm="前" age="72" tsKaisu="11" prof1="国土交通大臣" prof2="公明党副代表" rcmmPrty="自民" support="" kao="883_10111616.jpg"/>
+      </senk>
+      <senk senkId="52277" senkNm="広島４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1420" khNmKnj="空本　誠喜" khNmKana="そらもと　せいき" prtyId="187" prtyNm="維新" zmskNm="前" age="60" tsKaisu="3" prof1="日本維新の会広島県総支部代表" prof2="元東芝社員" rcmmPrty="" support="" kao="1420_10111616.jpg"/>
+      </senk>
+      <senk senkId="52278" senkNm="広島５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1901" khNmKnj="佐藤　公治" khNmKana="さとう　こうじ" prtyId="195" prtyNm="立民" zmskNm="前" age="65" tsKaisu="5" prof1="立憲民主党組織委員長" prof2="立憲民主党広島県連代表" rcmmPrty="社民県連合" support="" kao="1901_10111616.jpg"/>
+      </senk>
+      <senk senkId="52279" senkNm="広島６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36412" khNmKnj="小林　史明" khNmKana="こばやし　ふみあき" prtyId="1" prtyNm="自民" zmskNm="前" age="41" tsKaisu="5" prof1="元デジタル副大臣" prof2="元NTTドコモ社員" rcmmPrty="公明" support="" kao="36412_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="35" pftNm="山口" senkSu="3">
+      <senk senkId="52281" senkNm="山口１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="48710" khNmKnj="高村　正大" khNmKana="こうむら　まさひろ" prtyId="1" prtyNm="自民" zmskNm="前" age="53" tsKaisu="3" prof1="外務政務官" prof2="元財務政務官" rcmmPrty="公明" support="" kao="48710_10111616.jpg"/>
+      </senk>
+      <senk senkId="52282" senkNm="山口２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="53763" khNmKnj="岸　信千世" khNmKana="きし　のぶちよ" prtyId="1" prtyNm="自民" zmskNm="前" age="33" tsKaisu="2" prof1="元衆議院議員秘書" prof2="元フジテレビ記者" rcmmPrty="公明" support="" kao="53763_10111616.jpg"/>
+      </senk>
+      <senk senkId="52283" senkNm="山口３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2567" khNmKnj="林　芳正" khNmKana="はやし　よしまさ" prtyId="1" prtyNm="自民" zmskNm="前" age="63" tsKaisu="2" prof1="官房長官" prof2="元外務大臣" rcmmPrty="公明" support="" kao="2567_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="36" pftNm="徳島" senkSu="2">
+      <senk senkId="52285" senkNm="徳島１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2201" khNmKnj="仁木　博文" khNmKana="にき　ひろぶみ" prtyId="1" prtyNm="自民" zmskNm="前" age="58" tsKaisu="3" prof1="医師" prof2="医学博士" rcmmPrty="公明" support="" kao="2201_10111616.jpg"/>
+      </senk>
+      <senk senkId="52286" senkNm="徳島２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2202" khNmKnj="山口　俊一" khNmKana="やまぐち　しゅんいち" prtyId="1" prtyNm="自民" zmskNm="前" age="74" tsKaisu="12" prof1="元沖縄・北方担当大臣" prof2="元財務副大臣" rcmmPrty="公明" support="" kao="2202_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="37" pftNm="香川" senkSu="3">
+      <senk senkId="52287" senkNm="香川１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2209" khNmKnj="小川　淳也" khNmKana="おがわ　じゅんや" prtyId="195" prtyNm="立民" zmskNm="前" age="53" tsKaisu="7" prof1="立憲民主党幹事長" prof2="元総務政務官" rcmmPrty="" support="" kao="2209_10111616.jpg"/>
+      </senk>
+      <senk senkId="52288" senkNm="香川２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2212" khNmKnj="玉木　雄一郎" khNmKana="たまき　ゆういちろう" prtyId="197" prtyNm="国民" zmskNm="前" age="55" tsKaisu="6" prof1="国民民主党代表" prof2="元財務省主査" rcmmPrty="" support="" kao="2212_10111616.jpg"/>
+      </senk>
+      <senk senkId="52289" senkNm="香川３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36015" khNmKnj="大野　敬太郎" khNmKana="おおの　けいたろう" prtyId="1" prtyNm="自民" zmskNm="前" age="55" tsKaisu="5" prof1="元内閣府副大臣" prof2="元防衛政務官" rcmmPrty="公明" support="" kao="36015_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="38" pftNm="愛媛" senkSu="3">
+      <senk senkId="52290" senkNm="愛媛１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="52532" khNmKnj="塩崎　彰久" khNmKana="しおざき　あきひさ" prtyId="1" prtyNm="自民" zmskNm="前" age="48" tsKaisu="2" prof1="厚生労働政務官" prof2="弁護士" rcmmPrty="公明" support="" kao="52532_10111616.jpg"/>
+      </senk>
+      <senk senkId="52291" senkNm="愛媛２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3488" khNmKnj="白石　洋一" khNmKana="しらいし　よういち" prtyId="195" prtyNm="立民" zmskNm="前" age="61" tsKaisu="4" prof1="立憲民主党愛媛県連代表" prof2="元日本長期信用銀行行員" rcmmPrty="" support="" kao="3488_10111616.jpg"/>
+      </senk>
+      <senk senkId="52292" senkNm="愛媛３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="51892" khNmKnj="長谷川　淳二" khNmKana="はせがわ　じゅんじ" prtyId="1" prtyNm="自民" zmskNm="前" age="56" tsKaisu="2" prof1="総務政務官" prof2="自民党愛媛県連会長" rcmmPrty="公明" support="" kao="51892_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="39" pftNm="高知" senkSu="2">
+      <senk senkId="52294" senkNm="高知１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="34" khNmKnj="中谷　元" khNmKana="なかたに　げん" prtyId="1" prtyNm="自民" zmskNm="前" age="67" tsKaisu="12" prof1="防衛大臣" prof2="元陸上自衛官" rcmmPrty="公明" support="" kao="34_10111616.jpg"/>
+      </senk>
+      <senk senkId="52295" senkNm="高知２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="3459" khNmKnj="尾崎　正直" khNmKana="おざき　まさなお" prtyId="1" prtyNm="自民" zmskNm="前" age="57" tsKaisu="2" prof1="元高知県知事" prof2="国土交通政務官" rcmmPrty="公明" support="" kao="3459_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="40" pftNm="福岡" senkSu="11">
+      <senk senkId="52296" senkNm="福岡１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2332" khNmKnj="井上　貴博" khNmKana="いのうえ　たかひろ" prtyId="1" prtyNm="自民" zmskNm="前" age="62" tsKaisu="5" prof1="元財務副大臣" prof2="元福岡県議会議員" rcmmPrty="公明" support="" kao="2332_10111616.jpg"/>
+      </senk>
+      <senk senkId="52297" senkNm="福岡２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="2844" khNmKnj="稲富　修二" khNmKana="いなとみ　しゅうじ" prtyId="195" prtyNm="立民" zmskNm="前" age="54" tsKaisu="4" prof1="立憲民主党福岡県連副代表" prof2="元丸紅社員" rcmmPrty="" support="" kao="2844_10111616.jpg"/>
+      </senk>
+      <senk senkId="52298" senkNm="福岡３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="36393" khNmKnj="古賀　篤" khNmKana="こが　あつし" prtyId="1" prtyNm="自民" zmskNm="前" age="52" tsKaisu="5" prof1="内閣府副大臣" prof2="元財務省職員" rcmmPrty="" support="" kao="36393_10111616.jpg"/>
+      </senk>
+      <senk senkId="52299" senkNm="福岡４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="35942" khNmKnj="宮内　秀樹" khNmKana="みやうち　ひでき" prtyId="1" prtyNm="自民" zmskNm="前" age="62" tsKaisu="5" prof1="元農林水産副大臣" prof2="元自民党副幹事長" rcmmPrty="公明" support="" kao="35942_10111616.jpg"/>
+      </senk>
+      <senk senkId="52300" senkNm="福岡５区" senkDispOdr="5" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="28983" khNmKnj="栗原　渉" khNmKana="くりはら　わたる" prtyId="1" prtyNm="自民" zmskNm="新" age="59" tsKaisu="1" prof1="元福岡県議会議長" prof2="元衆議院議員秘書" rcmmPrty="公明" support="" kao="28983_10111616.jpg"/>
+      </senk>
+      <senk senkId="52301" senkNm="福岡６区" senkDispOdr="6" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="38550" khNmKnj="鳩山　二郎" khNmKana="はとやま　じろう" prtyId="1" prtyNm="自民" zmskNm="前" age="45" tsKaisu="4" prof1="元総務政務官" prof2="元福岡県大川市長" rcmmPrty="公明" support="" kao="38550_10111616.jpg"/>
+      </senk>
+      <senk senkId="52302" senkNm="福岡７区" senkDispOdr="7" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="37132" khNmKnj="藤丸　敏" khNmKana="ふじまる　さとし" prtyId="1" prtyNm="自民" zmskNm="前" age="64" tsKaisu="5" prof1="元内閣府副大臣" prof2="元衆議院議員秘書" rcmmPrty="公明" support="" kao="37132_10111616.jpg"/>
+      </senk>
+      <senk senkId="52303" senkNm="福岡８区" senkDispOdr="8" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2226" khNmKnj="麻生　太郎" khNmKana="あそう　たろう" prtyId="1" prtyNm="自民" zmskNm="前" age="84" tsKaisu="15" prof1="自民党最高顧問" prof2="元総理大臣" rcmmPrty="" support="" kao="2226_10111616.jpg"/>
+      </senk>
+      <senk senkId="52304" senkNm="福岡９区" senkDispOdr="9" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="3560" khNmKnj="緒方　林太郎" khNmKana="おがた　りんたろう" prtyId="-1" prtyNm="無" zmskNm="前" age="51" tsKaisu="4" prof1="元外務省職員" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="3560_10111616.jpg"/>
+      </senk>
+      <senk senkId="52305" senkNm="福岡１０区" senkDispOdr="10" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="575" khNmKnj="城井　崇" khNmKana="きい　たかし" prtyId="195" prtyNm="立民" zmskNm="前" age="51" tsKaisu="5" prof1="立憲民主党福岡県連代表" prof2="元文部科学政務官" rcmmPrty="" support="" kao="575_10111616.jpg"/>
+      </senk>
+      <senk senkId="52306" senkNm="福岡１１区" senkDispOdr="11" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47627" khNmKnj="村上　智信" khNmKana="むらかみ　とものぶ" prtyId="187" prtyNm="維新" zmskNm="新" age="55" tsKaisu="1" prof1="元経済産業省室長" prof2="元東北大学副センター長" rcmmPrty="" support="" kao="47627_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="41" pftNm="佐賀" senkSu="2">
+      <senk senkId="52307" senkNm="佐賀１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1689" khNmKnj="原口　一博" khNmKana="はらぐち　かずひろ" prtyId="195" prtyNm="立民" zmskNm="前" age="65" tsKaisu="10" prof1="元総務大臣" prof2="立憲民主党佐賀県連代表" rcmmPrty="" support="" kao="1689_10111616.jpg"/>
+      </senk>
+      <senk senkId="52308" senkNm="佐賀２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1694" khNmKnj="大串　博志" khNmKana="おおぐし　ひろし" prtyId="195" prtyNm="立民" zmskNm="前" age="59" tsKaisu="7" prof1="立憲民主党代表代行" prof2="元総理大臣補佐官" rcmmPrty="" support="" kao="1694_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="42" pftNm="長崎" senkSu="3">
+      <senk senkId="52309" senkNm="長崎１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47106" khNmKnj="西岡　秀子" khNmKana="にしおか　ひでこ" prtyId="197" prtyNm="国民" zmskNm="前" age="60" tsKaisu="3" prof1="国民民主党政務調査会長代理" prof2="元参議院議員秘書" rcmmPrty="" support="" kao="47106_10111616.jpg"/>
+      </senk>
+      <senk senkId="52310" senkNm="長崎２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="52630" khNmKnj="加藤　竜祥" khNmKana="かとう　りゅうしょう" prtyId="1" prtyNm="自民" zmskNm="前" age="44" tsKaisu="2" prof1="元国土交通政務官" prof2="元衆議院議員秘書" rcmmPrty="公明" support="" kao="52630_10111616.jpg"/>
+      </senk>
+      <senk senkId="52311" senkNm="長崎３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="55198" khNmKnj="金子　容三" khNmKana="かねこ　ようぞう" prtyId="1" prtyNm="自民" zmskNm="前" age="41" tsKaisu="2" prof1="元証券会社社員" prof2="" rcmmPrty="公明" support="" kao="55198_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="43" pftNm="熊本" senkSu="4">
+      <senk senkId="52313" senkNm="熊本１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1075" khNmKnj="木原　稔" khNmKana="きはら　みのる" prtyId="1" prtyNm="自民" zmskNm="前" age="55" tsKaisu="6" prof1="元防衛大臣" prof2="元財務副大臣" rcmmPrty="" support="" kao="1075_10112040.jpg"/>
+      </senk>
+      <senk senkId="52314" senkNm="熊本２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="47654" khNmKnj="西野　太亮" khNmKana="にしの　だいすけ" prtyId="1" prtyNm="自民" zmskNm="前" age="46" tsKaisu="2" prof1="元財務省職員" prof2="元復興庁職員" rcmmPrty="公明" support="" kao="47654_10111616.jpg"/>
+      </senk>
+      <senk senkId="52315" senkNm="熊本３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1084" khNmKnj="坂本　哲志" khNmKana="さかもと　てつし" prtyId="1" prtyNm="自民" zmskNm="前" age="73" tsKaisu="8" prof1="元農林水産大臣" prof2="元熊本日日新聞記者" rcmmPrty="公明" support="" kao="1084_10111616.jpg"/>
+      </senk>
+      <senk senkId="52316" senkNm="熊本４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="42" khNmKnj="金子　恭之" khNmKana="かねこ　やすし" prtyId="1" prtyNm="自民" zmskNm="前" age="63" tsKaisu="9" prof1="元総務大臣" prof2="元国土交通副大臣" rcmmPrty="公明" support="" kao="42_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="44" pftNm="大分" senkSu="3">
+      <senk senkId="52317" senkNm="大分１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1089" khNmKnj="吉良　州司" khNmKana="きら　しゅうじ" prtyId="-1" prtyNm="無" zmskNm="前" age="66" tsKaisu="7" prof1="元外務副大臣" prof2="元日商岩井米国会社産業プロジェクト部長" rcmmPrty="" support="国民県連" kao="1089_10111616.jpg"/>
+      </senk>
+      <senk senkId="52318" senkNm="大分２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="55321" khNmKnj="広瀬　建" khNmKana="ひろせ　けん" prtyId="-1" prtyNm="無" zmskNm="新" age="50" tsKaisu="1" prof1="元神戸製鋼所営業事業推進室長" prof2="" rcmmPrty="" support="" kao="55321_10111616.jpg"/>
+      </senk>
+      <senk senkId="52319" senkNm="大分３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1098" khNmKnj="岩屋　毅" khNmKana="いわや　たけし" prtyId="1" prtyNm="自民" zmskNm="前" age="67" tsKaisu="10" prof1="外務大臣" prof2="元防衛大臣" rcmmPrty="公明" support="" kao="1098_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="45" pftNm="宮崎" senkSu="3">
+      <senk senkId="52320" senkNm="宮崎１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="5670" khNmKnj="渡辺　創" khNmKana="わたなべ　そう" prtyId="195" prtyNm="立民" zmskNm="前" age="47" tsKaisu="2" prof1="元毎日新聞記者" prof2="立憲民主党国会対策委員長補佐" rcmmPrty="" support="社民県連合" kao="5670_10111616.jpg"/>
+      </senk>
+      <senk senkId="52321" senkNm="宮崎２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1109" khNmKnj="江藤　拓" khNmKana="えとう　たく" prtyId="1" prtyNm="自民" zmskNm="前" age="64" tsKaisu="8" prof1="元農林水産大臣" prof2="自民党宮崎県連会長" rcmmPrty="公明" support="" kao="1109_10111616.jpg"/>
+      </senk>
+      <senk senkId="52322" senkNm="宮崎３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1073" khNmKnj="古川　禎久" khNmKana="ふるかわ　よしひさ" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="8" prof1="元法務大臣" prof2="元財務副大臣" rcmmPrty="公明" support="" kao="1073_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="46" pftNm="鹿児島" senkSu="4">
+      <senk senkId="52323" senkNm="鹿児島１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="577" khNmKnj="川内　博史" khNmKana="かわうち　ひろし" prtyId="195" prtyNm="立民" zmskNm="前" age="62" tsKaisu="8" prof1="立憲民主党鹿児島県連選挙対策委員長" prof2="元立憲民主党政務調査会長代行" rcmmPrty="" support="" kao="577_10111616.jpg"/>
+      </senk>
+      <senk senkId="52324" senkNm="鹿児島２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47147" khNmKnj="三反園　訓" khNmKana="みたぞの　さとし" prtyId="-1" prtyNm="無" zmskNm="前" age="66" tsKaisu="2" prof1="元鹿児島県知事" prof2="元テレビ朝日コメンテーター" rcmmPrty="" support="" kao="47147_10111616.jpg"/>
+      </senk>
+      <senk senkId="52325" senkNm="鹿児島３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="582" khNmKnj="野間　健" khNmKana="のま　たけし" prtyId="195" prtyNm="立民" zmskNm="前" age="66" tsKaisu="4" prof1="立憲民主党国会対策副委員長" prof2="元衆議院議員秘書" rcmmPrty="" support="" kao="582_10111616.jpg"/>
+      </senk>
+      <senk senkId="52326" senkNm="鹿児島４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1891" khNmKnj="森山　裕" khNmKana="もりやま　ひろし" prtyId="1" prtyNm="自民" zmskNm="前" age="79" tsKaisu="8" prof1="自民党幹事長" prof2="元農林水産大臣" rcmmPrty="公明" support="" kao="1891_10111616.jpg"/>
+      </senk>
+    </ken>
+    <ken nhkPftCd="47" pftNm="沖縄" senkSu="4">
+      <senk senkId="52327" senkNm="沖縄１区" senkDispOdr="1" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="1896" khNmKnj="赤嶺　政賢" khNmKana="あかみね　せいけん" prtyId="4" prtyNm="共産" zmskNm="前" age="76" tsKaisu="9" prof1="共産党沖縄県委員長" prof2="元那覇市議会議員" rcmmPrty="" support="" kao="1896_10111616.jpg"/>
+      </senk>
+      <senk senkId="52328" senkNm="沖縄２区" senkDispOdr="2" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="0"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="1"/>
+        </prtyGrpLst>
+        <koho khId="47880" khNmKnj="新垣　邦男" khNmKana="あらかき　くにお" prtyId="5" prtyNm="社民" zmskNm="前" age="68" tsKaisu="2" prof1="社民党副党首" prof2="元沖縄県北中城村長" rcmmPrty="" support="" kao="47880_10111616.jpg"/>
+      </senk>
+      <senk senkId="52329" senkNm="沖縄３区" senkDispOdr="3" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="2924" khNmKnj="島尻　安伊子" khNmKana="しまじり　あいこ" prtyId="1" prtyNm="自民" zmskNm="前" age="59" tsKaisu="2" prof1="元沖縄・北方担当大臣" prof2="元参議院議員" rcmmPrty="公明" support="" kao="2924_10111616.jpg"/>
+      </senk>
+      <senk senkId="52330" senkNm="沖縄４区" senkDispOdr="4" teiin="1" tstkSu="1">
+        <prtyGrpLst>
+          <prtyGrp prtyGrpId="1" prtyGrpTtstkSu="1"/>
+          <prtyGrp prtyGrpId="2" prtyGrpTtstkSu="0"/>
+        </prtyGrpLst>
+        <koho khId="1447" khNmKnj="西銘　恒三郎" khNmKana="にしめ　こうさぶろう" prtyId="1" prtyNm="自民" zmskNm="前" age="70" tsKaisu="7" prof1="元復興大臣" prof2="元沖縄・北方担当大臣" rcmmPrty="公明" support="" kao="1447_10111616.jpg"/>
+      </senk>
+    </ken>
+  </senktsn>
+  <hrtsn>
+    <prty prtyId="1" prtyDispOdr="1" prtyNm="自民">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道">
+        <koho khId="3984" khNmKnj="伊東　良孝" khNmKana="いとう　よしたか" zmskNm="前" age="75" tsKaisu="6" prof1="地方創生担当大臣" prof2="元北海道釧路市長" senkHrKbn="2" senkId="0" senkNm="" kao="3984_10111616.jpg"/>
+        <koho khId="6537" khNmKnj="中村　裕之" khNmKana="なかむら　ひろゆき" zmskNm="前" age="63" tsKaisu="5" prof1="元農林水産副大臣" prof2="元北海道議会議員" senkHrKbn="3" senkId="52045" senkNm="北海道４区" kao="6537_10111616.jpg"/>
+        <koho khId="53179" khNmKnj="向山　淳" khNmKana="むこうやま　じゅん" zmskNm="新" age="40" tsKaisu="1" prof1="政策シンクタンク代表" prof2="元三菱商事社員" senkHrKbn="3" senkId="52049" senkNm="北海道８区" kao="53179_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北">
+        <koho khId="1481" khNmKnj="江渡　聡徳" khNmKana="えと　あきのり" zmskNm="前" age="69" tsKaisu="9" prof1="元防衛大臣" prof2="元衆議院安全保障委員長" senkHrKbn="2" senkId="0" senkNm="" kao="1481_10141512.jpg"/>
+        <koho khId="52246" khNmKnj="森下　千里" khNmKana="もりした　ちさと" zmskNm="新" age="43" tsKaisu="1" prof1="東北福祉大学客員教授" prof2="元タレント" senkHrKbn="2" senkId="0" senkNm="" kao="52246_10141512.jpg"/>
+        <koho khId="31432" khNmKnj="福原　淳嗣" khNmKana="ふくはら　じゅんじ" zmskNm="新" age="56" tsKaisu="1" prof1="元秋田県大館市長" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52067" senkNm="秋田２区" kao="31432_10111616.jpg"/>
+        <koho khId="1530" khNmKnj="御法川　信英" khNmKana="みのりかわ　のぶひで" zmskNm="前" age="60" tsKaisu="7" prof1="元財務副大臣" prof2="自民党秋田県連会長" senkHrKbn="3" senkId="52068" senkNm="秋田３区" kao="1530_10111616.jpg"/>
+        <koho khId="55781" khNmKnj="根本　拓" khNmKana="ねもと　たく" zmskNm="新" age="38" tsKaisu="1" prof1="弁護士" prof2="元ＯＥＣＤ職員" senkHrKbn="3" senkId="52073" senkNm="福島２区" kao="55781_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東">
+        <koho khId="29657" khNmKnj="中野　英幸" khNmKana="なかの　ひでゆき" zmskNm="前" age="63" tsKaisu="2" prof1="法務政務官" prof2="元内閣府政務官" senkHrKbn="3" senkId="52100" senkNm="埼玉７区" kao="29657_10111616.jpg"/>
+        <koho khId="48213" khNmKnj="国光　文乃" khNmKana="くにみつ　あやの" zmskNm="前" age="45" tsKaisu="3" prof1="元総務政務官" prof2="医師" senkHrKbn="3" senkId="52082" senkNm="茨城６区" kao="48213_10111616.jpg"/>
+        <koho khId="849" khNmKnj="永岡　桂子" khNmKana="ながおか　けいこ" zmskNm="前" age="70" tsKaisu="7" prof1="元文部科学大臣" prof2="元厚生労働副大臣" senkHrKbn="3" senkId="52083" senkNm="茨城７区" kao="849_10111616.jpg"/>
+        <koho khId="2442" khNmKnj="田所　嘉徳" khNmKana="たどころ　よしのり" zmskNm="前" age="70" tsKaisu="5" prof1="元法務副大臣" prof2="元茨城県議会議員" senkHrKbn="3" senkId="52077" senkNm="茨城１区" kao="2442_10112040.jpg"/>
+        <koho khId="8" khNmKnj="佐藤　勉" khNmKana="さとう　つとむ" zmskNm="前" age="72" tsKaisu="10" prof1="元自民党総務会長" prof2="元総務大臣" senkHrKbn="3" senkId="52087" senkNm="栃木４区" kao="8_10111616.jpg"/>
+        <koho khId="6876" khNmKnj="五十嵐　清" khNmKana="いがらし　きよし" zmskNm="前" age="54" tsKaisu="2" prof1="元栃木県議会議長" prof2="元衆議院農林水産委員会委員" senkHrKbn="3" senkId="52085" senkNm="栃木２区" kao="6876_10111616.jpg"/>
+        <koho khId="7310" khNmKnj="野中　厚" khNmKana="のなか　あつし" zmskNm="前" age="47" tsKaisu="5" prof1="元農林水産副大臣" prof2="元自民党副幹事長" senkHrKbn="3" senkId="52105" senkNm="埼玉１２区" kao="7310_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="7608" khNmKnj="古川　直季" khNmKana="ふるかわ　なおき" zmskNm="前" age="56" tsKaisu="2" prof1="元横浜市議会議員" prof2="元横浜銀行行員" senkHrKbn="3" senkId="52152" senkNm="神奈川６区" kao="7608_10141512.jpg"/>
+        <koho khId="36028" khNmKnj="中谷　真一" khNmKana="なかたに　しんいち" zmskNm="前" age="48" tsKaisu="5" prof1="元経済産業副大臣" prof2="元陸上自衛官" senkHrKbn="3" senkId="52176" senkNm="山梨１区" kao="36028_10111616.jpg"/>
+        <koho khId="53176" khNmKnj="英利　アルフィヤ" khNmKana="えり　あるふぃや" zmskNm="前" age="36" tsKaisu="2" prof1="元国連職員" prof2="元日本銀行職員" senkHrKbn="3" senkId="52113" senkNm="千葉５区" kao="53176_10111616.jpg"/>
+        <koho khId="1936" khNmKnj="鈴木　馨祐" khNmKana="すずき　けいすけ" zmskNm="前" age="47" tsKaisu="6" prof1="元外務副大臣" prof2="元財務副大臣" senkHrKbn="3" senkId="52153" senkNm="神奈川７区" kao="1936_10112040.jpg"/>
+        <koho khId="35997" khNmKnj="三谷　英弘" khNmKana="みたに　ひでひろ" zmskNm="前" age="48" tsKaisu="4" prof1="元文部科学政務官" prof2="弁護士" senkHrKbn="3" senkId="52154" senkNm="神奈川８区" kao="35997_10111616.jpg"/>
+        <koho khId="32260" khNmKnj="星野　剛士" khNmKana="ほしの　つよし" zmskNm="前" age="61" tsKaisu="5" prof1="元内閣府副大臣" prof2="元神奈川県議会議員" senkHrKbn="3" senkId="52158" senkNm="神奈川１２区" kao="32260_10111616.jpg"/>
+        <koho khId="781" khNmKnj="山際　大志郎" khNmKana="やまぎわ　だいしろう" zmskNm="前" age="56" tsKaisu="7" prof1="元経済再生担当大臣" prof2="元スタートアップ担当大臣" senkHrKbn="3" senkId="52164" senkNm="神奈川１８区" kao="781_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京">
+        <koho khId="5731" khNmKnj="安藤　高夫" khNmKana="あんどう　たかお" zmskNm="元" age="65" tsKaisu="2" prof1="医療法人理事長" prof2="医師" senkHrKbn="3" senkId="52346" senkNm="東京２８区" kao="5731_10111616.jpg"/>
+        <koho khId="758" khNmKnj="伊藤　達也" khNmKana="いとう　たつや" zmskNm="前" age="63" tsKaisu="10" prof1="元金融担当大臣" prof2="元総理大臣補佐官" senkHrKbn="3" senkId="52143" senkNm="東京２２区" kao="758_10111616.jpg"/>
+        <koho khId="745" khNmKnj="松本　洋平" khNmKana="まつもと　ようへい" zmskNm="前" age="51" tsKaisu="6" prof1="元経済産業副大臣" prof2="元内閣府副大臣" senkHrKbn="3" senkId="52140" senkNm="東京１９区" kao="745_10111616.jpg"/>
+        <koho khId="55779" khNmKnj="大空　幸星" khNmKana="おおぞら　こうき" zmskNm="新" age="25" tsKaisu="1" prof1="元ＮＰＯ法人理事長" prof2="元こども家庭庁審議会部会委員" senkHrKbn="3" senkId="52136" senkNm="東京１５区" kao="55779_10141512.jpg"/>
+        <koho khId="752" khNmKnj="長島　昭久" khNmKana="ながしま　あきひさ" zmskNm="前" age="62" tsKaisu="8" prof1="総理大臣補佐官" prof2="元防衛副大臣" senkHrKbn="3" senkId="52348" senkNm="東京３０区" kao="752_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越">
+        <koho khId="49437" khNmKnj="国定　勇人" khNmKana="くにさだ　いさと" zmskNm="前" age="52" tsKaisu="2" prof1="環境政務官" prof2="元新潟県三条市長" senkHrKbn="2" senkId="0" senkNm="" kao="49437_10111616.jpg"/>
+        <koho khId="35836" khNmKnj="斎藤　洋明" khNmKana="さいとう　ひろあき" zmskNm="前" age="47" tsKaisu="5" prof1="財務副大臣" prof2="元総務政務官" senkHrKbn="3" senkId="52167" senkNm="新潟３区" kao="35836_10111616.jpg"/>
+        <koho khId="5838" khNmKnj="井出　庸生" khNmKana="いで　ようせい" zmskNm="前" age="46" tsKaisu="5" prof1="元文部科学副大臣" prof2="元ＮＨＫ記者" senkHrKbn="3" senkId="52173" senkNm="長野３区" kao="5838_10111616.jpg"/>
+        <koho khId="8321" khNmKnj="西田　昭二" khNmKana="にしだ　しょうじ" zmskNm="前" age="55" tsKaisu="3" prof1="総務政務官" prof2="元石川県議会議員" senkHrKbn="3" senkId="52183" senkNm="石川３区" kao="8321_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="55844" khNmKnj="若山　慎司" khNmKana="わかやま　しんじ" zmskNm="新" age="51" tsKaisu="1" prof1="元衆議院議員秘書" prof2="元沖縄・北方担当大臣秘書官" senkHrKbn="3" senkId="52208" senkNm="愛知１０区" kao="55844_10111616.jpg"/>
+        <koho khId="30656" khNmKnj="深澤　陽一" khNmKana="ふかざわ　よういち" zmskNm="前" age="48" tsKaisu="3" prof1="外務政務官" prof2="元静岡県議会議員" senkHrKbn="3" senkId="52194" senkNm="静岡４区" kao="30656_10111616.jpg"/>
+        <koho khId="35902" khNmKnj="勝俣　孝明" khNmKana="かつまた　たかあき" zmskNm="前" age="48" tsKaisu="5" prof1="元農林水産副大臣" prof2="元スルガ銀行行員" senkHrKbn="3" senkId="52196" senkNm="静岡６区" kao="35902_10111616.jpg"/>
+        <koho khId="52566" khNmKnj="川崎　秀人" khNmKana="かわさき　ひでと" zmskNm="前" age="42" tsKaisu="2" prof1="元衆議院議員秘書" prof2="元ＮＴＴドコモ社員" senkHrKbn="3" senkId="52215" senkNm="三重２区" kao="52566_10111616.jpg"/>
+        <koho khId="8746" khNmKnj="長坂　康正" khNmKana="ながさか　やすまさ" zmskNm="前" age="67" tsKaisu="5" prof1="元経済産業副大臣" prof2="元愛知県議会議員" senkHrKbn="3" senkId="52207" senkNm="愛知９区" kao="8746_10111616.jpg"/>
+        <koho khId="8847" khNmKnj="工藤　彰三" khNmKana="くどう　しょうぞう" zmskNm="前" age="59" tsKaisu="5" prof1="内閣府副大臣" prof2="元名古屋市議会議員" senkHrKbn="3" senkId="52202" senkNm="愛知４区" kao="8847_10111616.jpg"/>
+        <koho khId="1597" khNmKnj="伊藤　忠彦" khNmKana="いとう　ただひこ" zmskNm="前" age="60" tsKaisu="6" prof1="復興大臣" prof2="元愛知県議会議員" senkHrKbn="3" senkId="52206" senkNm="愛知８区" kao="1597_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="4387" khNmKnj="小寺　裕雄" khNmKana="こてら　ひろお" zmskNm="前" age="64" tsKaisu="3" prof1="元内閣府政務官" prof2="元滋賀県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="4387_10111616.jpg"/>
+        <koho khId="682" khNmKnj="石田　真敏" khNmKana="いしだ　まさとし" zmskNm="前" age="72" tsKaisu="9" prof1="元総務大臣" prof2="元和歌山県海南市長" senkHrKbn="2" senkId="0" senkNm="" kao="682_10111616.jpg"/>
+        <koho khId="8566" khNmKnj="大岡　敏孝" khNmKana="おおおか　としたか" zmskNm="前" age="52" tsKaisu="5" prof1="元環境副大臣" prof2="自民党滋賀県連会長" senkHrKbn="3" senkId="52218" senkNm="滋賀１区" kao="8566_10111616.jpg"/>
+        <koho khId="35608" khNmKnj="大串　正樹" khNmKana="おおぐし　まさき" zmskNm="前" age="58" tsKaisu="5" prof1="元デジタル副大臣" prof2="元石川島播磨重工業社員" senkHrKbn="3" senkId="52252" senkNm="兵庫６区" kao="35608_10111616.jpg"/>
+        <koho khId="9793" khNmKnj="小林　茂樹" khNmKana="こばやし　しげき" zmskNm="前" age="60" tsKaisu="4" prof1="元環境副大臣" prof2="元国土交通政務官" senkHrKbn="3" senkId="52259" senkNm="奈良１区" kao="9793_10111616.jpg"/>
+        <koho khId="47508" khNmKnj="島田　智明" khNmKana="しまだ　ともあき" zmskNm="新" age="54" tsKaisu="1" prof1="元大阪府河内長野市長" prof2="元神戸大学大学院経営学研究科准教授" senkHrKbn="3" senkId="52242" senkNm="大阪１５区" kao="47508_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国">
+        <koho khId="37276" khNmKnj="新谷　正義" khNmKana="しんたに　まさよし" zmskNm="前" age="49" tsKaisu="5" prof1="元総務副大臣" prof2="医師" senkHrKbn="2" senkId="0" senkNm="" kao="37276_10111616.jpg"/>
+        <koho khId="48647" khNmKnj="平沼　正二郎" khNmKana="ひらぬま　しょうじろう" zmskNm="前" age="44" tsKaisu="2" prof1="復興政務官" prof2="IT企業役員" senkHrKbn="2" senkId="0" senkNm="" kao="48647_10111616.jpg"/>
+        <koho khId="41464" khNmKnj="石橋　林太郎" khNmKana="いしばし　りんたろう" zmskNm="前" age="46" tsKaisu="2" prof1="国土交通政務官" prof2="元広島県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="41464_10111616.jpg"/>
+        <koho khId="41195" khNmKnj="吉田　真次" khNmKana="よしだ　しんじ" zmskNm="前" age="40" tsKaisu="2" prof1="元山口県下関市議会議員" prof2="元大阪府議会議員秘書" senkHrKbn="2" senkId="0" senkNm="" kao="41195_10111616.jpg"/>
+        <koho khId="1422" khNmKnj="寺田　稔" khNmKana="てらだ　みのる" zmskNm="前" age="66" tsKaisu="7" prof1="元総務大臣" prof2="元総理大臣補佐官" senkHrKbn="3" senkId="52277" senkNm="広島４区" kao="1422_10141512.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国">
+        <koho khId="1674" khNmKnj="村上　誠一郎" khNmKana="むらかみ　せいいちろう" zmskNm="前" age="72" tsKaisu="13" prof1="総務大臣" prof2="元行政改革担当大臣" senkHrKbn="2" senkId="0" senkNm="" kao="1674_10111616.jpg"/>
+        <koho khId="2208" khNmKnj="平井　卓也" khNmKana="ひらい　たくや" zmskNm="前" age="66" tsKaisu="9" prof1="自民党広報本部長" prof2="元デジタル大臣" senkHrKbn="3" senkId="52287" senkNm="香川１区" kao="2208_10111616.jpg"/>
+        <koho khId="36527" khNmKnj="瀬戸　隆一" khNmKana="せと　たかかず" zmskNm="前" age="59" tsKaisu="4" prof1="財務政務官" prof2="元総務省調査官" senkHrKbn="3" senkId="52288" senkNm="香川２区" kao="36527_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="1661" khNmKnj="阿部　俊子" khNmKana="あべ　としこ" zmskNm="前" age="65" tsKaisu="7" prof1="文部科学大臣" prof2="元日本看護協会副会長" senkHrKbn="2" senkId="0" senkNm="" kao="1661_10151202.jpg"/>
+        <koho khId="40937" khNmKnj="宮路　拓馬" khNmKana="みやじ　たくま" zmskNm="前" age="44" tsKaisu="4" prof1="元内閣府政務官" prof2="元総務政務官" senkHrKbn="3" senkId="52323" senkNm="鹿児島１区" kao="40937_10111616.jpg"/>
+        <koho khId="2335" khNmKnj="鬼木　誠" khNmKana="おにき　まこと" zmskNm="前" age="52" tsKaisu="5" prof1="防衛副大臣" prof2="元福岡県議会議員" senkHrKbn="3" senkId="52297" senkNm="福岡２区" kao="2335_10111616.jpg"/>
+        <koho khId="3590" khNmKnj="國場　幸之助" khNmKana="こくば　こうのすけ" zmskNm="前" age="51" tsKaisu="5" prof1="国土交通副大臣" prof2="元外務政務官" senkHrKbn="3" senkId="52327" senkNm="沖縄１区" kao="3590_10111616.jpg"/>
+        <koho khId="10667" khNmKnj="岩田　和親" khNmKana="いわた　かずちか" zmskNm="前" age="51" tsKaisu="5" prof1="経済産業副大臣" prof2="内閣府副大臣" senkHrKbn="3" senkId="52307" senkNm="佐賀１区" kao="10667_10111616.jpg"/>
+        <koho khId="2674" khNmKnj="古川　康" khNmKana="ふるかわ　やすし" zmskNm="前" age="66" tsKaisu="4" prof1="元佐賀県知事" prof2="元国土交通政務官" senkHrKbn="3" senkId="52308" senkNm="佐賀２区" kao="2674_10111616.jpg"/>
+        <koho khId="36036" khNmKnj="宮崎　政久" khNmKana="みやざき　まさひさ" zmskNm="前" age="59" tsKaisu="5" prof1="厚生労働副大臣" prof2="元法務政務官" senkHrKbn="3" senkId="52328" senkNm="沖縄２区" kao="36036_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="195" prtyDispOdr="2" prtyNm="立民">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道">
+        <koho khId="51360" khNmKnj="篠田　奈保子" khNmKana="しのだ　なおこ" zmskNm="新" age="52" tsKaisu="1" prof1="弁護士" prof2="一般社団法人代表理事" senkHrKbn="3" senkId="52048" senkNm="北海道７区" kao="51360_10111616.jpg"/>
+        <koho khId="3618" khNmKnj="西川　将人" khNmKana="にしかわ　まさひと" zmskNm="新" age="55" tsKaisu="1" prof1="元北海道旭川市長" prof2="元日本航空パイロット" senkHrKbn="3" senkId="52047" senkNm="北海道６区" kao="3618_10111616.jpg"/>
+        <koho khId="43045" khNmKnj="川原田　英世" khNmKana="かわはらだ　えいせい" zmskNm="新" age="41" tsKaisu="1" prof1="元北海道網走市議会議員" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52053" senkNm="北海道１２区" kao="43045_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北">
+        <koho khId="52519" khNmKnj="馬場　雄基" khNmKana="ばば　ゆうき" zmskNm="前" age="32" tsKaisu="2" prof1="元松下政経塾塾生" prof2="元三井住友信託銀行行員" senkHrKbn="2" senkId="0" senkNm="" kao="52519_10141512.jpg"/>
+        <koho khId="1520" khNmKnj="寺田　学" khNmKana="てらた　まなぶ" zmskNm="前" age="48" tsKaisu="7" prof1="元衆議院政治倫理審査会野党側筆頭幹事" prof2="元総理大臣補佐官" senkHrKbn="3" senkId="52066" senkNm="秋田１区" kao="1520_10111616.jpg"/>
+        <koho khId="1480" khNmKnj="升田　世喜男" khNmKana="ますた　せきお" zmskNm="元" age="67" tsKaisu="2" prof1="立憲民主党青森県連代表代行" prof2="元青森県議会議員" senkHrKbn="3" senkId="52054" senkNm="青森１区" kao="1480_10111616.jpg"/>
+        <koho khId="55740" khNmKnj="齋藤　裕喜" khNmKana="さいとう　ゆうき" zmskNm="新" age="45" tsKaisu="1" prof1="元衆議院議員秘書" prof2="会社経営" senkHrKbn="3" senkId="52075" senkNm="福島４区" kao="55740_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東">
+        <koho khId="4415" khNmKnj="長谷川　嘉一" khNmKana="はせがわ　かいち" zmskNm="元" age="71" tsKaisu="2" prof1="歯科医師" prof2="元群馬県議会議員" senkHrKbn="3" senkId="52091" senkNm="群馬３区" kao="4415_10111616.jpg"/>
+        <koho khId="9" khNmKnj="武正　公一" khNmKana="たけまさ　こういち" zmskNm="元" age="63" tsKaisu="7" prof1="元外務副大臣" prof2="元財務副大臣" senkHrKbn="3" senkId="52094" senkNm="埼玉１区" kao="9_10111616.jpg"/>
+        <koho khId="47211" khNmKnj="三角　創太" khNmKana="みすみ　そうた" zmskNm="新" age="36" tsKaisu="1" prof1="公認会計士" prof2="税理士" senkHrKbn="3" senkId="52342" senkNm="埼玉１６区" kao="47211_10111616.jpg"/>
+        <koho khId="51949" khNmKnj="竹内　千春" khNmKana="たけうち　ちはる" zmskNm="新" age="56" tsKaisu="1" prof1="弁護士" prof2="元南九州短期大学国際教養学科助教授" senkHrKbn="3" senkId="52096" senkNm="埼玉３区" kao="51949_10111616.jpg"/>
+        <koho khId="3981" khNmKnj="市来　伴子" khNmKana="いちき　ともこ" zmskNm="新" age="47" tsKaisu="1" prof1="元衆議院議員秘書" prof2="元東京都杉並区議会議員" senkHrKbn="3" senkId="52101" senkNm="埼玉８区" kao="3981_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="911" khNmKnj="谷田川　元" khNmKana="やたがわ　はじめ" zmskNm="前" age="61" tsKaisu="4" prof1="立憲民主党千葉県連副代表" prof2="元千葉県議会議員" senkHrKbn="3" senkId="52118" senkNm="千葉１０区" kao="911_10111616.jpg"/>
+        <koho khId="19775" khNmKnj="佐々木　奈保美" khNmKana="ささき　なおみ" zmskNm="新" age="55" tsKaisu="1" prof1="元神奈川県議会議員" prof2="学習塾経営" senkHrKbn="3" senkId="52163" senkNm="神奈川１７区" kao="19775_10111616.jpg"/>
+        <koho khId="47199" khNmKnj="宮川　伸" khNmKana="みやかわ　しん" zmskNm="元" age="54" tsKaisu="2" prof1="元医薬品開発会社役員" prof2="元立憲民主党政務調査会長補佐" senkHrKbn="3" senkId="52121" senkNm="千葉１３区" kao="47199_10111616.jpg"/>
+        <koho khId="889" khNmKnj="岡島　一正" khNmKana="おかじま　かずまさ" zmskNm="元" age="66" tsKaisu="4" prof1="元立憲民主党副幹事長" prof2="元ＮＨＫカメラマン" senkHrKbn="3" senkId="52111" senkNm="千葉３区" kao="889_10111616.jpg"/>
+        <koho khId="7817" khNmKnj="長友　克洋" khNmKana="ながとも　よしひろ" zmskNm="新" age="53" tsKaisu="1" prof1="元神奈川県議会議員" prof2="元相模原市議会議員" senkHrKbn="3" senkId="52160" senkNm="神奈川１４区" kao="7817_10111616.jpg"/>
+        <koho khId="5008" khNmKnj="山崎　誠" khNmKana="やまざき　まこと" zmskNm="前" age="61" tsKaisu="4" prof1="立憲民主党政務調査会副会長" prof2="元横浜市議会議員" senkHrKbn="3" senkId="52151" senkNm="神奈川５区" kao="5008_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京">
+        <koho khId="47269" khNmKnj="鈴木　庸介" khNmKana="すずき　ようすけ" zmskNm="前" age="48" tsKaisu="2" prof1="元ＮＨＫ記者" prof2="元立教大学経済学部兼任講師" senkHrKbn="3" senkId="52131" senkNm="東京１０区" kao="47269_10111616.jpg"/>
+        <koho khId="3914" khNmKnj="松下　玲子" khNmKana="まつした　れいこ" zmskNm="新" age="54" tsKaisu="1" prof1="元東京都武蔵野市長" prof2="元東京都議会議員" senkHrKbn="3" senkId="52139" senkNm="東京１８区" kao="3914_10111616.jpg"/>
+        <koho khId="3322" khNmKnj="有田　芳生" khNmKana="ありた　よしふ" zmskNm="新" age="72" tsKaisu="1" prof1="元参議院議員" prof2="ジャーナリスト" senkHrKbn="3" senkId="52145" senkNm="東京２４区" kao="3322_10111616.jpg"/>
+        <koho khId="18668" khNmKnj="阿部　祐美子" khNmKana="あべ　ゆみこ" zmskNm="新" age="60" tsKaisu="1" prof1="元東京都議会議員" prof2="元東京都品川区議会議員" senkHrKbn="3" senkId="52124" senkNm="東京３区" kao="18668_10111616.jpg"/>
+        <koho khId="55042" khNmKnj="柴田　勝之" khNmKana="しばた　かつゆき" zmskNm="新" age="56" tsKaisu="1" prof1="弁護士" prof2="元日本弁護士連合会常務理事" senkHrKbn="3" senkId="52137" senkNm="東京１６区" kao="55042_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越">
+        <koho khId="22717" khNmKnj="山　登志浩" khNmKana="やま　としひろ" zmskNm="新" age="44" tsKaisu="1" prof1="立憲民主党富山県連副代表" prof2="元愛知県江南市議会議員" senkHrKbn="3" senkId="52178" senkNm="富山１区" kao="22717_10111616.jpg"/>
+        <koho khId="55514" khNmKnj="福田　淳太" khNmKana="ふくだ　じゅんた" zmskNm="新" age="30" tsKaisu="1" prof1="元千葉日報記者" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52175" senkNm="長野５区" kao="55514_10111616.jpg"/>
+        <koho khId="55879" khNmKnj="波多野　翼" khNmKana="はたの　つばさ" zmskNm="新" age="39" tsKaisu="1" prof1="元福井県越前市職員" prof2="NPO法人理事" senkHrKbn="3" senkId="52184" senkNm="福井１区" kao="55879_10141512.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="48836" khNmKnj="松田　功" khNmKana="まつだ　いさお" zmskNm="元" age="56" tsKaisu="2" prof1="元愛知県北名古屋市議会議員" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52351" senkNm="愛知１６区" kao="48836_10111616.jpg"/>
+        <koho khId="37286" khNmKnj="眞野　哲" khNmKana="まの　さとし" zmskNm="新" age="63" tsKaisu="1" prof1="交通事故被害者支援団体代表" prof2="訪問マッサージ治療院社長" senkHrKbn="3" senkId="52190" senkNm="岐阜５区" kao="37286_10111616.jpg"/>
+        <koho khId="22491" khNmKnj="大嶽　理恵" khNmKana="おおたけ　りえ" zmskNm="新" age="47" tsKaisu="1" prof1="元愛知県議会議員" prof2="元愛知県豊川市議会議員" senkHrKbn="3" senkId="52212" senkNm="愛知１４区" kao="22491_10111616.jpg"/>
+        <koho khId="55144" khNmKnj="鈴木　岳幸" khNmKana="すずき　たけゆき" zmskNm="新" age="51" tsKaisu="1" prof1="元静岡県藤枝市議会議員" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52192" senkNm="静岡２区" kao="55144_10111616.jpg"/>
+        <koho khId="55682" khNmKnj="小山　千帆" khNmKana="こやま　ちほ" zmskNm="新" age="49" tsKaisu="1" prof1="元埼玉県川口市議会議員" prof2="元ニトリ社員" senkHrKbn="3" senkId="52213" senkNm="愛知１５区" kao="55682_10111616.jpg"/>
+        <koho khId="55215" khNmKnj="福森　和歌子" khNmKana="ふくもり　わかこ" zmskNm="新" age="54" tsKaisu="1" prof1="マーケティング・コンサルタント" prof2="元電通社員" senkHrKbn="3" senkId="52214" senkNm="三重１区" kao="55215_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="3512" khNmKnj="森山　浩行" khNmKana="もりやま　ひろゆき" zmskNm="前" age="53" tsKaisu="4" prof1="立憲民主党大阪府連代表" prof2="元関西テレビ記者" senkHrKbn="3" senkId="52243" senkNm="大阪１６区" kao="3512_10111616.jpg"/>
+        <koho khId="54470" khNmKnj="橋本　慧悟" khNmKana="はしもと　けいご" zmskNm="新" age="35" tsKaisu="1" prof1="元兵庫県議会議員" prof2="元兵庫県小野市職員" senkHrKbn="3" senkId="52255" senkNm="兵庫９区" kao="54470_10111616.jpg"/>
+        <koho khId="55517" khNmKnj="岡田　悟" khNmKana="おかだ　さとる" zmskNm="新" age="40" tsKaisu="1" prof1="ダイヤモンド社社員" prof2="元毎日新聞記者" senkHrKbn="3" senkId="52253" senkNm="兵庫７区" kao="55517_10111616.jpg"/>
+        <koho khId="3317" khNmKnj="尾辻　かな子" khNmKana="おつじ　かなこ" zmskNm="元" age="49" tsKaisu="2" prof1="元参議院議員" prof2="一般社団法人LGBT政策情報センター代表理事" senkHrKbn="3" senkId="52237" senkNm="大阪１０区" kao="3317_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国">
+        <koho khId="1919" khNmKnj="平岡　秀夫" khNmKana="ひらおか　ひでお" zmskNm="元" age="70" tsKaisu="6" prof1="元法務大臣" prof2="元内閣府副大臣" senkHrKbn="3" senkId="52282" senkNm="山口２区" kao="1919_10111616.jpg"/>
+        <koho khId="1659" khNmKnj="津村　啓介" khNmKana="つむら　けいすけ" zmskNm="元" age="53" tsKaisu="7" prof1="元内閣府政務官" prof2="元日本銀行職員" senkHrKbn="3" senkId="52270" senkNm="岡山２区" kao="1659_10112040.jpg"/>
+        <koho khId="54109" khNmKnj="東　克哉" khNmKana="あずま　かつや" zmskNm="新" age="43" tsKaisu="1" prof1="理学療法士" prof2="NPO法人代表理事" senkHrKbn="3" senkId="52276" senkNm="広島３区" kao="54109_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国">
+        <koho khId="55534" khNmKnj="高橋　永" khNmKana="たかはし　えい" zmskNm="新" age="49" tsKaisu="1" prof1="元博報堂社員" prof2="" senkHrKbn="3" senkId="52285" senkNm="徳島１区" kao="55534_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="49769" khNmKnj="屋良　朝博" khNmKana="やら　ともひろ" zmskNm="前" age="62" tsKaisu="3" prof1="元立憲民主党沖縄県連代表" prof2="元沖縄タイムス論説委員" senkHrKbn="3" senkId="52329" senkNm="沖縄３区" kao="49769_10111616.jpg"/>
+        <koho khId="37138" khNmKnj="吉川　元" khNmKana="よしかわ　はじめ" zmskNm="前" age="58" tsKaisu="5" prof1="立憲民主党国会対策委員長代理" prof2="元社民党副党首" senkHrKbn="3" senkId="52318" senkNm="大分２区" kao="37138_10111616.jpg"/>
+        <koho khId="49302" khNmKnj="山田　勝彦" khNmKana="やまだ　かつひこ" zmskNm="前" age="45" tsKaisu="3" prof1="立憲民主党長崎県連副代表" prof2="" senkHrKbn="3" senkId="52310" senkNm="長崎２区" kao="49302_10111616.jpg"/>
+        <koho khId="5664" khNmKnj="堤　かなめ" khNmKana="つつみ　かなめ" zmskNm="前" age="64" tsKaisu="2" prof1="元福岡県議会議員" prof2="元九州女子大学人間科学部教授" senkHrKbn="3" senkId="52300" senkNm="福岡５区" kao="5664_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="187" prtyDispOdr="3" prtyNm="維新">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道"/>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北"/>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東">
+        <koho khId="16501" khNmKnj="高橋　英明" khNmKana="たかはし　ひであき" zmskNm="前" age="61" tsKaisu="2" prof1="日本維新の会埼玉県総支部代表" prof2="元埼玉県川口市議会議員" senkHrKbn="3" senkId="52095" senkNm="埼玉２区" kao="16501_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="38154" khNmKnj="金村　龍那" khNmKana="かねむら　りゅうな" zmskNm="前" age="45" tsKaisu="2" prof1="日本維新の会副幹事長" prof2="元児童福祉施設運営会社社長" senkHrKbn="3" senkId="52156" senkNm="神奈川１０区" kao="38154_10111616.jpg"/>
+        <koho khId="40935" khNmKnj="藤巻　健太" khNmKana="ふじまき　けんた" zmskNm="前" age="41" tsKaisu="2" prof1="日本維新の会千葉県総支部代表代行" prof2="元みずほ銀行行員" senkHrKbn="3" senkId="52114" senkNm="千葉６区" kao="40935_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京">
+        <koho khId="51725" khNmKnj="阿部　司" khNmKana="あべ　つかさ" zmskNm="前" age="42" tsKaisu="2" prof1="日本維新の会東京都総支部幹事長代行" prof2="元政策シンクタンク社員" senkHrKbn="3" senkId="52133" senkNm="東京１２区" kao="51725_10111616.jpg"/>
+        <koho khId="48756" khNmKnj="猪口　幸子" khNmKana="いのくち　さちこ" zmskNm="新" age="68" tsKaisu="1" prof1="医療法人理事長" prof2="医師" senkHrKbn="3" senkId="52138" senkNm="東京１７区" kao="48756_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越">
+        <koho khId="3702" khNmKnj="斉木　武志" khNmKana="さいき　たけし" zmskNm="元" age="50" tsKaisu="3" prof1="元福井県議会議員" prof2="元NHKアナウンサー" senkHrKbn="3" senkId="52185" senkNm="福井２区" kao="3702_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="464" khNmKnj="杉本　和巳" khNmKana="すぎもと　かずみ" zmskNm="前" age="64" tsKaisu="5" prof1="元日本維新の会代議士会長" prof2="元みずほ銀行行員" senkHrKbn="3" senkId="52208" senkNm="愛知１０区" kao="464_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="54232" khNmKnj="林　佑美" khNmKana="はやし　ゆみ" zmskNm="前" age="43" tsKaisu="2" prof1="元和歌山市議会議員" prof2="人材育成会社役員" senkHrKbn="3" senkId="52262" senkNm="和歌山１区" kao="54232_10111616.jpg"/>
+        <koho khId="5812" khNmKnj="三木　圭恵" khNmKana="みき　けえ" zmskNm="前" age="58" tsKaisu="3" prof1="元兵庫県三田市議会議員" prof2="日本維新の会非常任役員" senkHrKbn="3" senkId="52253" senkNm="兵庫７区" kao="5812_10111616.jpg"/>
+        <koho khId="29367" khNmKnj="徳安　淳子" khNmKana="とくやす　じゅんこ" zmskNm="新" age="62" tsKaisu="1" prof1="元兵庫県議会議員" prof2="元参議院議員秘書" senkHrKbn="3" senkId="52254" senkNm="兵庫８区" kao="29367_10111616.jpg"/>
+        <koho khId="28881" khNmKnj="池畑　浩太朗" khNmKana="いけはた　こうたろう" zmskNm="前" age="50" tsKaisu="2" prof1="元兵庫県議会議員" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52258" senkNm="兵庫１２区" kao="28881_10111616.jpg"/>
+        <koho khId="1387" khNmKnj="市村　浩一郎" khNmKana="いちむら　こういちろう" zmskNm="前" age="60" tsKaisu="5" prof1="元国土交通政務官" prof2="財団法人理事長" senkHrKbn="3" senkId="52252" senkNm="兵庫６区" kao="1387_10111616.jpg"/>
+        <koho khId="9673" khNmKnj="和田　有一朗" khNmKana="わだ　ゆういちろう" zmskNm="前" age="60" tsKaisu="2" prof1="元兵庫県議会議員" prof2="元神戸市議会議員" senkHrKbn="3" senkId="52249" senkNm="兵庫３区" kao="9673_10111616.jpg"/>
+        <koho khId="55188" khNmKnj="阿部　圭史" khNmKana="あべ　けいし" zmskNm="新" age="38" tsKaisu="1" prof1="医師" prof2="元厚生労働省職員" senkHrKbn="3" senkId="52248" senkNm="兵庫２区" kao="55188_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国"/>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国"/>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="28982" khNmKnj="阿部　弘樹" khNmKana="あべ　ひろき" zmskNm="前" age="62" tsKaisu="2" prof1="医師" prof2="障害者就労支援施設理事長" senkHrKbn="3" senkId="52299" senkNm="福岡４区" kao="28982_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="3" prtyDispOdr="4" prtyNm="公明">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道">
+        <koho khId="6580" khNmKnj="佐藤　英道" khNmKana="さとう　ひでみち" zmskNm="前" age="64" tsKaisu="5" prof1="公明党国会対策委員長" prof2="元厚生労働副大臣" senkHrKbn="2" senkId="0" senkNm="" kao="6580_10141512.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北">
+        <koho khId="2790" khNmKnj="庄子　賢一" khNmKana="しょうじ　けんいち" zmskNm="前" age="61" tsKaisu="2" prof1="農林水産政務官" prof2="元宮城県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="2790_10141512.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東">
+        <koho khId="7117" khNmKnj="輿水　恵一" khNmKana="こしみず　けいいち" zmskNm="前" age="62" tsKaisu="4" prof1="国会対策委員長代理" prof2="議院運営委員会理事" senkHrKbn="2" senkId="0" senkNm="" kao="7117_10111616.jpg"/>
+        <koho khId="7057" khNmKnj="福重　隆浩" khNmKana="ふくしげ　たかひろ" zmskNm="前" age="62" tsKaisu="2" prof1="公明党遊説局長" prof2="元群馬県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="7057_10111616.jpg"/>
+        <koho khId="55811" khNmKnj="山口　良治" khNmKana="やまぐち　りょうじ" zmskNm="新" age="44" tsKaisu="1" prof1="公明党青年局次長" prof2="公明党栃木県本部副部長" senkHrKbn="2" senkId="0" senkNm="" kao="55811_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="17338" khNmKnj="角田　秀穂" khNmKana="つのだ　ひでお" zmskNm="前" age="63" tsKaisu="3" prof1="公明党国会対策副委員長" prof2="元農林水産政務官" senkHrKbn="2" senkId="0" senkNm="" kao="17338_10111616.jpg"/>
+        <koho khId="55306" khNmKnj="沼崎　満子" khNmKana="ぬまざき　みつこ" zmskNm="新" age="51" tsKaisu="1" prof1="医師" prof2="公明党女性局次長" senkHrKbn="2" senkId="0" senkNm="" kao="55306_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京">
+        <koho khId="51955" khNmKnj="河西　宏一" khNmKana="かさい　こういち" zmskNm="前" age="45" tsKaisu="2" prof1="公明党学生局長" prof2="元電機メーカー社員" senkHrKbn="2" senkId="0" senkNm="" kao="51955_10111616.jpg"/>
+        <koho khId="55695" khNmKnj="大森　江里子" khNmKana="おおもり　えりこ" zmskNm="新" age="51" tsKaisu="1" prof1="公明党女性局次長" prof2="税理士" senkHrKbn="2" senkId="0" senkNm="" kao="55695_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越">
+        <koho khId="30249" khNmKnj="中川　宏昌" khNmKana="なかがわ　ひろまさ" zmskNm="前" age="54" tsKaisu="2" prof1="公明党中央幹事" prof2="元長野県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="30249_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="8912" khNmKnj="中川　康洋" khNmKana="なかがわ　やすひろ" zmskNm="前" age="56" tsKaisu="3" prof1="公明党国会対策筆頭副委員長" prof2="元三重県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="8912_10111616.jpg"/>
+        <koho khId="55697" khNmKnj="西園　勝秀" khNmKana="にしぞの　かつひで" zmskNm="新" age="56" tsKaisu="1" prof1="公明党団体局次長" prof2="元復興庁参事官" senkHrKbn="2" senkId="0" senkNm="" kao="55697_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="3540" khNmKnj="竹内　譲" khNmKana="たけうち　ゆずる" zmskNm="前" age="66" tsKaisu="7" prof1="元公明党政務調査会長" prof2="元厚生労働副大臣" senkHrKbn="2" senkId="0" senkNm="" kao="3540_10111616.jpg"/>
+        <koho khId="1797" khNmKnj="浮島　智子" khNmKana="うきしま　ともこ" zmskNm="前" age="61" tsKaisu="5" prof1="元文部科学副大臣" prof2="元バレリーナ" senkHrKbn="2" senkId="0" senkNm="" kao="1797_10111616.jpg"/>
+        <koho khId="1801" khNmKnj="鰐淵　洋子" khNmKana="わにぶち　ようこ" zmskNm="前" age="52" tsKaisu="3" prof1="厚生労働副大臣" prof2="元参議院議員" senkHrKbn="2" senkId="0" senkNm="" kao="1801_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国">
+        <koho khId="51956" khNmKnj="平林　晃" khNmKana="ひらばやし　あきら" zmskNm="前" age="53" tsKaisu="2" prof1="公明党中央幹事" prof2="元立命館大学情報理工学部教授" senkHrKbn="2" senkId="0" senkNm="" kao="51956_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国">
+        <koho khId="50681" khNmKnj="山崎　正恭" khNmKana="やまさき　まさやす" zmskNm="前" age="53" tsKaisu="2" prof1="公明党農林水産部副部会長" prof2="元高知県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="50681_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="5029" khNmKnj="浜地　雅一" khNmKana="はまち　まさかず" zmskNm="前" age="54" tsKaisu="5" prof1="元厚生労働副大臣" prof2="弁護士" senkHrKbn="2" senkId="0" senkNm="" kao="5029_10111616.jpg"/>
+        <koho khId="40893" khNmKnj="吉田　宣弘" khNmKana="よしだ　のぶひろ" zmskNm="前" age="56" tsKaisu="4" prof1="元経済産業政務官" prof2="元福岡県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="40893_10111616.jpg"/>
+        <koho khId="37577" khNmKnj="金城　泰邦" khNmKana="きんじょう　やすくに" zmskNm="前" age="55" tsKaisu="2" prof1="文部科学政務官" prof2="元沖縄県議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="37577_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="4" prtyDispOdr="5" prtyNm="共産">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道"/>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北"/>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東">
+        <koho khId="861" khNmKnj="塩川　鉄也" khNmKana="しおかわ　てつや" zmskNm="前" age="62" tsKaisu="9" prof1="共産党国会対策委員長代理" prof2="元埼玉県日高市職員" senkHrKbn="2" senkId="0" senkNm="" kao="861_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="1928" khNmKnj="志位　和夫" khNmKana="しい　かずお" zmskNm="前" age="70" tsKaisu="11" prof1="共産党議長" prof2="元共産党委員長" senkHrKbn="2" senkId="0" senkNm="" kao="1928_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京">
+        <koho khId="1005" khNmKnj="田村　智子" khNmKana="たむら　ともこ" zmskNm="新" age="59" tsKaisu="1" prof1="日本共産党幹部会委員長" prof2="" senkHrKbn="2" senkId="0" senkNm="" kao="1005_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越"/>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="494" khNmKnj="本村　伸子" khNmKana="もとむら　のぶこ" zmskNm="前" age="52" tsKaisu="4" prof1="共産党幹部会委員" prof2="元参議院議員秘書" senkHrKbn="2" senkId="0" senkNm="" kao="494_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="9384" khNmKnj="辰巳　孝太郎" khNmKana="たつみ　こうたろう" zmskNm="新" age="48" tsKaisu="1" prof1="元参議院議員" prof2="共産党中央委員" senkHrKbn="2" senkId="0" senkNm="" kao="9384_10111616.jpg"/>
+        <koho khId="53111" khNmKnj="堀川　朗子" khNmKana="ほりかわ　あきこ" zmskNm="新" age="38" tsKaisu="1" prof1="共産党京都府副委員長" prof2="日本民主青年同盟京都府委員長" senkHrKbn="3" senkId="52223" senkNm="京都２区" kao="53111_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国"/>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国"/>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="2207" khNmKnj="田村　貴昭" khNmKana="たむら　たかあき" zmskNm="前" age="63" tsKaisu="4" prof1="共産党中央委員" prof2="元北九州市議会議員" senkHrKbn="2" senkId="0" senkNm="" kao="2207_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="197" prtyDispOdr="6" prtyNm="国民">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道">
+        <koho khId="53047" khNmKnj="臼木　秀剛" khNmKana="うすき　ひでたけ" zmskNm="新" age="43" tsKaisu="1" prof1="国民民主党職員" prof2="元衆議院議員秘書" senkHrKbn="2" senkId="0" senkNm="" kao="53047_10151202.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北">
+        <koho khId="41537" khNmKnj="菊池　大二郎" khNmKana="きくち　だいじろう" zmskNm="新" age="42" tsKaisu="1" prof1="元山形県議会議員" prof2="元参議院議員秘書" senkHrKbn="3" senkId="52070" senkNm="山形２区" kao="41537_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東">
+        <koho khId="55556" khNmKnj="岸田　光広" khNmKana="きしだ　みつひろ" zmskNm="新" age="57" tsKaisu="1" prof1="英語塾経営" prof2="元兵庫県尼崎市議会議員" senkHrKbn="3" senkId="52097" senkNm="埼玉４区" kao="55556_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="52979" khNmKnj="深作　ヘスス" khNmKana="ふかさく　へすす" zmskNm="新" age="39" tsKaisu="1" prof1="元埼玉県知事秘書" prof2="元在アメリカ日本大使館職員" senkHrKbn="3" senkId="52349" senkNm="神奈川１９区" kao="52979_10111616.jpg"/>
+        <koho khId="32651" khNmKnj="岡野　純子" khNmKana="おかの　じゅんこ" zmskNm="新" age="46" tsKaisu="1" prof1="元千葉県浦安市議会議員" prof2="元ＮＨＫ松山放送局キャスター" senkHrKbn="3" senkId="52113" senkNm="千葉５区" kao="32651_10111616.jpg"/>
+        <koho khId="54056" khNmKnj="西岡　義高" khNmKana="にしおか　よしたか" zmskNm="新" age="47" tsKaisu="1" prof1="個人事業主" prof2="元食品輸入会社社員" senkHrKbn="3" senkId="52164" senkNm="神奈川１８区" kao="54056_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京">
+        <koho khId="59" khNmKnj="円　より子" khNmKana="まどか　よりこ" zmskNm="新" age="77" tsKaisu="1" prof1="元参議院議員" prof2="元民主党副代表" senkHrKbn="3" senkId="52138" senkNm="東京１７区" kao="59_10111616.jpg"/>
+        <koho khId="55594" khNmKnj="森　洋介" khNmKana="もり　ようすけ" zmskNm="新" age="30" tsKaisu="1" prof1="元環境省職員" prof2="会社経営" senkHrKbn="3" senkId="52134" senkNm="東京１３区" kao="55594_10111616.jpg"/>
+        <koho khId="55368" khNmKnj="鳩山　紀一郎" khNmKana="はとやま　きいちろう" zmskNm="新" age="48" tsKaisu="1" prof1="元東京大学大学院工学系研究科講師" prof2="元長岡技術科学大学産学融合特任准教授" senkHrKbn="3" senkId="52123" senkNm="東京２区" kao="55368_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越">
+        <koho khId="55541" khNmKnj="小竹　凱" khNmKana="おだけ　かい" zmskNm="新" age="26" tsKaisu="1" prof1="国民民主党石川県連青年局長" prof2="元大林組社員" senkHrKbn="3" senkId="52181" senkNm="石川１区" kao="55541_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="55367" khNmKnj="仙田　晃宏" khNmKana="せんだ　あきひろ" zmskNm="新" age="42" tsKaisu="1" prof1="元ＮＴＴデータ社員" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52188" senkNm="岐阜３区" kao="55367_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="3608" khNmKnj="向山　好一" khNmKana="むこやま　こういち" zmskNm="元" age="67" tsKaisu="2" prof1="国民民主党兵庫県連幹事長" prof2="保護司" senkHrKbn="3" senkId="52249" senkNm="兵庫３区" kao="3608_10111616.jpg"/>
+        <koho khId="31560" khNmKnj="平岩　征樹" khNmKana="ひらいわ　まさき" zmskNm="新" age="44" tsKaisu="1" prof1="元大阪府貝塚市議会議員" prof2="コンサルティング会社経営" senkHrKbn="3" senkId="52235" senkNm="大阪８区" kao="31560_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国">
+        <koho khId="39753" khNmKnj="福田　玄" khNmKana="ふくだ　げん" zmskNm="新" age="42" tsKaisu="1" prof1="元岡山県浅口市議会議員" prof2="元衆議院議員秘書" senkHrKbn="3" senkId="52275" senkNm="広島２区" kao="39753_10141512.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国">
+        <koho khId="39722" khNmKnj="石井　智恵" khNmKana="いしい　ともえ" zmskNm="新" age="56" tsKaisu="1" prof1="元愛媛県議会議員" prof2="看護師" senkHrKbn="3" senkId="52290" senkNm="愛媛１区" kao="39722_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="51901" khNmKnj="長友　慎治" khNmKana="ながとも　しんじ" zmskNm="前" age="47" tsKaisu="2" prof1="国民民主党政務調査会副会長" prof2="元宮崎県日向市産業支援センター長" senkHrKbn="3" senkId="52321" senkNm="宮崎２区" kao="51901_10111616.jpg"/>
+        <koho khId="55439" khNmKnj="許斐　亮太郎" khNmKana="このみ　りょうたろう" zmskNm="新" age="50" tsKaisu="1" prof1="元NHKカメラマン" prof2="国民民主党福岡県連副代表" senkHrKbn="3" senkId="52299" senkNm="福岡４区" kao="55439_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="212" prtyDispOdr="7" prtyNm="れいわ">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道"/>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北">
+        <koho khId="51325" khNmKnj="佐原　若子" khNmKana="さわら　わかこ" zmskNm="新" age="70" tsKaisu="1" prof1="歯科医師" prof2="青森県保険医協会理事" senkHrKbn="2" senkId="0" senkNm="" kao="51325_10141512.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東">
+        <koho khId="3502" khNmKnj="高井　崇志" khNmKana="たかい　たかし" zmskNm="元" age="55" tsKaisu="4" prof1="れいわ新選組幹事長" prof2="元総務省職員" senkHrKbn="3" senkId="52106" senkNm="埼玉１３区" kao="3502_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="37192" khNmKnj="多ケ谷　亮" khNmKana="たがや　りょう" zmskNm="前" age="55" tsKaisu="2" prof1="れいわ新選組国会対策委員長" prof2="飲食店経営" senkHrKbn="3" senkId="52119" senkNm="千葉１１区" kao="37192_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京">
+        <koho khId="3859" khNmKnj="櫛渕　万里" khNmKana="くしぶち　まり" zmskNm="前" age="57" tsKaisu="3" prof1="れいわ新選組共同代表" prof2="元ＮＧＯピースボート事務局長" senkHrKbn="3" senkId="52135" senkNm="東京１４区" kao="3859_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越"/>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="780" khNmKnj="阪口　直人" khNmKana="さかぐち　なおと" zmskNm="元" age="61" tsKaisu="3" prof1="れいわ新選組ボランティア本部事務局長" prof2="ＮＰＯ法人理事" senkHrKbn="3" senkId="52188" senkNm="岐阜３区" kao="780_10111616.jpg"/>
+        <koho khId="55855" khNmKnj="上村　英明" khNmKana="うえむら　ひであき" zmskNm="新" age="67" tsKaisu="1" prof1="恵泉女学園大学名誉教授" prof2="国際人権ＮGＯ顧問" senkHrKbn="2" senkId="0" senkNm="" kao="55855_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="50085" khNmKnj="大石　晃子" khNmKana="おおいし　あきこ" zmskNm="前" age="47" tsKaisu="2" prof1="れいわ新選組共同代表" prof2="元大阪府職員" senkHrKbn="3" senkId="52232" senkNm="大阪５区" kao="50085_10111616.jpg"/>
+        <koho khId="52092" khNmKnj="八幡　愛" khNmKana="やはた　あい" zmskNm="新" age="37" tsKaisu="1" prof1="タレント" prof2="防災士" senkHrKbn="3" senkId="52240" senkNm="大阪１３区" kao="52092_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国"/>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国"/>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="29514" khNmKnj="山川　仁" khNmKana="やまかわ　ひとし" zmskNm="新" age="50" tsKaisu="1" prof1="元沖縄県豊見城市長" prof2="元沖縄県豊見城市議会議員" senkHrKbn="3" senkId="52330" senkNm="沖縄４区" kao="29514_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="5" prtyDispOdr="8" prtyNm="社民">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道"/>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北"/>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東"/>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東"/>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京"/>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越"/>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海"/>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿"/>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国"/>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国"/>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州"/>
+    </prty>
+    <prty prtyId="227" prtyDispOdr="9" prtyNm="参政">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道"/>
+      <hrBlk hrBlkCd="02" hrBlkNm="東北"/>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東"/>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東">
+        <koho khId="52688" khNmKnj="鈴木　敦" khNmKana="すずき　あつし" zmskNm="前" age="35" tsKaisu="2" prof1="教育無償化を実現する会国会対策委員長" prof2="元衆議院議員秘書" senkHrKbn="2" senkId="0" senkNm="" kao="52688_10141512.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京"/>
+      <hrBlk hrBlkCd="06" hrBlkNm="北陸信越"/>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海"/>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="55238" khNmKnj="北野　裕子" khNmKana="きたの　ゆうこ" zmskNm="新" age="39" tsKaisu="1" prof1="参政党滋賀県連会長" prof2="元会社員" senkHrKbn="3" senkId="52220" senkNm="滋賀３区" kao="55238_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="09" hrBlkNm="中国"/>
+      <hrBlk hrBlkCd="10" hrBlkNm="四国"/>
+      <hrBlk hrBlkCd="11" hrBlkNm="九州">
+        <koho khId="55050" khNmKnj="吉川　里奈" khNmKana="よしかわ　りな" zmskNm="新" age="37" tsKaisu="1" prof1="看護師" prof2="保健師" senkHrKbn="2" senkId="0" senkNm="" kao="55050_10111616.jpg"/>
+      </hrBlk>
+    </prty>
+    <prty prtyId="243" prtyDispOdr="10" prtyNm="みんな">
+      <hrBlk hrBlkCd="05" hrBlkNm="東京"/>
+    </prty>
+    <prty prtyId="214" prtyDispOdr="11" prtyNm="安死">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道"/>
+    </prty>
+    <prty prtyId="245" prtyDispOdr="12" prtyNm="保守">
+      <hrBlk hrBlkCd="01" hrBlkNm="北海道"/>
+      <hrBlk hrBlkCd="03" hrBlkNm="北関東"/>
+      <hrBlk hrBlkCd="04" hrBlkNm="南関東"/>
+      <hrBlk hrBlkCd="05" hrBlkNm="東京"/>
+      <hrBlk hrBlkCd="07" hrBlkNm="東海">
+        <koho khId="53682" khNmKnj="竹上　裕子" khNmKana="たけがみ　ゆうこ" zmskNm="新" age="64" tsKaisu="1" prof1="元愛知県議会議員" prof2="元中学教諭" senkHrKbn="2" senkId="0" senkNm="" kao="53682_10111616.jpg"/>
+      </hrBlk>
+      <hrBlk hrBlkCd="08" hrBlkNm="近畿">
+        <koho khId="55871" khNmKnj="島田　洋一" khNmKana="しまだ　よういち" zmskNm="新" age="67" tsKaisu="1" prof1="福井県立大学名誉教授" prof2="著述家" senkHrKbn="2" senkId="0" senkNm="" kao="55871_10141512.jpg"/>
+      </hrBlk>
+    </prty>
+  </hrtsn>
+</nhk-el:tsnall>
