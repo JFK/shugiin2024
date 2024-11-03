@@ -1843,21 +1843,27 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
     )
 
     # JSONシリアライズ用のデータを準備
-    def prepare_candidate_data(df):
+
+    def prepare_candidate_data(df, winner_ids):  # winner_idsを引数に追加
         data = []
         for _, row in df.iterrows():
+            cand_id = str(row["候補者ID"])
+            print(cand_id in winner_ids)
             data.append(
                 {
                     "姓": str(row["姓"]),
                     "名": str(row["名"]),
                     "党派名": str(row["党派名"]),
+                    "選挙区名": str(row["選挙区名"]),
+                    "党派ID": str(row["党派ID"]),
+                    "is_winner": cand_id in winner_ids,
                     "PCA1": float(row["PCA1"]) if pd.notnull(row["PCA1"]) else 0,
                     "PCA2": float(row["PCA2"]) if pd.notnull(row["PCA2"]) else 0,
                 }
             )
         return data
 
-    candidate_data = prepare_candidate_data(df)
+    candidate_data = prepare_candidate_data(df, winner_ids)
     # 散布図のマーカーサイズを配列として設定
     for trace in fig.data:
         trace.marker.size = [10] * len(trace.x)  # 各点のサイズを配列として初期化
@@ -1866,7 +1872,7 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
     if not output_flag:
         return winners
 
-    # HTMLファイルとして保存（検索機能付き）
+    # HTMLファイルとして保存（拡張された検索・選択機能付き）
     html_content = f"""
     <!DOCTYPE html>
     <html lang="ja">
@@ -1884,7 +1890,7 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
                 padding: 10px;
                 border-radius: 5px;
                 box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-                width: 250px;
+                width: 300px;
             }}
             #searchInput {{
                 width: 100%;
@@ -1893,7 +1899,7 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
                 border: 1px solid #ddd;
                 border-radius: 4px;
             }}
-            #searchResults {{
+            #searchResults, #nearbyResults {{
                 max-height: 300px;
                 overflow-y: auto;
                 display: none;
@@ -1901,31 +1907,99 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
                 border: 1px solid #ddd;
                 border-radius: 4px;
                 width: 100%;
+                margin-top: 5px;
             }}
-            .search-result {{
+            .result-item {{
                 padding: 8px 12px;
                 cursor: pointer;
                 border-bottom: 1px solid #eee;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
             }}
-            .search-result:hover {{
+            .result-item:hover {{
                 background-color: #f5f5f5;
             }}
-            .search-result:last-child {{
-                border-bottom: none;
+            .result-info {{
+                flex-grow: 1;
             }}
-            .highlight {{
-                animation: blink 1s 3;
-            }}
-            @keyframes blink {{
-                50% {{ opacity: 0.5; }}
-            }}
-            #plotly-graph {{
-                height: 800px;
-                width: 100%;
-            }}
-            .search-party {{
-                font-size: 0.8em;
+            .result-distance {{
                 color: #666;
+                font-size: 0.8em;
+                margin-left: 10px;
+            }}
+            .selected {{
+                background-color: #e3f2fd;
+            }}
+            #selectedInfo {{
+                margin-top: 10px;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                display: none;
+            }}
+            .nearby-header {{
+                padding: 8px;
+                background: #f8f9fa;
+                font-weight: bold;
+                border-bottom: 1px solid #ddd;
+            }}
+            .nearest-candidate {{ 
+                background: #fff; 
+                padding: 12px; 
+                margin-bottom: 8px; 
+                border-radius: 6px; 
+                cursor: pointer; 
+                transition: all 0.2s ease; 
+                border: 1px solid #eee; 
+            }}
+            
+            .nearest-candidate:hover {{ 
+                transform: translateX(5px); 
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+            }}
+            
+            .nearest-candidate.top-five {{ 
+                border-left: 3px solid #2391ff; 
+            }}
+            
+            .candidate-name {{ 
+                font-weight: 600; 
+                margin: 4px 0; 
+            }}
+            
+            .district-info {{ 
+                font-size: 0.9em; 
+                color: #666; 
+            }}
+            
+            .distance {{ 
+                font-size: 0.85em; 
+                color: #888; 
+            }}
+            
+            .party-tag {{ 
+                display: inline-block; 
+                padding: 3px 8px; 
+                border-radius: 12px; 
+                font-size: 0.8em; 
+                color: white; 
+                margin-bottom: 4px; 
+            }}
+            
+            #nearest-candidates {{ 
+                max-height: calc(100vh - 300px); 
+                overflow-y: auto; 
+                padding-right: 5px; 
+            }}
+            
+            #nearest-candidates::-webkit-scrollbar {{ 
+                width: 6px; 
+            }}
+            
+            #nearest-candidates::-webkit-scrollbar-thumb {{ 
+                background: #ddd; 
+                border-radius: 3px; 
             }}
         </style>
     </head>
@@ -1933,47 +2007,92 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="候補者名を入力...">
             <div id="searchResults"></div>
+            <div id="selectedInfo"></div>
+            <div id="nearbyResults">
+                <div class="nearby-header">近接する候補者</div>
+            </div>
         </div>
         {fig.to_html(include_plotlyjs=True, full_html=False, div_id="plotly-graph")}
-        
 
         <script>
         // 候補者データの定義
         const candidateData = {json.dumps(candidate_data, ensure_ascii=False)};
+        let selectedCandidate = null;
         let selectedPoint = null;
         
-        // 検索機能の実装
-        const searchInput = document.getElementById('searchInput');
-        const searchResults = document.getElementById('searchResults');
-        
-        // 点のスタイルを元に戻す関数
-        function resetPointStyle() {{
-            if (selectedPoint !== null) {{
-                const trace = document.getElementById('plotly-graph').data[selectedPoint.traceIndex];
-                const sizes = Array(trace.x.length).fill(10);
-                Plotly.restyle('plotly-graph', {{
-                    'marker.size': [sizes]
-                }}, [selectedPoint.traceIndex]);
-                selectedPoint = null;
-            }}
+        // 2点間の距離を計算する関数
+        function calculateDistance(p1, p2) {{
+            return Math.sqrt(
+                Math.pow(p1.PCA1 - p2.PCA1, 2) + 
+                Math.pow(p1.PCA2 - p2.PCA2, 2)
+            );
         }}
-        
-        // 候補者を強調表示する関数
+        // 近接候補者を探す関数
+        function findNearbyPoints(candidate, limit = 20) {{
+            return candidateData
+                .filter(c => c.is_winner === true)  // 当選者のみをフィルタ
+                .map(c => ({{
+                    ...c,
+                    distance: calculateDistance(candidate, c)
+                }}))
+                .filter(c => c.distance > 0)
+                .sort((a, b) => a.distance - b.distance)
+                .slice(0, limit);
+        }}
+
+        // 選択状態を更新する関数
+        function updateSelectedCandidate(candidate) {{
+            selectedCandidate = candidate;
+            
+            // 選択情報の表示を更新
+            const selectedInfo = document.getElementById('selectedInfo');
+            selectedInfo.innerHTML = `
+                <strong>${{candidate.姓}} ${{candidate.名}}</strong><br>
+                <small>${{candidate.党派名}}</small>
+            `;
+            selectedInfo.style.display = 'block';
+            
+            // 近接候補者の表示を更新
+            const nearbyPoints = findNearbyPoints(candidate);
+            const nearbyResults = document.getElementById('nearbyResults');
+            nearbyResults.innerHTML = `
+                <div class="nearby-header">近接する候補者</div>
+                ${{nearbyPoints.map(p => `
+                    <div class="result-item" 
+                         data-pca1="${{p.PCA1}}" 
+                         data-pca2="${{p.PCA2}}">
+                        <div class="result-info">
+                            ${{p.姓}} ${{p.名}}<br>
+                            <small>${{p.党派名}}</small>
+                        </div>
+                        <div class="result-distance">
+                            距離: ${{p.distance.toFixed(3)}}
+                        </div>
+                    </div>
+                `).join('')}}
+            `;
+            nearbyResults.style.display = 'block';
+            
+            // 選択点の強調表示
+            highlightCandidate(candidate.PCA1, candidate.PCA2);
+        }}
+
+        // 点の強調表示を更新する関数
         function highlightCandidate(pca1, pca2) {{
+            resetPointStyle();
+            
             const graphDiv = document.getElementById('plotly-graph');
             const traces = graphDiv.data;
             
-            resetPointStyle();
-            
-            // 該当する点を見つける
             for (let i = 0; i < traces.length; i++) {{
                 const trace = traces[i];
                 const pointIndex = trace.x.findIndex((x, idx) => 
-                    Math.abs(x - pca1) < 0.0001 && Math.abs(trace.y[idx] - pca2) < 0.0001
+                    Math.abs(x - pca1) < 0.0001 && 
+                    Math.abs(trace.y[idx] - pca2) < 0.0001
                 );
                 
                 if (pointIndex !== -1) {{
-                    // 点を大きくして強調表示
+                    // サイズを更新
                     const sizes = Array(trace.x.length).fill(10);
                     sizes[pointIndex] = 20;
                     
@@ -1985,23 +2104,34 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
                         traceIndex: i,
                         pointIndex: pointIndex
                     }};
-                    
-                    // ツールチップを表示
-                    graphDiv.emit('plotly_hover', {{
-                        points: [{{
-                            curveNumber: i,
-                            pointNumber: pointIndex,
-                            x: trace.x[pointIndex],
-                            y: trace.y[pointIndex]
-                        }}]
-                    }});
                     break;
                 }}
             }}
         }}
-        
-        // 検索関数 (他の部分は同じ)
+
+        // 選択状態をリセットする関数
+        function resetSelection() {{
+            selectedCandidate = null;
+            resetPointStyle();
+            document.getElementById('selectedInfo').style.display = 'none';
+            document.getElementById('nearbyResults').style.display = 'none';
+        }}
+
+        // 点のスタイルをリセットする関数
+        function resetPointStyle() {{
+            if (selectedPoint !== null) {{
+                const trace = document.getElementById('plotly-graph').data[selectedPoint.traceIndex];
+                const sizes = Array(trace.x.length).fill(10);
+                Plotly.restyle('plotly-graph', {{
+                    'marker.size': [sizes]
+                }}, [selectedPoint.traceIndex]);
+                selectedPoint = null;
+            }}
+        }}
+
+        // 検索結果を更新する関数
         function updateSearch(searchText) {{
+            const searchResults = document.getElementById('searchResults');
             if (!searchText) {{
                 searchResults.style.display = 'none';
                 return;
@@ -2009,72 +2139,110 @@ def visualize_winners_clustering(df, winner_ids, party_colors_df, output_flag=Tr
             
             searchText = searchText.toLowerCase();
             const matches = candidateData.filter(candidate => {{
-                const fullName = (candidate['姓'] + candidate['名']).toLowerCase();
+                const fullName = (candidate.姓 + candidate.名).toLowerCase();
                 return fullName.includes(searchText);
             }});
             
             if (matches.length > 0) {{
                 searchResults.innerHTML = matches
                     .slice(0, 20)
-                    .map(candidate =>
-                        `<div class="search-result" 
-                              data-pca1="${{candidate['PCA1']}}" 
-                              data-pca2="${{candidate['PCA2']}}">
-                            ${{candidate['姓']}} ${{candidate['名']}}
-                            <div class="search-party">${{candidate['党派名']}}</div>
-                         </div>`
-                    ).join('');
+                    .map(candidate => `
+                        <div class="result-item${{candidate === selectedCandidate ? ' selected' : ''}}" data-pca1="${{candidate.PCA1}}" 
+                             data-pca2="${{candidate.PCA2}}">
+                            <div class="result-info">
+                                ${{candidate.姓}} ${{candidate.名}}<br>
+                                <small>${{candidate.党派名}}</small>
+                            </div>
+                        </div>
+                    `).join('');
                 searchResults.style.display = 'block';
             }} else {{
                 searchResults.style.display = 'none';
             }}
         }}
-        
-        searchResults.addEventListener('click', function(e) {{
-            const result = e.target.closest('.search-result');
+
+        // イベントリスナーの設定
+        document.getElementById('searchInput').addEventListener('input', 
+            e => updateSearch(e.target.value)
+        );
+
+        // 検索結果クリックハンドラ
+        document.getElementById('searchResults').addEventListener('click', function(e) {{
+            const result = e.target.closest('.result-item');
             if (result) {{
                 const pca1 = parseFloat(result.dataset.pca1);
                 const pca2 = parseFloat(result.dataset.pca2);
+                const candidate = candidateData.find(c => 
+                    Math.abs(c.PCA1 - pca1) < 0.0001 && 
+                    Math.abs(c.PCA2 - pca2) < 0.0001
+                );
                 
-                // グラフの表示範囲を調整して候補者を中心に表示
-                Plotly.relayout('plotly-graph', {{
-                    'xaxis.range': [pca1 - 3, pca1 + 3],
-                    'yaxis.range': [pca2 - 3, pca2 + 3]
-                }}).then(() => {{
-                    // 点を強調表示
-                    highlightCandidate(pca1, pca2);
-                }});
+                if (candidate) {{
+                    Plotly.relayout('plotly-graph', {{
+                        'xaxis.range': [pca1 - 2, pca1 + 2],
+                        'yaxis.range': [pca2 - 2, pca2 + 2]
+                    }}).then(() => {{
+                        updateSelectedCandidate(candidate);
+                    }});
+                }}
                 
-                // 検索結果をクリア
-                searchInput.value = '';
-                searchResults.style.display = 'none';
+                document.getElementById('searchInput').value = '';
+                document.getElementById('searchResults').style.display = 'none';
             }}
         }});
-        
-        // イベントリスナー (残りの部分は同じ)
-        searchInput.addEventListener('input', (e) => updateSearch(e.target.value));
-        
-        document.addEventListener('click', function(e) {{
-            if (!e.target.closest('.search-container') && !e.target.closest('.main-svg')) {{
-                resetPointStyle();
-                if (!e.target.closest('.search-container')) {{
-                    searchResults.style.display = 'none';
+
+        // 近接候補者クリックハンドラ
+        document.getElementById('nearbyResults').addEventListener('click', function(e) {{
+            const result = e.target.closest('.result-item');
+            if (result) {{
+                const pca1 = parseFloat(result.dataset.pca1);
+                const pca2 = parseFloat(result.dataset.pca2);
+                const candidate = candidateData.find(c => 
+                    Math.abs(c.PCA1 - pca1) < 0.0001 && 
+                    Math.abs(c.PCA2 - pca2) < 0.0001
+                );
+                
+                if (candidate) {{
+                    updateSelectedCandidate(candidate);
                 }}
             }}
         }});
-        
+
+        // グラフクリックハンドラ
+        document.getElementById('plotly-graph').on('plotly_click', function(data) {{
+            const point = data.points[0];
+            const candidate = candidateData.find(c => 
+                Math.abs(c.PCA1 - point.x) < 0.0001 && 
+                Math.abs(c.PCA2 - point.y) < 0.0001
+            );
+            
+            if (candidate) {{
+                updateSelectedCandidate(candidate);
+            }}
+        }});
+
+        // 背景クリックで選択解除
+        document.addEventListener('click', function(e) {{
+            if (!e.target.closest('.search-container') && 
+                !e.target.closest('.main-svg') && 
+                !e.target.closest('.result-item')) {{
+                resetSelection();
+            }}
+        }});
+
+        // ESCキーで選択解除
         document.addEventListener('keydown', function(e) {{
             if (e.key === 'Escape') {{
-                searchInput.value = '';
-                searchResults.style.display = 'none';
-                resetPointStyle();
+                resetSelection();
+                document.getElementById('searchInput').value = '';
+                document.getElementById('searchResults').style.display = 'none';
             }}
         }});
         </script>
-
-        </body>
+    </body>
     </html>
     """
+
     with open(
         os.path.join("html", "interactive_winners_clustering.html"),
         "w",
