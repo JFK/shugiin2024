@@ -2,6 +2,9 @@
 衆議院選挙NHK候補者アンケートデータと集計
 
 
+## ページのURL
+Pages: [https://jfk.github.io/shugiin2024/](https://jfk.github.io/shugiin2024/)
+
 ## 準備
 
 ### 仮想環境の作成
